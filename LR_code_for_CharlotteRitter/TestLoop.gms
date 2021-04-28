@@ -26,13 +26,12 @@ $include heuristic_upperbound.gms // no need to change for Lagrangian decomposit
 ********************************************************************************
 * Solve main Problem
 ********************************************************************************
+
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-*put @9#1, 'Objective';
-*put @1#1 'Omega', @18#1 'Tolerance',@30#1 'Step Size Rule' ,@50#1 'Gap LR' ,@65#1 'Iterations',@80#1 'Converged?',@93#1 'Obj. Naive',@110#1 'Obj. LR',@130#1 'Gap',@145#1 'Time Naive',@160#1 'Time LR' put/;
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap', put 'Time Naive', put 'Time LR' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap', put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
 
 start_time = jnow;
 solve schedule using MIP minimizing Obj ;
@@ -42,22 +41,13 @@ scalar r;
 
 
 set indices /1*6/;
-*Set TableSet /ObjNaive, TimeNaive, omega, tolerance, ObjLR, TimeLR, Gap/;
 
 run_time_total = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
 
 scalar ObjNaive;
 ObjNaive=Obj.l;
 scalar TimeNaive;
-TimeNaive=run_time_total;
-
-*scalar line;
-*put TestingFile;
-*loop(indices,
-*    line=ord(indices)+1;
-*    put @1#line n, @18#line tol, @93#line Obj.l, @145#line run_time_total;
-*    );
-    
+TimeNaive=run_time_total;    
 
 display Obj.l, run_time_total ;
 
@@ -102,9 +92,8 @@ $include plain_LR.gms
     results(iter,'time') = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
     results(iter,'objective') = bound ;
     
-*$include LR_updates.gms
 $include LR_updatesMe.gms
-    if( ((results(iter,'gap') < 0.001) and (num_iter > 2)), contin = 0;);
+    if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)), contin = 0;);
     lr_time = lr_time + results(iter,'time')   ;
     if (lr_time > time_limit, contin = 0 ; ) ;
     
@@ -121,11 +110,10 @@ check(scen,t) = 1$( p.l(scen,t) gt 0 and q.l(scen,t) gt 0) ;
 if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, check. ");
 
 
-*Put also possible the just 2 parameters in which we save the time of Naive and Objective of Naive -> But in Excel not in seperate cells or columns
+
 put TestingFile;
-put n, put tol, put steprule, put r, put FinalIter, put convergence, put ObjNaive, put lowerbound, put ((lowerbound-upperbound)/upperbound), put TimeNaive, put lr_time put/;
-*put @30#(steprule+1) steprule, @50#(steprule+1) r, @65#(steprule+1) FinalIter, @80#(steprule+1) convergence, @110#(steprule+1) lowerbound, @130#(steprule+1) ((lowerbound-upperbound)/upperbound) @160#(steprule+1) lr_time;
-    
+put n, put tol, put steprule, put r, put FinalIter, put convergence, put ObjNaive, put lowerbound, put ((lowerbound-upperbound)/upperbound), put TimeNaive, put lr_time put lambda put /;
+
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
 
