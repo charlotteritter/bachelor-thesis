@@ -1,764 +1,1755 @@
 B 3 C o m p i l a t i o n
-B 1151 Include File Summary
-B 1173 E x e c u t i o n
-B 2388 Model Analysis      SOLVE schedule Using RMIP From line 898
-B 2394 Equation Listing    SOLVE schedule Using RMIP From line 898
-D 2397 Objective
-D 2419 Const1
-D 2437 Const_chance_1
-D 2455 Const_chance_2
-B 2464 Column Listing      SOLVE schedule Using RMIP From line 898
-E 2467 P
-E 2489 Q
-E 2508 Y
-E 3424 X
-E 3444 OBJ
-E 3451 Z
-B 3540 Model Statistics    SOLVE schedule Using RMIP From line 898
-B 3558 Solution Report     SOLVE schedule Using RMIP From line 898
-B 3594 E x e c u t i o n
-I 3602 init_lambda
-I 3603 LP_time
-I 3604 lowerbound
-B 3613 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 3619 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 3622 Objective_scenario
-D 3630 Const1_scenario
-D 3648 Const_chance_1_scenario
-B 3667 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 3670 P
-E 3692 Q
-E 3711 Y
-E 3730 X
-E 3748 OBJ
-B 3756 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 3779 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 3814 E x e c u t i o n
-B 3822 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 3828 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 3831 Objective_scenario
-D 3839 Const1_scenario
-D 3857 Const_chance_1_scenario
-B 3876 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 3879 P
-E 3901 Q
-E 3920 Y
-E 3939 X
-E 3957 OBJ
-B 3965 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 3988 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 4023 E x e c u t i o n
-B 4031 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 4037 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 4040 Objective_scenario
-D 4048 Const1_scenario
-D 4066 Const_chance_1_scenario
-B 4085 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 4088 P
-E 4110 Q
-E 4129 Y
-E 4148 X
-E 4166 OBJ
-B 4174 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 4197 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 4232 E x e c u t i o n
-B 4240 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 4246 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 4249 Objective_scenario
-D 4257 Const1_scenario
-D 4275 Const_chance_1_scenario
-B 4294 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 4297 P
-E 4319 Q
-E 4338 Y
-E 4357 X
-E 4375 OBJ
-B 4383 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 4406 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 4441 E x e c u t i o n
-B 4449 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 4455 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 4458 Objective_scenario
-D 4466 Const1_scenario
-D 4484 Const_chance_1_scenario
-B 4503 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 4506 P
-E 4528 Q
-E 4547 Y
-E 4566 X
-E 4584 OBJ
-B 4592 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 4615 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 4650 E x e c u t i o n
-B 4658 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 4664 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 4667 Objective_scenario
-D 4675 Const1_scenario
-D 4693 Const_chance_1_scenario
-B 4712 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 4715 P
-E 4737 Q
-E 4756 Y
-E 4775 X
-E 4793 OBJ
-B 4801 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 4824 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 4859 E x e c u t i o n
-B 4867 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 4873 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 4876 Objective_scenario
-D 4884 Const1_scenario
-D 4902 Const_chance_1_scenario
-B 4921 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 4924 P
-E 4946 Q
-E 4965 Y
-E 4984 X
-E 5002 OBJ
-B 5010 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 5033 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 5068 E x e c u t i o n
-B 5076 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 5082 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 5085 Objective_scenario
-D 5093 Const1_scenario
-D 5111 Const_chance_1_scenario
-B 5130 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 5133 P
-E 5155 Q
-E 5174 Y
-E 5193 X
-E 5211 OBJ
-B 5219 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 5242 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 5277 E x e c u t i o n
-B 5285 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 5291 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 5294 Objective_scenario
-D 5302 Const1_scenario
-D 5320 Const_chance_1_scenario
-B 5339 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 5342 P
-E 5364 Q
-E 5383 Y
-E 5402 X
-E 5420 OBJ
-B 5428 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 5451 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 5486 E x e c u t i o n
-B 5494 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 5500 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 5503 Objective_scenario
-D 5511 Const1_scenario
-D 5529 Const_chance_1_scenario
-B 5548 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 5551 P
-E 5573 Q
-E 5592 Y
-E 5611 X
-E 5629 OBJ
-B 5637 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 5660 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 5695 E x e c u t i o n
-B 5703 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 5709 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 5712 Objective_scenario
-D 5720 Const1_scenario
-D 5738 Const_chance_1_scenario
-B 5757 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 5760 P
-E 5782 Q
-E 5801 Y
-E 5820 X
-E 5838 OBJ
-B 5846 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 5869 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 5904 E x e c u t i o n
-B 5912 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 5918 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 5921 Objective_scenario
-D 5929 Const1_scenario
-D 5947 Const_chance_1_scenario
-B 5966 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 5969 P
-E 5991 Q
-E 6010 Y
-E 6029 X
-E 6047 OBJ
-B 6055 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 6078 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 6113 E x e c u t i o n
-B 6121 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 6127 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 6130 Objective_scenario
-D 6138 Const1_scenario
-D 6156 Const_chance_1_scenario
-B 6175 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 6178 P
-E 6200 Q
-E 6219 Y
-E 6238 X
-E 6256 OBJ
-B 6264 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 6287 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 6322 E x e c u t i o n
-B 6330 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 6336 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 6339 Objective_scenario
-D 6347 Const1_scenario
-D 6365 Const_chance_1_scenario
-B 6384 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 6387 P
-E 6409 Q
-E 6428 Y
-E 6447 X
-E 6465 OBJ
-B 6473 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 6496 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 6531 E x e c u t i o n
-B 6539 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 6545 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 6548 Objective_scenario
-D 6556 Const1_scenario
-D 6574 Const_chance_1_scenario
-B 6593 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 6596 P
-E 6618 Q
-E 6637 Y
-E 6656 X
-E 6674 OBJ
-B 6682 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 6705 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 6740 E x e c u t i o n
-B 6748 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 6754 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 6757 Objective_scenario
-D 6765 Const1_scenario
-D 6783 Const_chance_1_scenario
-B 6802 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 6805 P
-E 6827 Q
-E 6846 Y
-E 6865 X
-E 6883 OBJ
-B 6891 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 6914 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 6949 E x e c u t i o n
-B 6957 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 6963 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 6966 Objective_scenario
-D 6974 Const1_scenario
-D 6992 Const_chance_1_scenario
-B 7011 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 7014 P
-E 7036 Q
-E 7055 Y
-E 7074 X
-E 7092 OBJ
-B 7100 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 7123 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 7158 E x e c u t i o n
-B 7166 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 7172 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 7175 Objective_scenario
-D 7183 Const1_scenario
-D 7201 Const_chance_1_scenario
-B 7220 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 7223 P
-E 7245 Q
-E 7264 Y
-E 7283 X
-E 7301 OBJ
-B 7309 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 7332 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 7367 E x e c u t i o n
-B 7375 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 7381 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 7384 Objective_scenario
-D 7392 Const1_scenario
-D 7410 Const_chance_1_scenario
-B 7429 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 7432 P
-E 7454 Q
-E 7473 Y
-E 7492 X
-E 7510 OBJ
-B 7518 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 7541 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 7576 E x e c u t i o n
-B 7584 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 7590 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 7593 Objective_scenario
-D 7601 Const1_scenario
-D 7619 Const_chance_1_scenario
-B 7638 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 7641 P
-E 7663 Q
-E 7682 Y
-E 7701 X
-E 7719 OBJ
-B 7727 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 7750 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 7785 E x e c u t i o n
-B 7793 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 7799 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 7802 Objective_scenario
-D 7810 Const1_scenario
-D 7828 Const_chance_1_scenario
-B 7847 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 7850 P
-E 7872 Q
-E 7891 Y
-E 7910 X
-E 7928 OBJ
-B 7936 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 7959 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 7994 E x e c u t i o n
-B 8002 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 8008 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 8011 Objective_scenario
-D 8019 Const1_scenario
-D 8037 Const_chance_1_scenario
-B 8056 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 8059 P
-E 8081 Q
-E 8100 Y
-E 8119 X
-E 8137 OBJ
-B 8145 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 8168 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 8203 E x e c u t i o n
-B 8211 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 8217 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 8220 Objective_scenario
-D 8228 Const1_scenario
-D 8246 Const_chance_1_scenario
-B 8265 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 8268 P
-E 8290 Q
-E 8309 Y
-E 8328 X
-E 8346 OBJ
-B 8354 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 8377 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 8412 E x e c u t i o n
-B 8420 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 8426 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 8429 Objective_scenario
-D 8437 Const1_scenario
-D 8455 Const_chance_1_scenario
-B 8474 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 8477 P
-E 8499 Q
-E 8518 Y
-E 8537 X
-E 8555 OBJ
-B 8563 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 8586 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 8621 E x e c u t i o n
-B 8629 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 8635 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 8638 Objective_scenario
-D 8646 Const1_scenario
-D 8664 Const_chance_1_scenario
-B 8683 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 8686 P
-E 8708 Q
-E 8727 Y
-E 8746 X
-E 8764 OBJ
-B 8772 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 8795 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 8830 E x e c u t i o n
-B 8838 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 8844 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 8847 Objective_scenario
-D 8855 Const1_scenario
-D 8873 Const_chance_1_scenario
-B 8892 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 8895 P
-E 8917 Q
-E 8936 Y
-E 8955 X
-E 8973 OBJ
-B 8981 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 9004 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 9039 E x e c u t i o n
-B 9047 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 9053 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 9056 Objective_scenario
-D 9064 Const1_scenario
-D 9082 Const_chance_1_scenario
-B 9101 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 9104 P
-E 9126 Q
-E 9145 Y
-E 9164 X
-E 9182 OBJ
-B 9190 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 9213 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 9248 E x e c u t i o n
-B 9256 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 9262 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 9265 Objective_scenario
-D 9273 Const1_scenario
-D 9291 Const_chance_1_scenario
-B 9310 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 9313 P
-E 9335 Q
-E 9354 Y
-E 9373 X
-E 9391 OBJ
-B 9399 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 9422 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 9457 E x e c u t i o n
-B 9465 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 9471 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 9474 Objective_scenario
-D 9482 Const1_scenario
-D 9500 Const_chance_1_scenario
-B 9519 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 9522 P
-E 9544 Q
-E 9563 Y
-E 9582 X
-E 9600 OBJ
-B 9608 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 9631 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 9666 E x e c u t i o n
-B 9674 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 9680 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 9683 Objective_scenario
-D 9691 Const1_scenario
-D 9709 Const_chance_1_scenario
-B 9728 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 9731 P
-E 9753 Q
-E 9772 Y
-E 9791 X
-E 9809 OBJ
-B 9817 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 9840 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 9875 E x e c u t i o n
-B 9883 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 9889 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 9892 Objective_scenario
-D 9900 Const1_scenario
-D 9918 Const_chance_1_scenario
-B 9937 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 9940 P
-E 9962 Q
-E 9981 Y
-E 10000 X
-E 10018 OBJ
-B 10026 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 10049 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 10084 E x e c u t i o n
-B 10092 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 10098 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 10101 Objective_scenario
-D 10109 Const1_scenario
-D 10127 Const_chance_1_scenario
-B 10146 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 10149 P
-E 10171 Q
-E 10190 Y
-E 10209 X
-E 10227 OBJ
-B 10235 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 10258 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 10293 E x e c u t i o n
-B 10301 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 10307 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 10310 Objective_scenario
-D 10318 Const1_scenario
-D 10336 Const_chance_1_scenario
-B 10355 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 10358 P
-E 10380 Q
-E 10399 Y
-E 10418 X
-E 10436 OBJ
-B 10444 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 10467 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 10502 E x e c u t i o n
-B 10510 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 10516 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 10519 Objective_scenario
-D 10527 Const1_scenario
-D 10545 Const_chance_1_scenario
-B 10564 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 10567 P
-E 10589 Q
-E 10608 Y
-E 10627 X
-E 10645 OBJ
-B 10653 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 10676 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 10711 E x e c u t i o n
-B 10719 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 10725 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 10728 Objective_scenario
-D 10736 Const1_scenario
-D 10754 Const_chance_1_scenario
-B 10773 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 10776 P
-E 10798 Q
-E 10817 Y
-E 10836 X
-E 10854 OBJ
-B 10862 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 10885 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 10920 E x e c u t i o n
-B 10928 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 10934 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 10937 Objective_scenario
-D 10945 Const1_scenario
-D 10963 Const_chance_1_scenario
-B 10982 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 10985 P
-E 11007 Q
-E 11026 Y
-E 11045 X
-E 11063 OBJ
-B 11071 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 11094 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 11129 E x e c u t i o n
-B 11137 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 11143 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 11146 Objective_scenario
-D 11154 Const1_scenario
-D 11172 Const_chance_1_scenario
-B 11191 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 11194 P
-E 11216 Q
-E 11235 Y
-E 11254 X
-E 11272 OBJ
-B 11280 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 11303 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 11338 E x e c u t i o n
-B 11346 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 11352 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 11355 Objective_scenario
-D 11363 Const1_scenario
-D 11381 Const_chance_1_scenario
-B 11400 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 11403 P
-E 11425 Q
-E 11444 Y
-E 11463 X
-E 11481 OBJ
-B 11489 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 11512 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 11547 E x e c u t i o n
-B 11555 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 11561 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 11564 Objective_scenario
-D 11572 Const1_scenario
-D 11590 Const_chance_1_scenario
-B 11609 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 11612 P
-E 11634 Q
-E 11653 Y
-E 11672 X
-E 11690 OBJ
-B 11698 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 11721 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 11756 E x e c u t i o n
-B 11764 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 11770 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 11773 Objective_scenario
-D 11781 Const1_scenario
-D 11799 Const_chance_1_scenario
-B 11818 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 11821 P
-E 11843 Q
-E 11862 Y
-E 11881 X
-E 11899 OBJ
-B 11907 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 11930 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 11965 E x e c u t i o n
-B 11973 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 11979 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 11982 Objective_scenario
-D 11990 Const1_scenario
-D 12008 Const_chance_1_scenario
-B 12027 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 12030 P
-E 12052 Q
-E 12071 Y
-E 12090 X
-E 12108 OBJ
-B 12116 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 12139 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 12174 E x e c u t i o n
-B 12182 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 12188 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 12191 Objective_scenario
-D 12199 Const1_scenario
-D 12217 Const_chance_1_scenario
-B 12236 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 12239 P
-E 12261 Q
-E 12280 Y
-E 12299 X
-E 12317 OBJ
-B 12325 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 12348 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 12383 E x e c u t i o n
-B 12391 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 12397 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 12400 Objective_scenario
-D 12408 Const1_scenario
-D 12426 Const_chance_1_scenario
-B 12445 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 12448 P
-E 12470 Q
-E 12489 Y
-E 12508 X
-E 12526 OBJ
-B 12534 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 12557 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 12592 E x e c u t i o n
-B 12600 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 12606 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 12609 Objective_scenario
-D 12617 Const1_scenario
-D 12635 Const_chance_1_scenario
-B 12654 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 12657 P
-E 12679 Q
-E 12698 Y
-E 12717 X
-E 12735 OBJ
-B 12743 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 12766 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 12801 E x e c u t i o n
-B 12809 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 12815 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 12818 Objective_scenario
-D 12826 Const1_scenario
-D 12844 Const_chance_1_scenario
-B 12863 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 12866 P
-E 12888 Q
-E 12907 Y
-E 12926 X
-E 12944 OBJ
-B 12952 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 12975 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 13010 E x e c u t i o n
-B 13018 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 13024 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 13027 Objective_scenario
-D 13035 Const1_scenario
-D 13053 Const_chance_1_scenario
-B 13072 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 13075 P
-E 13097 Q
-E 13116 Y
-E 13135 X
-E 13153 OBJ
-B 13161 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 13184 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 13219 E x e c u t i o n
-B 13227 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 13233 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 13236 Objective_scenario
-D 13244 Const1_scenario
-D 13262 Const_chance_1_scenario
-B 13281 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 13284 P
-E 13306 Q
-E 13325 Y
-E 13344 X
-E 13362 OBJ
-B 13370 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 13393 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 13428 E x e c u t i o n
-B 13436 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 13442 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 13445 Objective_scenario
-D 13453 Const1_scenario
-D 13471 Const_chance_1_scenario
-B 13490 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 13493 P
-E 13515 Q
-E 13534 Y
-E 13553 X
-E 13571 OBJ
-B 13579 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 13602 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 13637 E x e c u t i o n
-B 13645 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 13651 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 13654 Objective_scenario
-D 13662 Const1_scenario
-D 13680 Const_chance_1_scenario
-B 13699 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 13702 P
-E 13724 Q
-E 13743 Y
-E 13762 X
-E 13780 OBJ
-B 13788 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 13811 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 13846 E x e c u t i o n
-B 13854 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 13860 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 13863 Objective_scenario
-D 13871 Const1_scenario
-D 13889 Const_chance_1_scenario
-B 13908 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 13911 P
-E 13933 Q
-E 13952 Y
-E 13971 X
-E 13989 OBJ
-B 13997 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 14020 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 14055 E x e c u t i o n
-B 14063 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 14069 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 14072 Objective_scenario
-D 14080 Const1_scenario
-D 14098 Const_chance_1_scenario
-B 14117 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 14120 P
-E 14142 Q
-E 14161 Y
-E 14180 X
-E 14198 OBJ
-B 14206 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 14229 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 14264 E x e c u t i o n
-B 14272 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 14278 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 14281 Objective_scenario
-D 14289 Const1_scenario
-D 14307 Const_chance_1_scenario
-B 14326 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 14329 P
-E 14351 Q
-E 14370 Y
-E 14389 X
-E 14407 OBJ
-B 14415 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 14438 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 14473 E x e c u t i o n
-B 14481 Model Analysis      SOLVE schedule_scenario Using MIP From line 924
-B 14487 Equation Listing    SOLVE schedule_scenario Using MIP From line 924
-D 14490 Objective_scenario
-D 14498 Const1_scenario
-D 14516 Const_chance_1_scenario
-B 14535 Column Listing      SOLVE schedule_scenario Using MIP From line 924
-E 14538 P
-E 14560 Q
-E 14579 Y
-E 14598 X
-E 14616 OBJ
-B 14624 Model Statistics    SOLVE schedule_scenario Using MIP From line 924
-B 14647 Solution Report     SOLVE schedule_scenario Using MIP From line 924
-B 14682 E x e c u t i o n
+B 743 Include File Summary
+B 765 E x e c u t i o n
+B 972 Model Analysis      SOLVE schedule Using RMIP From line 499
+B 978 Equation Listing    SOLVE schedule Using RMIP From line 499
+D 981 Objective
+D 993 Const1
+D 1011 Const_chance_1
+D 1029 Const_chance_2
+B 1038 Column Listing      SOLVE schedule Using RMIP From line 499
+E 1041 P
+E 1063 Q
+E 1082 Y
+E 1398 X
+E 1418 OBJ
+E 1425 Z
+B 1514 Model Statistics    SOLVE schedule Using RMIP From line 499
+B 1532 Solution Report     SOLVE schedule Using RMIP From line 499
+B 1567 E x e c u t i o n
+I 1575 init_lambda
+I 1576 LP_time
+I 1577 lowerbound
+B 1586 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 1592 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 1595 Objective_scenario
+D 1603 Const1_scenario
+D 1621 Const_chance_1_scenario
+B 1640 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 1643 P
+E 1665 Q
+E 1684 Y
+E 1703 X
+E 1721 OBJ
+B 1729 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 1752 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 1787 E x e c u t i o n
+B 1795 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 1801 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 1804 Objective_scenario
+D 1812 Const1_scenario
+D 1830 Const_chance_1_scenario
+B 1849 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 1852 P
+E 1874 Q
+E 1893 Y
+E 1912 X
+E 1930 OBJ
+B 1938 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 1961 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 1996 E x e c u t i o n
+B 2004 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 2010 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 2013 Objective_scenario
+D 2021 Const1_scenario
+D 2039 Const_chance_1_scenario
+B 2058 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 2061 P
+E 2083 Q
+E 2102 Y
+E 2121 X
+E 2139 OBJ
+B 2147 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 2170 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 2205 E x e c u t i o n
+B 2213 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 2219 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 2222 Objective_scenario
+D 2230 Const1_scenario
+D 2248 Const_chance_1_scenario
+B 2267 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 2270 P
+E 2292 Q
+E 2311 Y
+E 2330 X
+E 2348 OBJ
+B 2356 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 2379 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 2414 E x e c u t i o n
+B 2422 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 2428 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 2431 Objective_scenario
+D 2439 Const1_scenario
+D 2457 Const_chance_1_scenario
+B 2476 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 2479 P
+E 2501 Q
+E 2520 Y
+E 2539 X
+E 2557 OBJ
+B 2565 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 2588 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 2623 E x e c u t i o n
+B 2631 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 2637 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 2640 Objective_scenario
+D 2648 Const1_scenario
+D 2666 Const_chance_1_scenario
+B 2685 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 2688 P
+E 2710 Q
+E 2729 Y
+E 2748 X
+E 2766 OBJ
+B 2774 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 2797 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 2832 E x e c u t i o n
+B 2840 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 2846 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 2849 Objective_scenario
+D 2857 Const1_scenario
+D 2875 Const_chance_1_scenario
+B 2894 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 2897 P
+E 2919 Q
+E 2938 Y
+E 2957 X
+E 2975 OBJ
+B 2983 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 3006 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 3041 E x e c u t i o n
+B 3049 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 3055 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 3058 Objective_scenario
+D 3066 Const1_scenario
+D 3084 Const_chance_1_scenario
+B 3103 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 3106 P
+E 3128 Q
+E 3147 Y
+E 3166 X
+E 3184 OBJ
+B 3192 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 3215 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 3250 E x e c u t i o n
+B 3258 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 3264 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 3267 Objective_scenario
+D 3275 Const1_scenario
+D 3293 Const_chance_1_scenario
+B 3312 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 3315 P
+E 3337 Q
+E 3356 Y
+E 3375 X
+E 3393 OBJ
+B 3401 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 3424 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 3459 E x e c u t i o n
+B 3467 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 3473 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 3476 Objective_scenario
+D 3484 Const1_scenario
+D 3502 Const_chance_1_scenario
+B 3521 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 3524 P
+E 3546 Q
+E 3565 Y
+E 3584 X
+E 3602 OBJ
+B 3610 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 3633 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 3668 E x e c u t i o n
+B 3676 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 3682 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 3685 Objective_scenario
+D 3693 Const1_scenario
+D 3711 Const_chance_1_scenario
+B 3730 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 3733 P
+E 3755 Q
+E 3774 Y
+E 3793 X
+E 3811 OBJ
+B 3819 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 3842 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 3877 E x e c u t i o n
+B 3885 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 3891 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 3894 Objective_scenario
+D 3902 Const1_scenario
+D 3920 Const_chance_1_scenario
+B 3939 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 3942 P
+E 3964 Q
+E 3983 Y
+E 4002 X
+E 4020 OBJ
+B 4028 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 4051 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 4086 E x e c u t i o n
+B 4094 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 4100 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 4103 Objective_scenario
+D 4111 Const1_scenario
+D 4129 Const_chance_1_scenario
+B 4148 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 4151 P
+E 4173 Q
+E 4192 Y
+E 4211 X
+E 4229 OBJ
+B 4237 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 4260 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 4295 E x e c u t i o n
+B 4303 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 4309 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 4312 Objective_scenario
+D 4320 Const1_scenario
+D 4338 Const_chance_1_scenario
+B 4357 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 4360 P
+E 4382 Q
+E 4401 Y
+E 4420 X
+E 4438 OBJ
+B 4446 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 4469 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 4504 E x e c u t i o n
+B 4512 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 4518 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 4521 Objective_scenario
+D 4529 Const1_scenario
+D 4547 Const_chance_1_scenario
+B 4566 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 4569 P
+E 4591 Q
+E 4610 Y
+E 4629 X
+E 4647 OBJ
+B 4655 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 4678 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 4713 E x e c u t i o n
+B 4721 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 4727 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 4730 Objective_scenario
+D 4738 Const1_scenario
+D 4756 Const_chance_1_scenario
+B 4775 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 4778 P
+E 4800 Q
+E 4819 Y
+E 4838 X
+E 4856 OBJ
+B 4864 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 4887 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 4922 E x e c u t i o n
+B 4930 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 4936 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 4939 Objective_scenario
+D 4947 Const1_scenario
+D 4965 Const_chance_1_scenario
+B 4984 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 4987 P
+E 5009 Q
+E 5028 Y
+E 5047 X
+E 5065 OBJ
+B 5073 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 5096 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 5131 E x e c u t i o n
+B 5139 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 5145 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 5148 Objective_scenario
+D 5156 Const1_scenario
+D 5174 Const_chance_1_scenario
+B 5193 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 5196 P
+E 5218 Q
+E 5237 Y
+E 5256 X
+E 5274 OBJ
+B 5282 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 5305 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 5340 E x e c u t i o n
+B 5348 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 5354 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 5357 Objective_scenario
+D 5365 Const1_scenario
+D 5383 Const_chance_1_scenario
+B 5402 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 5405 P
+E 5427 Q
+E 5446 Y
+E 5465 X
+E 5483 OBJ
+B 5491 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 5514 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 5549 E x e c u t i o n
+B 5557 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 5563 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 5566 Objective_scenario
+D 5574 Const1_scenario
+D 5592 Const_chance_1_scenario
+B 5611 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 5614 P
+E 5636 Q
+E 5655 Y
+E 5674 X
+E 5692 OBJ
+B 5700 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 5723 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 5758 E x e c u t i o n
+B 5766 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 5772 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 5775 Objective_scenario
+D 5783 Const1_scenario
+D 5801 Const_chance_1_scenario
+B 5820 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 5823 P
+E 5845 Q
+E 5864 Y
+E 5883 X
+E 5901 OBJ
+B 5909 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 5932 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 5967 E x e c u t i o n
+B 5975 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 5981 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 5984 Objective_scenario
+D 5992 Const1_scenario
+D 6010 Const_chance_1_scenario
+B 6029 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 6032 P
+E 6054 Q
+E 6073 Y
+E 6092 X
+E 6110 OBJ
+B 6118 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 6141 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 6176 E x e c u t i o n
+B 6184 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 6190 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 6193 Objective_scenario
+D 6201 Const1_scenario
+D 6219 Const_chance_1_scenario
+B 6238 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 6241 P
+E 6263 Q
+E 6282 Y
+E 6301 X
+E 6319 OBJ
+B 6327 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 6350 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 6385 E x e c u t i o n
+B 6393 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 6399 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 6402 Objective_scenario
+D 6410 Const1_scenario
+D 6428 Const_chance_1_scenario
+B 6447 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 6450 P
+E 6472 Q
+E 6491 Y
+E 6510 X
+E 6528 OBJ
+B 6536 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 6559 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 6594 E x e c u t i o n
+B 6602 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 6608 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 6611 Objective_scenario
+D 6619 Const1_scenario
+D 6637 Const_chance_1_scenario
+B 6656 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 6659 P
+E 6681 Q
+E 6700 Y
+E 6719 X
+E 6737 OBJ
+B 6745 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 6768 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 6803 E x e c u t i o n
+B 6811 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 6817 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 6820 Objective_scenario
+D 6828 Const1_scenario
+D 6846 Const_chance_1_scenario
+B 6865 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 6868 P
+E 6890 Q
+E 6909 Y
+E 6928 X
+E 6946 OBJ
+B 6954 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 6977 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 7012 E x e c u t i o n
+B 7020 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 7026 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 7029 Objective_scenario
+D 7037 Const1_scenario
+D 7055 Const_chance_1_scenario
+B 7074 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 7077 P
+E 7099 Q
+E 7118 Y
+E 7137 X
+E 7155 OBJ
+B 7163 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 7186 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 7221 E x e c u t i o n
+B 7229 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 7235 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 7238 Objective_scenario
+D 7246 Const1_scenario
+D 7264 Const_chance_1_scenario
+B 7283 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 7286 P
+E 7308 Q
+E 7327 Y
+E 7346 X
+E 7364 OBJ
+B 7372 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 7395 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 7430 E x e c u t i o n
+B 7438 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 7444 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 7447 Objective_scenario
+D 7455 Const1_scenario
+D 7473 Const_chance_1_scenario
+B 7492 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 7495 P
+E 7517 Q
+E 7536 Y
+E 7555 X
+E 7573 OBJ
+B 7581 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 7604 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 7639 E x e c u t i o n
+B 7647 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 7653 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 7656 Objective_scenario
+D 7664 Const1_scenario
+D 7682 Const_chance_1_scenario
+B 7701 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 7704 P
+E 7726 Q
+E 7745 Y
+E 7764 X
+E 7782 OBJ
+B 7790 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 7813 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 7848 E x e c u t i o n
+B 7856 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 7862 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 7865 Objective_scenario
+D 7873 Const1_scenario
+D 7891 Const_chance_1_scenario
+B 7910 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 7913 P
+E 7935 Q
+E 7954 Y
+E 7973 X
+E 7991 OBJ
+B 7999 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 8022 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 8057 E x e c u t i o n
+B 8065 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 8071 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 8074 Objective_scenario
+D 8082 Const1_scenario
+D 8100 Const_chance_1_scenario
+B 8119 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 8122 P
+E 8144 Q
+E 8163 Y
+E 8182 X
+E 8200 OBJ
+B 8208 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 8231 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 8266 E x e c u t i o n
+B 8274 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 8280 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 8283 Objective_scenario
+D 8291 Const1_scenario
+D 8309 Const_chance_1_scenario
+B 8328 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 8331 P
+E 8353 Q
+E 8372 Y
+E 8391 X
+E 8409 OBJ
+B 8417 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 8440 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 8475 E x e c u t i o n
+B 8483 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 8489 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 8492 Objective_scenario
+D 8500 Const1_scenario
+D 8518 Const_chance_1_scenario
+B 8537 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 8540 P
+E 8562 Q
+E 8581 Y
+E 8600 X
+E 8618 OBJ
+B 8626 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 8649 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 8684 E x e c u t i o n
+B 8692 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 8698 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 8701 Objective_scenario
+D 8709 Const1_scenario
+D 8727 Const_chance_1_scenario
+B 8746 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 8749 P
+E 8771 Q
+E 8790 Y
+E 8809 X
+E 8827 OBJ
+B 8835 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 8858 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 8893 E x e c u t i o n
+B 8901 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 8907 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 8910 Objective_scenario
+D 8918 Const1_scenario
+D 8936 Const_chance_1_scenario
+B 8955 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 8958 P
+E 8980 Q
+E 8999 Y
+E 9018 X
+E 9036 OBJ
+B 9044 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 9067 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 9102 E x e c u t i o n
+B 9110 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 9116 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 9119 Objective_scenario
+D 9127 Const1_scenario
+D 9145 Const_chance_1_scenario
+B 9164 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 9167 P
+E 9189 Q
+E 9208 Y
+E 9227 X
+E 9245 OBJ
+B 9253 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 9276 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 9311 E x e c u t i o n
+B 9319 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 9325 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 9328 Objective_scenario
+D 9336 Const1_scenario
+D 9354 Const_chance_1_scenario
+B 9373 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 9376 P
+E 9398 Q
+E 9417 Y
+E 9436 X
+E 9454 OBJ
+B 9462 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 9485 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 9520 E x e c u t i o n
+B 9528 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 9534 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 9537 Objective_scenario
+D 9545 Const1_scenario
+D 9563 Const_chance_1_scenario
+B 9582 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 9585 P
+E 9607 Q
+E 9626 Y
+E 9645 X
+E 9663 OBJ
+B 9671 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 9694 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 9729 E x e c u t i o n
+B 9737 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 9743 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 9746 Objective_scenario
+D 9754 Const1_scenario
+D 9772 Const_chance_1_scenario
+B 9791 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 9794 P
+E 9816 Q
+E 9835 Y
+E 9854 X
+E 9872 OBJ
+B 9880 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 9903 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 9938 E x e c u t i o n
+B 9946 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 9952 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 9955 Objective_scenario
+D 9963 Const1_scenario
+D 9981 Const_chance_1_scenario
+B 10000 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 10003 P
+E 10025 Q
+E 10044 Y
+E 10063 X
+E 10081 OBJ
+B 10089 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 10112 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 10147 E x e c u t i o n
+B 10155 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 10161 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 10164 Objective_scenario
+D 10172 Const1_scenario
+D 10190 Const_chance_1_scenario
+B 10209 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 10212 P
+E 10234 Q
+E 10253 Y
+E 10272 X
+E 10290 OBJ
+B 10298 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 10321 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 10356 E x e c u t i o n
+B 10364 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 10370 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 10373 Objective_scenario
+D 10381 Const1_scenario
+D 10399 Const_chance_1_scenario
+B 10418 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 10421 P
+E 10443 Q
+E 10462 Y
+E 10481 X
+E 10499 OBJ
+B 10507 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 10530 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 10565 E x e c u t i o n
+B 10573 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 10579 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 10582 Objective_scenario
+D 10590 Const1_scenario
+D 10608 Const_chance_1_scenario
+B 10627 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 10630 P
+E 10652 Q
+E 10671 Y
+E 10690 X
+E 10708 OBJ
+B 10716 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 10739 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 10774 E x e c u t i o n
+B 10782 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 10788 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 10791 Objective_scenario
+D 10799 Const1_scenario
+D 10817 Const_chance_1_scenario
+B 10836 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 10839 P
+E 10861 Q
+E 10880 Y
+E 10899 X
+E 10917 OBJ
+B 10925 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 10948 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 10983 E x e c u t i o n
+B 10991 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 10997 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 11000 Objective_scenario
+D 11008 Const1_scenario
+D 11026 Const_chance_1_scenario
+B 11045 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 11048 P
+E 11070 Q
+E 11089 Y
+E 11108 X
+E 11126 OBJ
+B 11134 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 11157 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 11192 E x e c u t i o n
+B 11200 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 11206 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 11209 Objective_scenario
+D 11217 Const1_scenario
+D 11235 Const_chance_1_scenario
+B 11254 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 11257 P
+E 11279 Q
+E 11298 Y
+E 11317 X
+E 11335 OBJ
+B 11343 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 11366 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 11401 E x e c u t i o n
+B 11409 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 11415 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 11418 Objective_scenario
+D 11426 Const1_scenario
+D 11444 Const_chance_1_scenario
+B 11463 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 11466 P
+E 11488 Q
+E 11507 Y
+E 11526 X
+E 11544 OBJ
+B 11552 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 11575 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 11610 E x e c u t i o n
+B 11618 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 11624 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 11627 Objective_scenario
+D 11635 Const1_scenario
+D 11653 Const_chance_1_scenario
+B 11672 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 11675 P
+E 11697 Q
+E 11716 Y
+E 11735 X
+E 11753 OBJ
+B 11761 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 11784 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 11819 E x e c u t i o n
+B 11827 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 11833 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 11836 Objective_scenario
+D 11844 Const1_scenario
+D 11862 Const_chance_1_scenario
+B 11881 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 11884 P
+E 11906 Q
+E 11925 Y
+E 11944 X
+E 11962 OBJ
+B 11970 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 11993 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 12028 E x e c u t i o n
+B 12036 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 12042 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 12045 Objective_scenario
+D 12053 Const1_scenario
+D 12071 Const_chance_1_scenario
+B 12090 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 12093 P
+E 12115 Q
+E 12134 Y
+E 12153 X
+E 12171 OBJ
+B 12179 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 12202 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 12237 E x e c u t i o n
+B 12245 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 12251 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 12254 Objective_scenario
+D 12262 Const1_scenario
+D 12280 Const_chance_1_scenario
+B 12299 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 12302 P
+E 12324 Q
+E 12343 Y
+E 12362 X
+E 12380 OBJ
+B 12388 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 12411 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 12446 E x e c u t i o n
+B 12454 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 12460 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 12463 Objective_scenario
+D 12471 Const1_scenario
+D 12489 Const_chance_1_scenario
+B 12508 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 12511 P
+E 12533 Q
+E 12552 Y
+E 12571 X
+E 12589 OBJ
+B 12597 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 12620 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 12655 E x e c u t i o n
+B 12663 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 12669 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 12672 Objective_scenario
+D 12680 Const1_scenario
+D 12698 Const_chance_1_scenario
+B 12717 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 12720 P
+E 12742 Q
+E 12761 Y
+E 12780 X
+E 12798 OBJ
+B 12806 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 12829 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 12864 E x e c u t i o n
+B 12872 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 12878 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 12881 Objective_scenario
+D 12889 Const1_scenario
+D 12907 Const_chance_1_scenario
+B 12926 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 12929 P
+E 12951 Q
+E 12970 Y
+E 12989 X
+E 13007 OBJ
+B 13015 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 13038 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 13073 E x e c u t i o n
+B 13081 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 13087 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 13090 Objective_scenario
+D 13098 Const1_scenario
+D 13116 Const_chance_1_scenario
+B 13135 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 13138 P
+E 13160 Q
+E 13179 Y
+E 13198 X
+E 13216 OBJ
+B 13224 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 13247 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 13282 E x e c u t i o n
+B 13290 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 13296 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 13299 Objective_scenario
+D 13307 Const1_scenario
+D 13325 Const_chance_1_scenario
+B 13344 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 13347 P
+E 13369 Q
+E 13388 Y
+E 13407 X
+E 13425 OBJ
+B 13433 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 13456 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 13491 E x e c u t i o n
+B 13499 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 13505 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 13508 Objective_scenario
+D 13516 Const1_scenario
+D 13534 Const_chance_1_scenario
+B 13553 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 13556 P
+E 13578 Q
+E 13597 Y
+E 13616 X
+E 13634 OBJ
+B 13642 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 13665 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 13700 E x e c u t i o n
+B 13708 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 13714 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 13717 Objective_scenario
+D 13725 Const1_scenario
+D 13743 Const_chance_1_scenario
+B 13762 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 13765 P
+E 13787 Q
+E 13806 Y
+E 13825 X
+E 13843 OBJ
+B 13851 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 13874 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 13909 E x e c u t i o n
+B 13917 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 13923 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 13926 Objective_scenario
+D 13934 Const1_scenario
+D 13952 Const_chance_1_scenario
+B 13971 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 13974 P
+E 13996 Q
+E 14015 Y
+E 14034 X
+E 14052 OBJ
+B 14060 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 14083 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 14118 E x e c u t i o n
+B 14126 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 14132 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 14135 Objective_scenario
+D 14143 Const1_scenario
+D 14161 Const_chance_1_scenario
+B 14180 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 14183 P
+E 14205 Q
+E 14224 Y
+E 14243 X
+E 14261 OBJ
+B 14269 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 14292 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 14327 E x e c u t i o n
+B 14335 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 14341 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 14344 Objective_scenario
+D 14352 Const1_scenario
+D 14370 Const_chance_1_scenario
+B 14389 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 14392 P
+E 14414 Q
+E 14433 Y
+E 14452 X
+E 14470 OBJ
+B 14478 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 14501 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 14536 E x e c u t i o n
+B 14544 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 14550 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 14553 Objective_scenario
+D 14561 Const1_scenario
+D 14579 Const_chance_1_scenario
+B 14598 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 14601 P
+E 14623 Q
+E 14642 Y
+E 14661 X
+E 14679 OBJ
+B 14687 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 14710 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 14745 E x e c u t i o n
+B 14753 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 14759 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 14762 Objective_scenario
+D 14770 Const1_scenario
+D 14788 Const_chance_1_scenario
+B 14807 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 14810 P
+E 14832 Q
+E 14851 Y
+E 14870 X
+E 14888 OBJ
+B 14896 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 14919 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 14954 E x e c u t i o n
+B 14962 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 14968 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 14971 Objective_scenario
+D 14979 Const1_scenario
+D 14997 Const_chance_1_scenario
+B 15016 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 15019 P
+E 15041 Q
+E 15060 Y
+E 15079 X
+E 15097 OBJ
+B 15105 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 15128 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 15163 E x e c u t i o n
+B 15171 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 15177 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 15180 Objective_scenario
+D 15188 Const1_scenario
+D 15206 Const_chance_1_scenario
+B 15225 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 15228 P
+E 15250 Q
+E 15269 Y
+E 15288 X
+E 15306 OBJ
+B 15314 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 15337 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 15372 E x e c u t i o n
+B 15380 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 15386 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 15389 Objective_scenario
+D 15397 Const1_scenario
+D 15415 Const_chance_1_scenario
+B 15434 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 15437 P
+E 15459 Q
+E 15478 Y
+E 15497 X
+E 15515 OBJ
+B 15523 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 15546 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 15581 E x e c u t i o n
+B 15589 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 15595 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 15598 Objective_scenario
+D 15606 Const1_scenario
+D 15624 Const_chance_1_scenario
+B 15643 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 15646 P
+E 15668 Q
+E 15687 Y
+E 15706 X
+E 15724 OBJ
+B 15732 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 15755 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 15790 E x e c u t i o n
+B 15798 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 15804 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 15807 Objective_scenario
+D 15815 Const1_scenario
+D 15833 Const_chance_1_scenario
+B 15852 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 15855 P
+E 15877 Q
+E 15896 Y
+E 15915 X
+E 15933 OBJ
+B 15941 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 15964 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 15999 E x e c u t i o n
+B 16007 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 16013 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 16016 Objective_scenario
+D 16024 Const1_scenario
+D 16042 Const_chance_1_scenario
+B 16061 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 16064 P
+E 16086 Q
+E 16105 Y
+E 16124 X
+E 16142 OBJ
+B 16150 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 16173 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 16208 E x e c u t i o n
+B 16216 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 16222 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 16225 Objective_scenario
+D 16233 Const1_scenario
+D 16251 Const_chance_1_scenario
+B 16270 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 16273 P
+E 16295 Q
+E 16314 Y
+E 16333 X
+E 16351 OBJ
+B 16359 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 16382 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 16417 E x e c u t i o n
+B 16425 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 16431 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 16434 Objective_scenario
+D 16442 Const1_scenario
+D 16460 Const_chance_1_scenario
+B 16479 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 16482 P
+E 16504 Q
+E 16523 Y
+E 16542 X
+E 16560 OBJ
+B 16568 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 16591 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 16626 E x e c u t i o n
+B 16634 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 16640 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 16643 Objective_scenario
+D 16651 Const1_scenario
+D 16669 Const_chance_1_scenario
+B 16688 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 16691 P
+E 16713 Q
+E 16732 Y
+E 16751 X
+E 16769 OBJ
+B 16777 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 16800 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 16835 E x e c u t i o n
+B 16843 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 16849 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 16852 Objective_scenario
+D 16860 Const1_scenario
+D 16878 Const_chance_1_scenario
+B 16897 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 16900 P
+E 16922 Q
+E 16941 Y
+E 16960 X
+E 16978 OBJ
+B 16986 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 17009 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 17044 E x e c u t i o n
+B 17052 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 17058 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 17061 Objective_scenario
+D 17069 Const1_scenario
+D 17087 Const_chance_1_scenario
+B 17106 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 17109 P
+E 17131 Q
+E 17150 Y
+E 17169 X
+E 17187 OBJ
+B 17195 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 17218 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 17253 E x e c u t i o n
+B 17261 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 17267 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 17270 Objective_scenario
+D 17278 Const1_scenario
+D 17296 Const_chance_1_scenario
+B 17315 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 17318 P
+E 17340 Q
+E 17359 Y
+E 17378 X
+E 17396 OBJ
+B 17404 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 17427 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 17462 E x e c u t i o n
+B 17470 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 17476 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 17479 Objective_scenario
+D 17487 Const1_scenario
+D 17505 Const_chance_1_scenario
+B 17524 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 17527 P
+E 17549 Q
+E 17568 Y
+E 17587 X
+E 17605 OBJ
+B 17613 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 17636 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 17671 E x e c u t i o n
+B 17679 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 17685 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 17688 Objective_scenario
+D 17696 Const1_scenario
+D 17714 Const_chance_1_scenario
+B 17733 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 17736 P
+E 17758 Q
+E 17777 Y
+E 17796 X
+E 17814 OBJ
+B 17822 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 17845 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 17880 E x e c u t i o n
+B 17888 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 17894 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 17897 Objective_scenario
+D 17905 Const1_scenario
+D 17923 Const_chance_1_scenario
+B 17942 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 17945 P
+E 17967 Q
+E 17986 Y
+E 18005 X
+E 18023 OBJ
+B 18031 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 18054 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 18089 E x e c u t i o n
+B 18097 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 18103 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 18106 Objective_scenario
+D 18114 Const1_scenario
+D 18132 Const_chance_1_scenario
+B 18151 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 18154 P
+E 18176 Q
+E 18195 Y
+E 18214 X
+E 18232 OBJ
+B 18240 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 18263 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 18298 E x e c u t i o n
+B 18306 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 18312 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 18315 Objective_scenario
+D 18323 Const1_scenario
+D 18341 Const_chance_1_scenario
+B 18360 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 18363 P
+E 18385 Q
+E 18404 Y
+E 18423 X
+E 18441 OBJ
+B 18449 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 18472 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 18507 E x e c u t i o n
+B 18515 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 18521 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 18524 Objective_scenario
+D 18532 Const1_scenario
+D 18550 Const_chance_1_scenario
+B 18569 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 18572 P
+E 18594 Q
+E 18613 Y
+E 18632 X
+E 18650 OBJ
+B 18658 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 18681 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 18716 E x e c u t i o n
+B 18724 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 18730 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 18733 Objective_scenario
+D 18741 Const1_scenario
+D 18759 Const_chance_1_scenario
+B 18778 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 18781 P
+E 18803 Q
+E 18822 Y
+E 18841 X
+E 18859 OBJ
+B 18867 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 18890 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 18925 E x e c u t i o n
+B 18933 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 18939 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 18942 Objective_scenario
+D 18950 Const1_scenario
+D 18968 Const_chance_1_scenario
+B 18987 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 18990 P
+E 19012 Q
+E 19031 Y
+E 19050 X
+E 19068 OBJ
+B 19076 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 19099 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 19134 E x e c u t i o n
+B 19142 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 19148 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 19151 Objective_scenario
+D 19159 Const1_scenario
+D 19177 Const_chance_1_scenario
+B 19196 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 19199 P
+E 19221 Q
+E 19240 Y
+E 19259 X
+E 19277 OBJ
+B 19285 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 19308 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 19343 E x e c u t i o n
+B 19351 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 19357 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 19360 Objective_scenario
+D 19368 Const1_scenario
+D 19386 Const_chance_1_scenario
+B 19405 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 19408 P
+E 19430 Q
+E 19449 Y
+E 19468 X
+E 19486 OBJ
+B 19494 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 19517 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 19552 E x e c u t i o n
+B 19560 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 19566 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 19569 Objective_scenario
+D 19577 Const1_scenario
+D 19595 Const_chance_1_scenario
+B 19614 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 19617 P
+E 19639 Q
+E 19658 Y
+E 19677 X
+E 19695 OBJ
+B 19703 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 19726 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 19761 E x e c u t i o n
+B 19769 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 19775 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 19778 Objective_scenario
+D 19786 Const1_scenario
+D 19804 Const_chance_1_scenario
+B 19823 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 19826 P
+E 19848 Q
+E 19867 Y
+E 19886 X
+E 19904 OBJ
+B 19912 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 19935 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 19970 E x e c u t i o n
+B 19978 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 19984 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 19987 Objective_scenario
+D 19995 Const1_scenario
+D 20013 Const_chance_1_scenario
+B 20032 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 20035 P
+E 20057 Q
+E 20076 Y
+E 20095 X
+E 20113 OBJ
+B 20121 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 20144 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 20179 E x e c u t i o n
+B 20187 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 20193 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 20196 Objective_scenario
+D 20204 Const1_scenario
+D 20222 Const_chance_1_scenario
+B 20241 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 20244 P
+E 20266 Q
+E 20285 Y
+E 20304 X
+E 20322 OBJ
+B 20330 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 20353 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 20388 E x e c u t i o n
+B 20396 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 20402 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 20405 Objective_scenario
+D 20413 Const1_scenario
+D 20431 Const_chance_1_scenario
+B 20450 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 20453 P
+E 20475 Q
+E 20494 Y
+E 20513 X
+E 20531 OBJ
+B 20539 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 20562 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 20597 E x e c u t i o n
+B 20605 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 20611 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 20614 Objective_scenario
+D 20622 Const1_scenario
+D 20640 Const_chance_1_scenario
+B 20659 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 20662 P
+E 20684 Q
+E 20703 Y
+E 20722 X
+E 20740 OBJ
+B 20748 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 20771 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 20806 E x e c u t i o n
+B 20814 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 20820 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 20823 Objective_scenario
+D 20831 Const1_scenario
+D 20849 Const_chance_1_scenario
+B 20868 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 20871 P
+E 20893 Q
+E 20912 Y
+E 20931 X
+E 20949 OBJ
+B 20957 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 20980 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 21015 E x e c u t i o n
+B 21023 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 21029 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 21032 Objective_scenario
+D 21040 Const1_scenario
+D 21058 Const_chance_1_scenario
+B 21077 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 21080 P
+E 21102 Q
+E 21121 Y
+E 21140 X
+E 21158 OBJ
+B 21166 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 21189 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 21224 E x e c u t i o n
+B 21232 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 21238 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 21241 Objective_scenario
+D 21249 Const1_scenario
+D 21267 Const_chance_1_scenario
+B 21286 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 21289 P
+E 21311 Q
+E 21330 Y
+E 21349 X
+E 21367 OBJ
+B 21375 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 21398 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 21433 E x e c u t i o n
+B 21441 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 21447 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 21450 Objective_scenario
+D 21458 Const1_scenario
+D 21476 Const_chance_1_scenario
+B 21495 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 21498 P
+E 21520 Q
+E 21539 Y
+E 21558 X
+E 21576 OBJ
+B 21584 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 21607 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 21642 E x e c u t i o n
+B 21650 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 21656 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 21659 Objective_scenario
+D 21667 Const1_scenario
+D 21685 Const_chance_1_scenario
+B 21704 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 21707 P
+E 21729 Q
+E 21748 Y
+E 21767 X
+E 21785 OBJ
+B 21793 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 21816 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 21851 E x e c u t i o n
+B 21859 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 21865 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 21868 Objective_scenario
+D 21876 Const1_scenario
+D 21894 Const_chance_1_scenario
+B 21913 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 21916 P
+E 21938 Q
+E 21957 Y
+E 21976 X
+E 21994 OBJ
+B 22002 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 22025 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 22060 E x e c u t i o n
+B 22068 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 22074 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 22077 Objective_scenario
+D 22085 Const1_scenario
+D 22103 Const_chance_1_scenario
+B 22122 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 22125 P
+E 22147 Q
+E 22166 Y
+E 22185 X
+E 22203 OBJ
+B 22211 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 22234 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 22269 E x e c u t i o n
+B 22277 Model Analysis      SOLVE schedule_scenario Using MIP From line 525
+B 22283 Equation Listing    SOLVE schedule_scenario Using MIP From line 525
+D 22286 Objective_scenario
+D 22294 Const1_scenario
+D 22312 Const_chance_1_scenario
+B 22331 Column Listing      SOLVE schedule_scenario Using MIP From line 525
+E 22334 P
+E 22356 Q
+E 22375 Y
+E 22394 X
+E 22412 OBJ
+B 22420 Model Statistics    SOLVE schedule_scenario Using MIP From line 525
+B 22443 Solution Report     SOLVE schedule_scenario Using MIP From line 525
+B 22478 E x e c u t i o n
+B 22798 Model Analysis      SOLVE schedule Using MIP From line 556
+B 22804 Equation Listing    SOLVE schedule Using MIP From line 556
+D 22807 Objective
+D 22819 Const1
+D 22837 Const_chance_1
+D 22855 Const_chance_2
+B 22864 Column Listing      SOLVE schedule Using MIP From line 556
+E 22867 P
+E 22889 Q
+E 22908 Y
+E 23224 X
+E 23242 OBJ
+E 23249 Z
+B 23338 Model Statistics    SOLVE schedule Using MIP From line 556
+B 23356 Solution Report     SOLVE schedule Using MIP From line 556
+B 23400 E x e c u t i o n
+I 23409 lowerbound
+I 23410 upperbound
+I 23411 prev_y
+I 23417 LP_time
+I 23418 bound_time
+B 23440 Model Analysis      SOLVE schedule Using MIP From line 584
+B 23446 Equation Listing    SOLVE schedule Using MIP From line 584
+D 23449 Objective
+D 23461 Const1
+D 23479 Const_chance_1
+D 23497 Const_chance_2
+B 23506 Column Listing      SOLVE schedule Using MIP From line 584
+E 23509 P
+E 23531 Q
+E 23550 Y
+E 23866 X
+E 23884 OBJ
+E 23891 Z
+B 23980 Model Statistics    SOLVE schedule Using MIP From line 584
+B 23998 Solution Report     SOLVE schedule Using MIP From line 584
+B 24042 E x e c u t i o n
+I 24049 OBJ
+I 24050 run_time_total
+B 24071 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24086 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24111 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24157 E x e c u t i o n
+B 24204 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24219 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24244 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24290 E x e c u t i o n
+B 24337 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24352 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24377 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24423 E x e c u t i o n
+B 24470 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24485 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24510 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24556 E x e c u t i o n
+B 24603 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24618 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24643 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24689 E x e c u t i o n
+B 24736 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24751 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24776 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24822 E x e c u t i o n
+B 24869 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 24884 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 24909 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 24955 E x e c u t i o n
+B 25002 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25017 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25042 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25088 E x e c u t i o n
+B 25135 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25150 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25175 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25221 E x e c u t i o n
+B 25268 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25283 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25308 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25354 E x e c u t i o n
+I 25411 results
+I 25428 lowerbound
+I 25429 upperbound
+I 25430 LP_bound
+I 25431 run_time_total
+I 25432 lr_time
+I 25433 num_iter
+I 25435 Z
+I 25440 Y
+B 25462 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25477 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25502 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25548 E x e c u t i o n
+B 25595 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25610 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25635 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25681 E x e c u t i o n
+B 25728 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25743 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25768 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25814 E x e c u t i o n
+B 25861 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 25876 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 25901 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 25947 E x e c u t i o n
+B 25994 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26009 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26034 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26080 E x e c u t i o n
+B 26127 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26142 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26167 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26213 E x e c u t i o n
+B 26260 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26275 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26300 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26346 E x e c u t i o n
+B 26393 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26408 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26433 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26479 E x e c u t i o n
+B 26526 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26541 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26566 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26612 E x e c u t i o n
+B 26659 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26674 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26699 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26745 E x e c u t i o n
+I 26802 results
+I 26819 lowerbound
+I 26820 upperbound
+I 26821 LP_bound
+I 26822 run_time_total
+I 26823 lr_time
+I 26824 num_iter
+I 26826 Z
+I 26831 Y
+B 26853 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 26868 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 26893 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 26939 E x e c u t i o n
+B 26986 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27001 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27026 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27072 E x e c u t i o n
+B 27119 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27134 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27159 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27205 E x e c u t i o n
+B 27252 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27267 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27292 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27338 E x e c u t i o n
+B 27385 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27400 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27425 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27471 E x e c u t i o n
+B 27518 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27533 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27558 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27604 E x e c u t i o n
+B 27651 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27666 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27691 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27737 E x e c u t i o n
+B 27784 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27799 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27824 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 27870 E x e c u t i o n
+B 27917 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 27932 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 27957 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28003 E x e c u t i o n
+B 28050 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28065 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28090 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28136 E x e c u t i o n
+I 28193 results
+I 28210 lowerbound
+I 28211 upperbound
+I 28212 LP_bound
+I 28213 run_time_total
+I 28214 lr_time
+I 28215 num_iter
+I 28217 Z
+I 28222 Y
+B 28244 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28259 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28284 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28330 E x e c u t i o n
+B 28377 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28392 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28417 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28463 E x e c u t i o n
+B 28510 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28525 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28550 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28596 E x e c u t i o n
+B 28643 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28658 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28683 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28729 E x e c u t i o n
+B 28776 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28791 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28816 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28862 E x e c u t i o n
+B 28909 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 28924 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 28949 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 28995 E x e c u t i o n
+B 29042 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29057 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29082 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29128 E x e c u t i o n
+B 29175 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29190 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29215 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29261 E x e c u t i o n
+B 29308 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29323 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29348 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29394 E x e c u t i o n
+B 29441 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29456 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29481 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29527 E x e c u t i o n
+I 29584 results
+I 29601 lowerbound
+I 29602 upperbound
+I 29603 LP_bound
+I 29604 run_time_total
+I 29605 lr_time
+I 29606 num_iter
+I 29608 Z
+I 29613 Y
+B 29635 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29650 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29675 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29721 E x e c u t i o n
+B 29768 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29783 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29808 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29854 E x e c u t i o n
+B 29901 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 29916 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 29941 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 29987 E x e c u t i o n
+B 30034 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30049 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30074 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30120 E x e c u t i o n
+B 30167 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30182 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30207 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30253 E x e c u t i o n
+B 30300 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30315 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30340 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30386 E x e c u t i o n
+B 30433 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30448 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30473 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30519 E x e c u t i o n
+B 30566 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30581 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30606 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30652 E x e c u t i o n
+B 30699 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30714 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30739 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30785 E x e c u t i o n
+B 30832 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 30847 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 30872 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 30918 E x e c u t i o n
+I 30975 results
+I 30992 lowerbound
+I 30993 upperbound
+I 30994 LP_bound
+I 30995 run_time_total
+I 30996 lr_time
+I 30997 num_iter
+I 30999 Z
+I 31004 Y
+B 31026 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31041 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31066 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31112 E x e c u t i o n
+B 31159 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31174 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31199 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31245 E x e c u t i o n
+B 31292 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31307 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31332 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31378 E x e c u t i o n
+B 31425 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31440 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31465 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31511 E x e c u t i o n
+B 31558 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31573 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31598 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31644 E x e c u t i o n
+B 31691 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31706 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31731 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31777 E x e c u t i o n
+B 31824 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31839 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31864 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 31910 E x e c u t i o n
+B 31957 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 31972 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 31997 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 32043 E x e c u t i o n
+B 32090 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 32105 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 32130 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 32176 E x e c u t i o n
+B 32223 Model Analysis      SOLVE Lagrangian Using MIP From line 636
+B 32238 Model Statistics    SOLVE Lagrangian Using MIP From line 636
+B 32263 Solution Report     SOLVE Lagrangian Using MIP From line 636
+B 32309 E x e c u t i o n
+I 32366 results
+I 32383 lowerbound
+I 32384 upperbound
+I 32385 LP_bound
+I 32386 run_time_total
+I 32387 lr_time
+I 32388 num_iter
+I 32390 Z
+I 32395 Y

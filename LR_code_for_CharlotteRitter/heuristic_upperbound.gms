@@ -38,14 +38,6 @@ loop(rs, put res_scenarios(rs,'scenario') put res_scenarios(rs,'obj') put /; ) ;
 PUTCLOSE scen_sorted;
 
 
-*************************************************************************************
-***  Creating scenario_sorted_X_Y.csv
-*************************************************************************************
-
-*file scenario_sorted /scenario_sorted.csv/;
-*loop(rs, put 
-
-
 z.lo(scen) = scenario_sorted(scen,'value') ;
 *** Ensure file was generated correctly
 if ( sum(scen,z.lo(scen)) ne threshold, abort "sorted file not generated correctly check manually") ;

@@ -23,9 +23,8 @@ $include equations_all.gms
 $include lp_lowerbound.gms // no need to change for Lagrangian decomposition
 $include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
-********************************************************************************
-* Solve main Problem
-********************************************************************************
+scalar r;
+set indices /1*6/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -33,14 +32,14 @@ TestingFile.nd=5;
 put TestingFile; 
 put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap', put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
 
+********************************************************************************
+* Solve main Problem
+********************************************************************************
+
 start_time = jnow;
 solve schedule using MIP minimizing Obj ;
 end_time = jnow ;
 
-scalar r;
-
-
-set indices /1*6/;
 
 run_time_total = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
 
@@ -112,7 +111,7 @@ if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, 
 
 
 put TestingFile;
-put n, put tol, put steprule, put r, put FinalIter, put convergence, put ObjNaive, put lowerbound, put ((lowerbound-upperbound)/upperbound), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put r, put FinalIter, put convergence, put ObjNaive, put lowerbound, put ((lowerbound-ObjNaive)/ObjNaive), put TimeNaive, put lr_time put lambda put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
