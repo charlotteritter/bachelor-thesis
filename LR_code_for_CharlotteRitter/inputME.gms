@@ -6,38 +6,17 @@ $onMultiR
 SETS T times/t1*t24/;
 
 * Number of scenarios 
-SETS SCEN scenarios /scen1*scen900/;
+SETS SCEN scenarios /scen1*scen300/;
 
 TABLE Solar(scen,t)
 $ondelim
-$INCLUDE solar_scenarios_900.csv
-$offdelim
-;
-
-* Import the SORTED file
-table scenario_sorted(scen,*)
-$ondelim
-*$INCLUDE scenario_sorted_100_1_01.csv
-*$INCLUDE scenario_sorted_150_01.csv
-*$INCLUDE scenario_sorted_150_05.csv
-*$INCLUDE scenario_sorted_300_01.csv
-*$INCLUDE scenario_sorted_300_05.csv
-*$INCLUDE scenario_sorted_450_01.csv
-*$INCLUDE scenario_sorted_450_05.csv
-*$INCLUDE scenario_sorted_600_01.csv
-*$INCLUDE scenario_sorted_600_05.csv
-*$INCLUDE scenario_sorted_900_01.csv
-$INCLUDE scenario_sorted_900_05.csv
-*$INCLUDE scenario_sorted_1200_01.csv
-*$INCLUDE scenario_sorted_1200_05.csv
-*$INCLUDE scenario_sorted_2400_01.csv
-*$INCLUDE scenario_sorted_2400_05.csv
+$INCLUDE solar_scenarios_300.csv
 $offdelim
 ;
 
 *Tolerance 
 scalar tol;
-tol=0.05;
+tol=0.03;
 
 * maximum number of iterations in LR
 set iter number of subgradient iterations /iter1*iter10/;
@@ -45,6 +24,74 @@ set iter number of subgradient iterations /iter1*iter10/;
 * time limit for each problem
 scalar time_limit;
 time_limit=2250;
+
+
+* Import the SORTED file
+table scenario_sorted(scen,*)
+$ondelim
+*$INCLUDE scenario_sorted_100_1_01.csv
+*$INCLUDE scenario_sorted_100_2_01.csv
+*$INCLUDE scenario_sorted_100_3_01.csv
+*$INCLUDE scenario_sorted_100_4_01.csv
+*$INCLUDE scenario_sorted_100_5_01.csv
+*$INCLUDE scenario_sorted_100_6_01.csv
+*$INCLUDE scenario_sorted_100_7_01.csv
+*$INCLUDE scenario_sorted_100_8_01.csv
+*$INCLUDE scenario_sorted_100_9_01.csv
+*$INCLUDE scenario_sorted_100_10_01.csv
+*$INCLUDE scenario_sorted_100_11_01.csv
+*$INCLUDE scenario_sorted_100_12_01.csv
+*$INCLUDE scenario_sorted_100_13_01.csv
+*$INCLUDE scenario_sorted_100_14_01.csv
+*$INCLUDE scenario_sorted_100_15_01.csv
+*$INCLUDE scenario_sorted_100_16_01.csv
+*$INCLUDE scenario_sorted_100_17_01.csv
+*$INCLUDE scenario_sorted_100_18_01.csv
+*$INCLUDE scenario_sorted_100_19_01.csv
+*$INCLUDE scenario_sorted_100_20_01.csv
+*$INCLUDE scenario_sorted_100_1_05.csv
+*$INCLUDE scenario_sorted_100_2_05.csv
+*$INCLUDE scenario_sorted_100_3_05.csv
+*$INCLUDE scenario_sorted_100_4_05.csv
+*$INCLUDE scenario_sorted_100_5_05.csv
+*$INCLUDE scenario_sorted_100_6_05.csv
+*$INCLUDE scenario_sorted_100_7_05.csv
+*$INCLUDE scenario_sorted_100_8_05.csv
+*$INCLUDE scenario_sorted_100_9_05.csv
+*$INCLUDE scenario_sorted_100_10_05.csv
+*$INCLUDE scenario_sorted_100_11_05.csv
+*$INCLUDE scenario_sorted_100_12_05.csv
+*$INCLUDE scenario_sorted_100_13_05.csv
+*$INCLUDE scenario_sorted_100_14_05.csv
+*$INCLUDE scenario_sorted_100_15_05.csv
+*$INCLUDE scenario_sorted_100_16_05.csv
+*$INCLUDE scenario_sorted_100_17_05.csv
+*$INCLUDE scenario_sorted_100_18_05.csv
+*$INCLUDE scenario_sorted_100_19_05.csv
+*$INCLUDE scenario_sorted_100_20_05.csv
+*$INCLUDE scenario_sorted_150_01.csv
+*$INCLUDE scenario_sorted_150_03.csv
+*$INCLUDE scenario_sorted_150_05.csv
+*$INCLUDE scenario_sorted_300_01.csv
+$INCLUDE scenario_sorted_300_03.csv
+*$INCLUDE scenario_sorted_300_05.csv
+*$INCLUDE scenario_sorted_450_01.csv
+*$INCLUDE scenario_sorted_450_03.csv
+*$INCLUDE scenario_sorted_450_05.csv
+*$INCLUDE scenario_sorted_600_01.csv
+*$INCLUDE scenario_sorted_600_05.csv
+*$INCLUDE scenario_sorted_600_03.csv
+*$INCLUDE scenario_sorted_900_01.csv
+*$INCLUDE scenario_sorted_900_03.csv
+*$INCLUDE scenario_sorted_900_05.csv
+*$INCLUDE scenario_sorted_1200_01.csv
+*$INCLUDE scenario_sorted_1200_03.csv
+*$INCLUDE scenario_sorted_1200_05.csv
+*$INCLUDE scenario_sorted_2400_01.csv
+*$INCLUDE scenario_sorted_2400_05.csv
+$offdelim
+;
+
 
 
 

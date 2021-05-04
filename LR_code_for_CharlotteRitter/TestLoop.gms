@@ -30,7 +30,7 @@ File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap', put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
 
 ********************************************************************************
 * Solve main Problem
