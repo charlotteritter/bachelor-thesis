@@ -1,7 +1,6 @@
 ********************************************************************************
 * Find a upperbound on the problem : a feasible solution
 ********************************************************************************
-$onMultiR
 
 *upperbound =  0;
 * Find a upper bound using a fixed value and solving MIP (a feasible solution)

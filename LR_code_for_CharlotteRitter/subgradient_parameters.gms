@@ -1,4 +1,3 @@
-$onMultiR
 parameter lambda;
 parameter ldual value of Lagrangian dual ;
 parameter bound total value of Lagrangian dual ;

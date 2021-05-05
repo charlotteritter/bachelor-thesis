@@ -1,4 +1,3 @@
-$onMultiR
 POSITIVE VARIABLES P(scen,t), Q(scen,t), Y(T), X(scen,t) ;
 VARIABLES OBJ, BOUND_LR ;
 BINARY VARIABLE Z(scen) ;

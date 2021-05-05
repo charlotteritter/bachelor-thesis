@@ -1,4 +1,3 @@
-$onMultiR
 ** sets later to be defined in input file
 
 ** to be changed
@@ -6,34 +5,35 @@ $onMultiR
 SETS T times/t1*t24/;
 
 * Number of scenarios 
-SETS SCEN scenarios /scen1*%MAXSCEN%/;
+*SETS SCEN scenarios /scen1*%MAXSCEN%/;
+SETS SCEN scenarios /scen1*scen100/;
 
 TABLE Solar(scen,t)
 $ondelim
-$INCLUDE %SOLAR%.csv
-*solar_scenarios_300.csv
+*$INCLUDE %SOLAR%.csv
+$INCLUDE solar_scenarios_100_1.csv
 $offdelim
 ;
 
 *Tolerance 
 scalar tol;
-tol=%TOL%;
-*0.03;
+*tol=%TOL%;
+tol=0.01;
 
 * maximum number of iterations in LR
 set iter number of subgradient iterations /iter1*iter10/;
 
 * time limit for each problem
 scalar time_limit;
-time_limit=%TIMELIM%;
-*time_limit=2250;
+*time_limit=%TIMELIM%;
+time_limit=2250;
 
 
 * Import the SORTED file
 table scenario_sorted(scen,*)
 $ondelim
-$INCLUDE %SORTEDFILE%.csv
-*$INCLUDE scenario_sorted_100_1_01.csv
+*$INCLUDE %SORTEDFILE%.csv
+$INCLUDE scenario_sorted_100_1_01.csv
 *$INCLUDE scenario_sorted_100_2_01.csv
 *$INCLUDE scenario_sorted_100_3_01.csv
 *$INCLUDE scenario_sorted_100_4_01.csv
