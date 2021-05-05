@@ -32,8 +32,8 @@ time_limit=2250;
 * Import the SORTED file
 table scenario_sorted(scen,*)
 $ondelim
-*$INCLUDE %SORTEDFILE%.csv
-$INCLUDE scenario_sorted_100_1_01.csv
+$INCLUDE %SORTEDFILE%.csv
+*$INCLUDE scenario_sorted_100_1_01.csv
 *$INCLUDE scenario_sorted_100_2_01.csv
 *$INCLUDE scenario_sorted_100_3_01.csv
 *$INCLUDE scenario_sorted_100_4_01.csv
