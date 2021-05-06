@@ -30,7 +30,7 @@ File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Gap LR', put 'Iterations', put 'Converged?', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
 
 ********************************************************************************
 * Solve main Problem
@@ -45,6 +45,10 @@ run_time_total = ghour(end_time - start_time)*3600 + gminute(end_time - start_ti
 
 scalar ObjNaive;
 ObjNaive=Obj.l;
+
+scalar GapNaive;
+GapNaive = abs((upperbound-ObjNaive)/upperbound);
+
 scalar TimeNaive;
 TimeNaive=run_time_total;    
 
@@ -94,7 +98,7 @@ $include plain_lr.gms
     results(iter,'objective') = bound ;
     
 $include LR_updatesMe.gms
-    if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)), contin = 0;);
+    if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)),convergence=2; contin = 0;);
     lr_time = lr_time + results(iter,'time')   ;
     if (lr_time > time_limit, contin = 0 ; ) ;
     
@@ -113,7 +117,7 @@ if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, 
 
 
 put TestingFile;
-put n, put tol, put steprule, put r, put FinalIter, put convergence, put ObjNaive, put lowerbound, put ((lowerbound-ObjNaive)/ObjNaive), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((lowerbound-ObjNaive)/ObjNaive), put TimeNaive, put lr_time put lambda put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;

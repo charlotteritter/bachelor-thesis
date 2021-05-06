@@ -1,4 +1,4 @@
---- Job TestLoop.gms Start 05/05/21 09:15:38 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Job TestLoop.gms Start 05/06/21 10:02:07 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\32\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -17,109 +17,46 @@ Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
           C:\GAMS\32\gamslice.txt
 --- Starting compilation
 --- TestLoop.gms(19) 2 Mb
---- . inputME.gms(9) 3 Mb 2 Errors
-*** Error   3 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Element expected
-*** Error 508 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Blank needed between element and text
-      (-or- illegal character in element)
---- . inputME.gms(13) 3 Mb 3 Errors
-*** Error 282 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Unable to open include file
---- . inputME.gms(16) 3 Mb 4 Errors
-*** Error 463 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    The column section in the previous table is missing.
-       You may want to use $ON/OFFEMPTY
---- . inputME.gms(20) 3 Mb 7 Errors
-*** Error 119 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Number (primary) expected
-*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
-*** Error 409 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Unrecognizable item - skip to find a new statement
-      looking for a ';' or a key word to get started again
---- . inputME.gms(28) 3 Mb 10 Errors
-*** Error 119 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Number (primary) expected
-*** Error 140 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Unknown symbol
-*** Error 409 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Unrecognizable item - skip to find a new statement
-      looking for a ';' or a key word to get started again
---- . inputME.gms(35) 3 Mb 11 Errors
-*** Error 282 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    Unable to open include file
---- . inputME.gms(97) 3 Mb 12 Errors
-*** Error 463 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\inputME.gms
-    The column section in the previous table is missing.
-       You may want to use $ON/OFFEMPTY
+--- . inputME.gms(14) 3 Mb
+--- .. solar_scenarios_600.csv(601) 3 Mb
+--- . inputME.gms(86) 3 Mb
+--- .. scenario_sorted_600_05.csv(601) 3 Mb
 --- . inputME.gms(116) 3 Mb
 --- .. battery_revenue.csv(25) 3 Mb
 --- . inputME.gms(185) 3 Mb
 --- TestLoop.gms(20) 3 Mb
---- . subgradient_parameters.gms(34) 3 Mb
+--- . subgradient_parameters.gms(33) 3 Mb
 --- TestLoop.gms(22) 3 Mb
---- . equations_all.gms(77) 3 Mb
+--- . equations_all.gms(76) 3 Mb
 --- TestLoop.gms(23) 3 Mb
---- . lp_lowerbound.gms(4) 3 Mb 13 Errors
-*** Error 257 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\lp_lowerbound.gms
-    Solve statement not checked because of previous errors
---- . lp_lowerbound.gms(7) 3 Mb 14 Errors
-*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\lp_lowerbound.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- . lp_lowerbound.gms(8) 3 Mb 15 Errors
-*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\lp_lowerbound.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- . lp_lowerbound.gms(12) 3 Mb
 --- TestLoop.gms(24) 3 Mb
---- . heuristic_upperbound.gms(17) 3 Mb 16 Errors
-*** Error 257 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\heuristic_upperbound.gms
-    Solve statement not checked because of previous errors
---- . heuristic_upperbound.gms(41) 3 Mb 17 Errors
-*** Error 116 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\heuristic_upperbound.gms
-    Label is unknown
---- . heuristic_upperbound.gms(48) 3 Mb 18 Errors
-*** Error 257 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\heuristic_upperbound.gms
-    Solve statement not checked because of previous errors
---- . heuristic_upperbound.gms(52) 3 Mb 19 Errors
-*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\heuristic_upperbound.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- . heuristic_upperbound.gms(60) 3 Mb
---- TestLoop.gms(40) 3 Mb 20 Errors
-*** Error 257 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
-    Solve statement not checked because of previous errors
---- TestLoop.gms(88) 3 Mb
---- . plain_LR.gms(4) 3 Mb 21 Errors
-*** Error 257 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\plain_LR.gms
-    Solve statement not checked because of previous errors
---- . plain_LR.gms(6) 3 Mb 22 Errors
-*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\plain_LR.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- . plain_LR.gms(12) 3 Mb
---- TestLoop.gms(94) 3 Mb
+--- . heuristic_upperbound.gms(59) 3 Mb
+--- TestLoop.gms(90) 3 Mb
+--- . plain_lr.gms(12) 3 Mb
+--- TestLoop.gms(96) 3 Mb
 --- . LR_updatesMe.gms(17) 3 Mb
 --- .. stepsize.gms(24) 3 Mb
 --- . LR_updatesMe.gms(42) 3 Mb
---- TestLoop.gms(121) 3 Mb 22 Errors
+--- TestLoop.gms(97) 3 Mb 3 Errors
+*** Error   8 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    ')' expected
+*** Error 767 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Unexpected symbol will terminate the loop - symbol replaced by )
+*** Error  12 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    ';' expected
+--- TestLoop.gms(98) 3 Mb 4 Errors
+*** Error 149 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Uncontrolled set entered as constant
+--- TestLoop.gms(101) 3 Mb 5 Errors
+*** Error 149 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Uncontrolled set entered as constant
+--- TestLoop.gms(103) 3 Mb 6 Errors
+*** Error 408 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Too many ),] or }
+--- TestLoop.gms(122) 3 Mb 7 Errors
+*** Error 408 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Too many ),] or }
+--- TestLoop.gms(123) 3 Mb 7 Errors
 *** Status: Compilation error(s)
---- Job TestLoop.gms Stop 05/05/21 09:15:38 elapsed 0:00:00.015
+--- Job TestLoop.gms Stop 05/06/21 10:02:07 elapsed 0:00:00.126
