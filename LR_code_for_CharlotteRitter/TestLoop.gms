@@ -41,13 +41,15 @@ solve schedule using MIP minimizing Obj ;
 end_time = jnow ;
 
 
+
 run_time_total = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
 
 scalar ObjNaive;
 ObjNaive=Obj.l;
 
+
 scalar GapNaive;
-GapNaive = abs((upperbound-ObjNaive)/upperbound);
+GapNaive = abs((schedule.objEst-schedule.objVal)/schedule.objEst);
 
 scalar TimeNaive;
 TimeNaive=run_time_total;    

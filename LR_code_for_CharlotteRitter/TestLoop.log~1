@@ -1,4 +1,4 @@
---- Job TestLoop.gms Start 05/06/21 10:12:50 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Job TestLoop.gms Start 05/06/21 10:15:51 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\32\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -39,21 +39,21 @@ Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
 --- .. stepsize.gms(24) 3 Mb
 --- . LR_updatesMe.gms(42) 3 Mb
 --- TestLoop.gms(127) 3 Mb
---- Starting execution: elapsed 0:00:00.028
+--- Starting execution: elapsed 0:00:00.030
 --- TestLoop.gms(1547) 8 Mb
 --- Generating RMIP model schedule
 --- TestLoop.gms(1494) 8 Mb
---- Starting Equ Objective: elapsed 0:00:00.202
+--- Starting Equ Objective: elapsed 0:00:00.197
 --- TestLoop.gms(1496) 9 Mb
---- Starting Equ Const1: elapsed 0:00:00.403
+--- Starting Equ Const1: elapsed 0:00:00.393
 --- TestLoop.gms(1502) 18 Mb
---- Starting Equ Const_chance_1: elapsed 0:00:00.424
+--- Starting Equ Const_chance_1: elapsed 0:00:00.416
 --- TestLoop.gms(1509) 23 Mb
---- Starting Equ Const_chance_2: elapsed 0:00:00.450
+--- Starting Equ Const_chance_2: elapsed 0:00:00.441
 --- TestLoop.gms(1548) 23 Mb
 ---   28,202 rows  43,825 columns  127,825 non-zeroes
 ---   600 discrete-columns
---- Executing CPLEX (Solvelink=2): elapsed 0:00:00.509
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.498
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -76,7 +76,7 @@ Parallel mode: deterministic, using up to 8 threads for concurrent optimization:
 Tried aggregator 1 time.
 LP Presolve eliminated 1 rows and 1801 columns.
 Reduced LP has 28201 rows, 42024 columns, and 111600 nonzeros.
-Presolve time = 0.20 sec. (50.21 ticks)
+Presolve time = 0.19 sec. (50.21 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
@@ -88,40 +88,25 @@ Iteration:  2741   Dual objective     =          -801.307941
 Iteration:  3311   Dual objective     =          -796.617629
 Iteration:  3840   Dual objective     =          -794.626197
 Iteration:  4569   Dual objective     =          -786.917657
-Iteration:  5184   Dual objective     =          -758.226189
-Iteration:  5551   Dual objective     =          -750.195705
-Iteration:  6043   Dual objective     =          -741.226094
-Iteration:  6568   Dual objective     =          -726.417496
-Iteration:  7440   Dual objective     =          -625.283587
-Iteration:  7884   Dual objective     =          -608.429841
-Iteration:  8257   Dual objective     =          -604.474948
-Iteration:  8689   Dual objective     =          -598.945120
-Iteration:  9198   Dual objective     =          -590.433647
-Iteration:  9573   Dual objective     =          -586.967630
-Removing shift (164).
+Removing shift (5).
+LP status(13): user aborted
+Cplex Time: 2.05sec (det. 368.20 ticks)
 
-Barrier solved model.
-
-LP status(1): optimal
-Cplex Time: 5.02sec (det. 1578.47 ticks)
-
-Optimal solution found.
-Objective :        -303.286541
-
+Solution aborted due to user request.
 --- Reading solution for model schedule
---- Executing after solve: elapsed 0:00:05.673
+--- Executing after solve: elapsed 0:00:02.703
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.673
+--- Starting Equ Objective_scenario: elapsed 0:00:02.703
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.673
+--- Starting Equ Const1_scenario: elapsed 0:00:02.704
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.675
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.705
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen1
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.681
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.711
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -153,19 +138,19 @@ Optimal solution found.
 Objective :        -299.908020
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.698
+--- Executing after solve: elapsed 0:00:02.731
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.699
+--- Starting Equ Objective_scenario: elapsed 0:00:02.731
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.699
+--- Starting Equ Const1_scenario: elapsed 0:00:02.732
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.701
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.734
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen2
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.704
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.739
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -197,19 +182,19 @@ Optimal solution found.
 Objective :        -298.522846
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.716
+--- Executing after solve: elapsed 0:00:02.752
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.716
+--- Starting Equ Objective_scenario: elapsed 0:00:02.752
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.716
+--- Starting Equ Const1_scenario: elapsed 0:00:02.752
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.718
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.755
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen3
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.722
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.760
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -241,19 +226,19 @@ Optimal solution found.
 Objective :        -306.286280
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.736
+--- Executing after solve: elapsed 0:00:02.773
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.736
+--- Starting Equ Objective_scenario: elapsed 0:00:02.773
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.737
+--- Starting Equ Const1_scenario: elapsed 0:00:02.773
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.739
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.777
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen4
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.743
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.782
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -285,19 +270,19 @@ Optimal solution found.
 Objective :        -301.848769
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.756
+--- Executing after solve: elapsed 0:00:02.796
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.757
+--- Starting Equ Objective_scenario: elapsed 0:00:02.796
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.757
+--- Starting Equ Const1_scenario: elapsed 0:00:02.796
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.760
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.798
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen5
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.764
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.802
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -329,19 +314,19 @@ Optimal solution found.
 Objective :        -296.999457
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.778
+--- Executing after solve: elapsed 0:00:02.817
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.779
+--- Starting Equ Objective_scenario: elapsed 0:00:02.817
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.779
+--- Starting Equ Const1_scenario: elapsed 0:00:02.818
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.781
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.820
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen6
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.786
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.824
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -373,19 +358,19 @@ Optimal solution found.
 Objective :        -297.437675
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.801
+--- Executing after solve: elapsed 0:00:02.838
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.802
+--- Starting Equ Objective_scenario: elapsed 0:00:02.838
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.802
+--- Starting Equ Const1_scenario: elapsed 0:00:02.839
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.804
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.841
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen7
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.808
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.846
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -417,19 +402,19 @@ Optimal solution found.
 Objective :        -295.047274
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.822
+--- Executing after solve: elapsed 0:00:02.863
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.822
+--- Starting Equ Objective_scenario: elapsed 0:00:02.863
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.823
+--- Starting Equ Const1_scenario: elapsed 0:00:02.864
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.825
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.866
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen8
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.831
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.869
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -461,19 +446,19 @@ Optimal solution found.
 Objective :        -286.983319
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.846
+--- Executing after solve: elapsed 0:00:02.886
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.846
+--- Starting Equ Objective_scenario: elapsed 0:00:02.886
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.846
+--- Starting Equ Const1_scenario: elapsed 0:00:02.886
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.848
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.888
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen9
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.852
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.893
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -505,19 +490,19 @@ Optimal solution found.
 Objective :        -291.564973
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.866
+--- Executing after solve: elapsed 0:00:02.911
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.866
+--- Starting Equ Objective_scenario: elapsed 0:00:02.911
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.866
+--- Starting Equ Const1_scenario: elapsed 0:00:02.912
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.869
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.915
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen10
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.872
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.919
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -549,19 +534,19 @@ Optimal solution found.
 Objective :        -299.126548
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.886
+--- Executing after solve: elapsed 0:00:02.934
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.886
+--- Starting Equ Objective_scenario: elapsed 0:00:02.935
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.887
+--- Starting Equ Const1_scenario: elapsed 0:00:02.935
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.889
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.937
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen11
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.893
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.941
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -593,19 +578,19 @@ Optimal solution found.
 Objective :        -302.952569
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.908
+--- Executing after solve: elapsed 0:00:02.958
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.908
+--- Starting Equ Objective_scenario: elapsed 0:00:02.958
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.909
+--- Starting Equ Const1_scenario: elapsed 0:00:02.958
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.911
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.962
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen12
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.916
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.967
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -637,19 +622,19 @@ Optimal solution found.
 Objective :        -301.028856
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.930
+--- Executing after solve: elapsed 0:00:02.982
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.930
+--- Starting Equ Objective_scenario: elapsed 0:00:02.982
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.931
+--- Starting Equ Const1_scenario: elapsed 0:00:02.982
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.933
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:02.984
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen13
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.938
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:02.988
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -675,25 +660,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.218332
 Iteration:     8   Dual objective     =          -333.939012
 LP status(1): optimal
-Cplex Time: 0.02sec (det. 0.16 ticks)
+Cplex Time: 0.00sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -302.431403
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.953
+--- Executing after solve: elapsed 0:00:03.003
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.953
+--- Starting Equ Objective_scenario: elapsed 0:00:03.003
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.953
+--- Starting Equ Const1_scenario: elapsed 0:00:03.004
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.955
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.006
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen14
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.960
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.011
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -725,19 +710,19 @@ Optimal solution found.
 Objective :        -307.564215
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.973
+--- Executing after solve: elapsed 0:00:03.029
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.973
+--- Starting Equ Objective_scenario: elapsed 0:00:03.029
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.974
+--- Starting Equ Const1_scenario: elapsed 0:00:03.030
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.975
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.033
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen15
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:05.979
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.036
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -769,19 +754,19 @@ Optimal solution found.
 Objective :        -302.538706
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:05.993
+--- Executing after solve: elapsed 0:00:03.053
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:05.993
+--- Starting Equ Objective_scenario: elapsed 0:00:03.053
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:05.993
+--- Starting Equ Const1_scenario: elapsed 0:00:03.054
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:05.997
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.056
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen16
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.002
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.061
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -813,19 +798,19 @@ Optimal solution found.
 Objective :        -298.879986
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.016
+--- Executing after solve: elapsed 0:00:03.077
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.017
+--- Starting Equ Objective_scenario: elapsed 0:00:03.077
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.017
+--- Starting Equ Const1_scenario: elapsed 0:00:03.077
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.019
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.081
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen17
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.023
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.086
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -857,19 +842,19 @@ Optimal solution found.
 Objective :        -308.759051
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.036
+--- Executing after solve: elapsed 0:00:03.101
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.036
+--- Starting Equ Objective_scenario: elapsed 0:00:03.101
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.037
+--- Starting Equ Const1_scenario: elapsed 0:00:03.101
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.039
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.103
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen18
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.043
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.108
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -901,19 +886,19 @@ Optimal solution found.
 Objective :        -307.959865
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.055
+--- Executing after solve: elapsed 0:00:03.123
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.055
+--- Starting Equ Objective_scenario: elapsed 0:00:03.123
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.056
+--- Starting Equ Const1_scenario: elapsed 0:00:03.123
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.057
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.125
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen19
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.062
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.129
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -945,19 +930,19 @@ Optimal solution found.
 Objective :        -299.272009
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.077
+--- Executing after solve: elapsed 0:00:03.145
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.077
+--- Starting Equ Objective_scenario: elapsed 0:00:03.145
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.077
+--- Starting Equ Const1_scenario: elapsed 0:00:03.145
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.079
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.148
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen20
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.084
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.152
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -989,19 +974,19 @@ Optimal solution found.
 Objective :        -306.458907
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.098
+--- Executing after solve: elapsed 0:00:03.171
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.098
+--- Starting Equ Objective_scenario: elapsed 0:00:03.171
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.098
+--- Starting Equ Const1_scenario: elapsed 0:00:03.171
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.100
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.174
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen21
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.105
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.180
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1033,19 +1018,19 @@ Optimal solution found.
 Objective :        -308.261622
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.118
+--- Executing after solve: elapsed 0:00:03.196
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.119
+--- Starting Equ Objective_scenario: elapsed 0:00:03.196
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.119
+--- Starting Equ Const1_scenario: elapsed 0:00:03.196
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.121
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.198
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen22
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.125
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.203
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1064,32 +1049,32 @@ CPXPARAM_Tune_TimeLimit                          420
 Tried aggregator 1 time.
 LP Presolve eliminated 11 rows and 14 columns.
 Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
-Presolve time = 0.02 sec. (0.07 ticks)
+Presolve time = 0.00 sec. (0.07 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.218332
 Iteration:     8   Dual objective     =          -336.623556
 LP status(1): optimal
-Cplex Time: 0.02sec (det. 0.16 ticks)
+Cplex Time: 0.00sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -304.963053
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.139
+--- Executing after solve: elapsed 0:00:03.219
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.139
+--- Starting Equ Objective_scenario: elapsed 0:00:03.220
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.139
+--- Starting Equ Const1_scenario: elapsed 0:00:03.220
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.141
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.223
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen23
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.146
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.227
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1121,19 +1106,19 @@ Optimal solution found.
 Objective :        -305.729834
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.163
+--- Executing after solve: elapsed 0:00:03.240
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.163
+--- Starting Equ Objective_scenario: elapsed 0:00:03.241
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.164
+--- Starting Equ Const1_scenario: elapsed 0:00:03.241
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.167
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.244
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen24
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.171
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.250
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1165,19 +1150,19 @@ Optimal solution found.
 Objective :        -305.687135
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.185
+--- Executing after solve: elapsed 0:00:03.266
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.185
+--- Starting Equ Objective_scenario: elapsed 0:00:03.266
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.186
+--- Starting Equ Const1_scenario: elapsed 0:00:03.266
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.188
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.269
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen25
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.192
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.273
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1203,25 +1188,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.308042
 Iteration:     7   Dual objective     =          -337.214919
 LP status(1): optimal
-Cplex Time: 0.00sec (det. 0.16 ticks)
+Cplex Time: 0.02sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -304.770679
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.206
+--- Executing after solve: elapsed 0:00:03.290
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.206
+--- Starting Equ Objective_scenario: elapsed 0:00:03.290
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.207
+--- Starting Equ Const1_scenario: elapsed 0:00:03.290
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.208
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.292
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen26
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.214
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.296
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1253,19 +1238,19 @@ Optimal solution found.
 Objective :        -313.310680
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.229
+--- Executing after solve: elapsed 0:00:03.309
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.229
+--- Starting Equ Objective_scenario: elapsed 0:00:03.309
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.229
+--- Starting Equ Const1_scenario: elapsed 0:00:03.310
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.231
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.312
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen27
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.235
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.317
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1284,32 +1269,32 @@ CPXPARAM_Tune_TimeLimit                          420
 Tried aggregator 1 time.
 LP Presolve eliminated 9 rows and 12 columns.
 Reduced LP has 39 rows, 85 columns, and 139 nonzeros.
-Presolve time = 0.02 sec. (0.08 ticks)
+Presolve time = 0.00 sec. (0.08 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.308042
 Iteration:     7   Dual objective     =          -345.052657
 LP status(1): optimal
-Cplex Time: 0.02sec (det. 0.16 ticks)
+Cplex Time: 0.00sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -312.668687
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.251
+--- Executing after solve: elapsed 0:00:03.331
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.251
+--- Starting Equ Objective_scenario: elapsed 0:00:03.331
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.252
+--- Starting Equ Const1_scenario: elapsed 0:00:03.331
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.254
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.334
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen28
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.259
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.339
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1341,19 +1326,19 @@ Optimal solution found.
 Objective :        -310.441313
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.274
+--- Executing after solve: elapsed 0:00:03.356
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.274
+--- Starting Equ Objective_scenario: elapsed 0:00:03.356
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.275
+--- Starting Equ Const1_scenario: elapsed 0:00:03.357
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.277
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.359
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen29
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.282
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.364
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1385,19 +1370,19 @@ Optimal solution found.
 Objective :        -309.695100
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.296
+--- Executing after solve: elapsed 0:00:03.381
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.296
+--- Starting Equ Objective_scenario: elapsed 0:00:03.382
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.296
+--- Starting Equ Const1_scenario: elapsed 0:00:03.382
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.298
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.385
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen30
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.302
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.389
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1429,19 +1414,19 @@ Optimal solution found.
 Objective :        -314.737584
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.318
+--- Executing after solve: elapsed 0:00:03.404
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.318
+--- Starting Equ Objective_scenario: elapsed 0:00:03.404
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.318
+--- Starting Equ Const1_scenario: elapsed 0:00:03.404
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.320
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.406
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen31
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.325
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.411
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1473,19 +1458,19 @@ Optimal solution found.
 Objective :        -308.855678
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.340
+--- Executing after solve: elapsed 0:00:03.423
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.340
+--- Starting Equ Objective_scenario: elapsed 0:00:03.423
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.341
+--- Starting Equ Const1_scenario: elapsed 0:00:03.423
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.343
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.426
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen32
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.349
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.431
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1517,19 +1502,19 @@ Optimal solution found.
 Objective :        -309.767057
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.364
+--- Executing after solve: elapsed 0:00:03.446
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.364
+--- Starting Equ Objective_scenario: elapsed 0:00:03.446
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.365
+--- Starting Equ Const1_scenario: elapsed 0:00:03.447
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.368
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.450
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen33
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.372
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.455
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1561,19 +1546,19 @@ Optimal solution found.
 Objective :        -308.746355
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.387
+--- Executing after solve: elapsed 0:00:03.469
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.387
+--- Starting Equ Objective_scenario: elapsed 0:00:03.469
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.388
+--- Starting Equ Const1_scenario: elapsed 0:00:03.469
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.390
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.472
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen34
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.394
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.476
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1599,25 +1584,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -346.896977
 LP status(1): optimal
-Cplex Time: 0.00sec (det. 0.15 ticks)
+Cplex Time: 0.02sec (det. 0.15 ticks)
 
 Optimal solution found.
 Objective :        -314.754679
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.408
+--- Executing after solve: elapsed 0:00:03.491
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.408
+--- Starting Equ Objective_scenario: elapsed 0:00:03.492
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.408
+--- Starting Equ Const1_scenario: elapsed 0:00:03.492
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.411
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.494
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen35
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.414
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.499
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1649,19 +1634,19 @@ Optimal solution found.
 Objective :        -304.385460
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.430
+--- Executing after solve: elapsed 0:00:03.515
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.430
+--- Starting Equ Objective_scenario: elapsed 0:00:03.516
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.430
+--- Starting Equ Const1_scenario: elapsed 0:00:03.516
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.432
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.519
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen36
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.436
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.523
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1693,19 +1678,19 @@ Optimal solution found.
 Objective :        -308.145179
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.451
+--- Executing after solve: elapsed 0:00:03.540
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.451
+--- Starting Equ Objective_scenario: elapsed 0:00:03.540
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.451
+--- Starting Equ Const1_scenario: elapsed 0:00:03.540
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.453
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.543
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen37
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.457
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.547
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1737,19 +1722,19 @@ Optimal solution found.
 Objective :        -311.047888
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.472
+--- Executing after solve: elapsed 0:00:03.562
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.472
+--- Starting Equ Objective_scenario: elapsed 0:00:03.562
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.472
+--- Starting Equ Const1_scenario: elapsed 0:00:03.563
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.474
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.565
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen38
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.479
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.569
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1781,19 +1766,19 @@ Optimal solution found.
 Objective :        -313.920411
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.494
+--- Executing after solve: elapsed 0:00:03.583
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.495
+--- Starting Equ Objective_scenario: elapsed 0:00:03.583
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.495
+--- Starting Equ Const1_scenario: elapsed 0:00:03.583
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.498
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.586
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen39
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.502
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.590
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1825,19 +1810,19 @@ Optimal solution found.
 Objective :        -318.103738
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.517
+--- Executing after solve: elapsed 0:00:03.611
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.517
+--- Starting Equ Objective_scenario: elapsed 0:00:03.611
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.517
+--- Starting Equ Const1_scenario: elapsed 0:00:03.611
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.519
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.614
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen40
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.523
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.617
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1863,25 +1848,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -351.175976
 LP status(1): optimal
-Cplex Time: 0.00sec (det. 0.16 ticks)
+Cplex Time: 0.02sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -319.159398
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.537
+--- Executing after solve: elapsed 0:00:03.633
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.537
+--- Starting Equ Objective_scenario: elapsed 0:00:03.633
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.537
+--- Starting Equ Const1_scenario: elapsed 0:00:03.634
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.541
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.637
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen41
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.546
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.642
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1907,25 +1892,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -341.051625
 LP status(1): optimal
-Cplex Time: 0.01sec (det. 0.16 ticks)
+Cplex Time: 0.00sec (det. 0.16 ticks)
 
 Optimal solution found.
 Objective :        -309.135507
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.560
+--- Executing after solve: elapsed 0:00:03.657
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.560
+--- Starting Equ Objective_scenario: elapsed 0:00:03.657
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.560
+--- Starting Equ Const1_scenario: elapsed 0:00:03.657
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.562
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.660
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen42
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.566
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.665
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -1944,32 +1929,32 @@ CPXPARAM_Tune_TimeLimit                          420
 Tried aggregator 1 time.
 LP Presolve eliminated 10 rows and 13 columns.
 Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
-Presolve time = 0.00 sec. (0.08 ticks)
+Presolve time = 0.01 sec. (0.08 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -331.543105
 LP status(1): optimal
-Cplex Time: 0.00sec (det. 0.15 ticks)
+Cplex Time: 0.01sec (det. 0.15 ticks)
 
 Optimal solution found.
 Objective :        -299.637279
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.580
+--- Executing after solve: elapsed 0:00:03.678
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.580
+--- Starting Equ Objective_scenario: elapsed 0:00:03.678
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.580
+--- Starting Equ Const1_scenario: elapsed 0:00:03.678
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.583
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.680
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen43
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.587
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.684
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2001,19 +1986,19 @@ Optimal solution found.
 Objective :        -303.346161
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.602
+--- Executing after solve: elapsed 0:00:03.699
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.602
+--- Starting Equ Objective_scenario: elapsed 0:00:03.699
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.602
+--- Starting Equ Const1_scenario: elapsed 0:00:03.699
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.605
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.702
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen44
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.611
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.709
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2045,19 +2030,19 @@ Optimal solution found.
 Objective :        -303.871816
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.625
+--- Executing after solve: elapsed 0:00:03.724
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.625
+--- Starting Equ Objective_scenario: elapsed 0:00:03.724
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.625
+--- Starting Equ Const1_scenario: elapsed 0:00:03.724
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.628
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.727
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen45
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.632
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.731
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2089,19 +2074,19 @@ Optimal solution found.
 Objective :        -313.552434
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.648
+--- Executing after solve: elapsed 0:00:03.746
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.648
+--- Starting Equ Objective_scenario: elapsed 0:00:03.747
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.649
+--- Starting Equ Const1_scenario: elapsed 0:00:03.747
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.651
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.749
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen46
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.655
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.753
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2127,25 +2112,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -352.497868
 LP status(1): optimal
-Cplex Time: 0.02sec (det. 0.15 ticks)
+Cplex Time: 0.00sec (det. 0.15 ticks)
 
 Optimal solution found.
 Objective :        -320.405760
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.671
+--- Executing after solve: elapsed 0:00:03.767
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.671
+--- Starting Equ Objective_scenario: elapsed 0:00:03.767
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.671
+--- Starting Equ Const1_scenario: elapsed 0:00:03.768
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.673
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.769
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen47
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.677
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.773
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2171,25 +2156,25 @@ Iteration log . . .
 Iteration:     1   Dual infeasibility =             0.285410
 Iteration:     8   Dual objective     =          -359.775260
 LP status(1): optimal
-Cplex Time: 0.00sec (det. 0.15 ticks)
+Cplex Time: 0.02sec (det. 0.15 ticks)
 
 Optimal solution found.
 Objective :        -327.734853
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.692
+--- Executing after solve: elapsed 0:00:03.789
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.692
+--- Starting Equ Objective_scenario: elapsed 0:00:03.789
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.692
+--- Starting Equ Const1_scenario: elapsed 0:00:03.789
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.695
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.792
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen48
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.700
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.796
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2221,19 +2206,19 @@ Optimal solution found.
 Objective :        -318.470028
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.715
+--- Executing after solve: elapsed 0:00:03.812
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.716
+--- Starting Equ Objective_scenario: elapsed 0:00:03.812
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.716
+--- Starting Equ Const1_scenario: elapsed 0:00:03.812
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.719
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.815
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen49
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.723
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.819
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2265,19 +2250,19 @@ Optimal solution found.
 Objective :        -316.249613
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.738
+--- Executing after solve: elapsed 0:00:03.832
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.738
+--- Starting Equ Objective_scenario: elapsed 0:00:03.832
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.739
+--- Starting Equ Const1_scenario: elapsed 0:00:03.832
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.742
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.834
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen50
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.746
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.838
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2309,19 +2294,19 @@ Optimal solution found.
 Objective :        -307.312563
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.762
+--- Executing after solve: elapsed 0:00:03.851
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.762
+--- Starting Equ Objective_scenario: elapsed 0:00:03.851
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.762
+--- Starting Equ Const1_scenario: elapsed 0:00:03.851
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.765
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.853
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen51
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.770
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.856
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2353,19 +2338,19 @@ Optimal solution found.
 Objective :        -298.891176
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.787
+--- Executing after solve: elapsed 0:00:03.871
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.787
+--- Starting Equ Objective_scenario: elapsed 0:00:03.871
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.788
+--- Starting Equ Const1_scenario: elapsed 0:00:03.872
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.790
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.874
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen52
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.794
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.879
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2397,19 +2382,19 @@ Optimal solution found.
 Objective :        -293.323766
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.810
+--- Executing after solve: elapsed 0:00:03.897
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.811
+--- Starting Equ Objective_scenario: elapsed 0:00:03.897
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.811
+--- Starting Equ Const1_scenario: elapsed 0:00:03.897
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.814
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.900
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen53
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.818
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.904
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2441,19 +2426,19 @@ Optimal solution found.
 Objective :        -297.192031
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.833
+--- Executing after solve: elapsed 0:00:03.921
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.833
+--- Starting Equ Objective_scenario: elapsed 0:00:03.922
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.833
+--- Starting Equ Const1_scenario: elapsed 0:00:03.922
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.835
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.924
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen54
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.839
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.928
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2485,19 +2470,19 @@ Optimal solution found.
 Objective :        -294.198890
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.853
+--- Executing after solve: elapsed 0:00:03.943
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.853
+--- Starting Equ Objective_scenario: elapsed 0:00:03.944
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.853
+--- Starting Equ Const1_scenario: elapsed 0:00:03.944
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.856
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.947
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen55
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.861
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.951
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2529,19 +2514,19 @@ Optimal solution found.
 Objective :        -299.750603
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.878
+--- Executing after solve: elapsed 0:00:03.966
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.879
+--- Starting Equ Objective_scenario: elapsed 0:00:03.966
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.879
+--- Starting Equ Const1_scenario: elapsed 0:00:03.966
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.881
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.969
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen56
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.885
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.974
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2573,19 +2558,19 @@ Optimal solution found.
 Objective :        -299.245481
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.899
+--- Executing after solve: elapsed 0:00:03.989
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.899
+--- Starting Equ Objective_scenario: elapsed 0:00:03.989
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.900
+--- Starting Equ Const1_scenario: elapsed 0:00:03.990
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.903
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:03.993
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen57
 ---   48 rows  97 columns  213 non-zeroes
---- Executing CPLEX (Solvelink=5): elapsed 0:00:06.908
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:03.998
 
 IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
@@ -2617,32 +2602,1957 @@ Optimal solution found.
 Objective :        -307.238990
 
 --- Reading solution for model schedule_scenario
---- Executing after solve: elapsed 0:00:06.922
+--- Executing after solve: elapsed 0:00:04.013
 --- TestLoop.gms(1570) 23 Mb
 --- Generating MIP model schedule_scenario
 --- TestLoop.gms(1514) 23 Mb
---- Starting Equ Objective_scenario: elapsed 0:00:06.922
+--- Starting Equ Objective_scenario: elapsed 0:00:04.013
 --- TestLoop.gms(1498) 23 Mb
---- Starting Equ Const1_scenario: elapsed 0:00:06.923
+--- Starting Equ Const1_scenario: elapsed 0:00:04.013
 --- TestLoop.gms(1503) 23 Mb
---- Starting Equ Const_chance_1_scenario: elapsed 0:00:06.925
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.015
 --- TestLoop.gms(1573) 23 Mb
 --- LOOPS rs = scen58
 ---   48 rows  97 columns  213 non-zeroes
-*** Error at line 1573: Control C Event: execution halted
---- TestLoop.gms(1573) 23 Mb 1 Error
-*** SOLVE aborted
---- Profile Summary (2884 records processed)
-     5.141   0.022GB      1548 Solve Alg  schedule
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.020
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -347.807143
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -315.690887
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.033
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.033
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.033
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.035
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen59
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.039
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -350.803518
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -318.681943
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.052
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.053
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.053
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.055
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen60
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.059
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -342.017836
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -309.925699
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.074
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.074
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.074
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.076
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen61
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.080
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -338.556387
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -306.557252
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.093
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.094
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.094
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.096
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen62
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.100
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -336.424370
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -304.473600
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.114
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.114
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.115
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.118
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen63
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.122
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -332.062252
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -300.075519
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.137
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.137
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.137
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.140
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen64
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.145
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -330.489289
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -298.539585
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.159
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.160
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.160
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.162
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen65
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.167
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -342.205449
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -310.260612
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.184
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.184
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.184
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.186
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen66
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.191
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -351.550159
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -320.015300
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.206
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.206
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.207
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.209
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen67
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.214
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -346.086124
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -314.131105
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.227
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.227
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.227
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.229
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen68
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.233
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -348.098655
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -316.091416
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.247
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.247
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.247
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.249
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen69
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.253
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -344.349739
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -312.709959
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.267
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.267
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.267
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.270
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen70
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.274
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -330.548016
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -298.892628
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.290
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.290
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.290
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.293
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen71
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.297
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -330.765060
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -299.101729
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.311
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.311
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.311
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.314
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen72
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.318
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -336.954630
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -305.217112
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.334
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.334
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.334
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.336
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen73
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.340
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -329.511035
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -297.419533
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.357
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.358
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.359
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.361
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen74
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.366
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -323.335731
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -291.315725
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.382
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.382
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.383
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.386
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen75
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.390
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -325.517757
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -293.521937
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.406
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.407
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.407
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.409
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen76
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.414
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.01 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -322.846418
+LP status(1): optimal
+Cplex Time: 0.01sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -290.810352
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.429
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.430
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.430
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.432
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen77
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.438
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -313.378357
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -281.398487
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.452
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.452
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.453
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.455
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen78
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.460
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -317.513261
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -285.488229
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.474
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.474
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.475
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.477
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen79
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.482
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -320.772171
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -288.734407
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.498
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.498
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.499
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.501
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen80
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.505
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 9 rows and 12 columns.
+Reduced LP has 39 rows, 85 columns, and 139 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.308042
+Iteration:     7   Dual objective     =          -322.182492
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -289.578811
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.520
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.520
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.520
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.523
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen81
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.528
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -316.028447
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -284.102309
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.542
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.542
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.542
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.545
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen82
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.549
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -317.842327
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -285.859254
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.564
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.564
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.564
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.567
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen83
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.571
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.02 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -316.506551
+LP status(1): optimal
+Cplex Time: 0.02sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -284.503019
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.587
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.587
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.588
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.590
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen84
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.594
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -318.512468
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -286.981573
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.609
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.609
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.610
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.613
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen85
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.617
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -326.920372
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -295.499053
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.637
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.637
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.638
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.640
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen86
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.648
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -326.456362
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -294.887632
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.666
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.666
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.666
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.668
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen87
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.672
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -330.361055
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -298.845512
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.688
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.689
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.689
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.693
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen88
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.698
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.240965
+Iteration:     7   Dual objective     =          -341.442482
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -309.928718
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.713
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.713
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.713
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.715
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen89
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.719
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -348.707983
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -316.697873
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.734
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.734
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.734
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.737
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen90
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.741
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -338.823852
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -306.700975
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.756
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.756
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.757
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.760
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen91
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.765
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -350.772048
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -318.667035
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.781
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.782
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.782
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.784
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen92
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.789
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 14 columns.
+Reduced LP has 37 rows, 83 columns, and 133 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.218332
+Iteration:     8   Dual objective     =          -358.134469
+LP status(1): optimal
+Cplex Time: 0.01sec (det. 0.16 ticks)
+
+Optimal solution found.
+Objective :        -326.441119
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.806
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.807
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.807
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.811
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen93
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.816
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -345.657183
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -313.642096
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.832
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.832
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.832
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.835
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen94
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.839
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -340.725069
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -308.703669
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.854
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.854
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.855
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.857
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen95
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.862
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -348.287446
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -316.293560
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.876
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.877
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.877
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.880
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen96
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.884
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -346.255810
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -314.298871
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.898
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.898
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.898
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.900
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen97
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.904
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -330.881605
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -298.936437
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.918
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.918
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.918
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.920
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen98
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.924
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -328.239232
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -296.211963
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.940
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.940
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.941
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.943
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen99
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.948
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -319.516242
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -287.548123
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.965
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.965
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.966
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.968
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen100
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:04.972
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -313.770020
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -281.810752
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:04.990
+--- TestLoop.gms(1570) 23 Mb
+--- Generating MIP model schedule_scenario
+--- TestLoop.gms(1514) 23 Mb
+--- Starting Equ Objective_scenario: elapsed 0:00:04.990
+--- TestLoop.gms(1498) 23 Mb
+--- Starting Equ Const1_scenario: elapsed 0:00:04.991
+--- TestLoop.gms(1503) 23 Mb
+--- Starting Equ Const_chance_1_scenario: elapsed 0:00:04.994
+--- TestLoop.gms(1573) 23 Mb
+--- LOOPS rs = scen101
+---   48 rows  97 columns  213 non-zeroes
+--- Executing CPLEX (Solvelink=5): elapsed 0:00:05.000
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Tried aggregator 1 time.
+LP Presolve eliminated 10 rows and 13 columns.
+Reduced LP has 38 rows, 84 columns, and 136 nonzeros.
+Presolve time = 0.00 sec. (0.08 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.285410
+Iteration:     8   Dual objective     =          -306.569359
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.15 ticks)
+
+Optimal solution found.
+Objective :        -274.664975
+
+--- Reading solution for model schedule_scenario
+--- Executing after solve: elapsed 0:00:05.016
+--- TestLoop.gms(1570) 23 Mb
+*** Error at line 1573: Execution halted: Triggered by pending CtrlC event
+--- TestLoop.gms(1570) 23 Mb 1 Error
+--- Profile Summary (3316 records processed)
+     2.188   0.022GB      1548 Solve Alg  schedule
      0.203   0.009GB      1494 Equation   Objective (1)
      0.156   0.005GB      1417 Loop       
      0.062   0.022GB      1548 Solve Fini schedule (127825)
      0.031   0.022GB      1502 Equation   Const_chance_1 (14400)
      0.016   0.018GB      1496 Equation   Const1 (13800)
      0.016   0.022GB      1548 Solve Read schedule
-     0.016   0.022GB      1573 Solve Read schedule_scenario
+     0.016   0.022GB      1498 Equation   Const1_scenario (23)
      0.016   0.022GB      1573 Solve Alg  schedule_scenario
-     0.016   0.005GB      1408 Assignment dummysolar (8104)
---- TestLoop.gms(1573) 23 Mb 1 Error
+     0.016   0.005GB      1424 Assignment dummysolar (8104)
+--- TestLoop.gms(1570) 23 Mb 1 Error
 *** Status: Execution error(s)
---- Job TestLoop.gms Stop 05/06/21 10:12:57 elapsed 0:00:06.932
+--- Job TestLoop.gms Stop 05/06/21 10:15:56 elapsed 0:00:05.017
