@@ -16,6 +16,6 @@ module load gams/24.8
 
 
 gams TestLoop.gms
- 
+
 # run 
-./a.out
+#./a.out
