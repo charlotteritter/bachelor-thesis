@@ -1,0 +1,50 @@
+--- Job main_for_naive.gms Start 05/07/21 16:18:58 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\32\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\main_for_naive.gms
+    PageSize 0
+    ScrDir C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\225b\
+    SysDir C:\GAMS\32\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
+          Friedrich-Alexander-Universitaet Erlangen-Nurnberg         DC7699
+          C:\GAMS\32\gamslice.txt
+--- Starting compilation
+--- main_for_naive.gms(13) 2 Mb
+--- . inputME.gms(14) 3 Mb
+--- .. solar_scenarios_600.csv(601) 3 Mb
+--- . inputME.gms(86) 3 Mb
+--- .. scenario_sorted_600_05.csv(601) 3 Mb
+--- . inputME.gms(116) 3 Mb
+--- .. battery_revenue.csv(25) 3 Mb
+--- . inputME.gms(185) 3 Mb
+--- main_for_naive.gms(16) 3 Mb
+--- . subgradient_parameters.gms(33) 3 Mb
+--- main_for_naive.gms(19) 3 Mb
+--- . equations_all.gms(76) 3 Mb
+--- main_for_naive.gms(50) 3 Mb 1 Error
+*** Error 140 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\main_for_naive.gms
+    Unknown symbol
+--- main_for_naive.gms(59) 3 Mb 2 Errors
+*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\main_for_naive.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- main_for_naive.gms(64) 3 Mb 3 Errors
+*** Error 141 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\main_for_naive.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- main_for_naive.gms(69) 3 Mb 3 Errors
+*** Status: Compilation error(s)
+--- Job main_for_naive.gms Stop 05/07/21 16:18:58 elapsed 0:00:00.039

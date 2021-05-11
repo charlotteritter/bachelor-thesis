@@ -1,3 +1,0 @@
-Hallöchen
-# Bachelor-Thesis
-

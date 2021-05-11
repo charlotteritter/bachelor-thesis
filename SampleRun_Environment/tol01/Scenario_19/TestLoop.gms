@@ -49,7 +49,7 @@ ObjNaive=Obj.l;
 
 
 scalar GapNaive;
-GapNaive = abs((schedule.objEst-schedule.objVal)/schedule.objEst);
+GapNaive = abs((schedule.objEst-schedule.objVal)/max(abs(schedule.objEst),abs(schedule.objVal)));
 
 scalar TimeNaive;
 TimeNaive=run_time_total;    
