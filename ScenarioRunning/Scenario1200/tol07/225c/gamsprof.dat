@@ -1,0 +1,11 @@
+6185      0.028
+2618 5      0.034       0.005 Loop       
+2618 9      0.057       0.005 Loop       
+2618 7      0.038       0.005 Loop       
+2618 2      0.036       0.005 Loop       
+2617 8      0.564       0.005 Loop       
+2748 6      0.053       0.039 GAMS Fini   
+2694 10      0.103       0.014 Equation   Objective (1)
+2702 3      0.055       0.039 Equation   Const_chance_1 (28800)
+2748 4      0.142       0.039 Solve Fini schedule (255625)
+2696 1      0.052       0.029 Equation   Const1 (27600)

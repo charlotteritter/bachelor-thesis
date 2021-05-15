@@ -1,4 +1,4 @@
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 1
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 1
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -56,7 +56,7 @@ INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/S
   55  scen21,0,0,0,0,0,0,0,25.38976183,186.6569727,537.5391315,791.253661,794.880913,1263.999715,1040.92449,1060.286259,948.3950635,732.7801667,488.7123567,168.6383007,112.8777771,0,0,0,0
   56  scen22,0,0,0,0,0,0,0,10.89089509,102.7409361,695.8699189,1242.626055,1020.8837,978.4200496,1316.627463,1137.640731,766.5819891,796.6164468,471.1899861,198.5824634,129.1373872,0,0,0,0
   57  scen23,0,0,0,0,0,0,0,28.13106937,91.2555423,491.2876437,989.6744192,1137.413845,1054.877937,1292.694277,1017.880195,1077.715012,769.891461,482.5233517,177.3357967,124.4584919,0,0,0,0
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 2
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 2
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -114,7 +114,7 @@ C o m p i l a t i o n
  108  scen74,0,0,0,0,0,0,0,3.318371209,82.72475718,537.8103316,1074.911145,865.4471398,829.5048093,1158.544194,1275.168732,923.5031461,753.3762358,423.7511472,188.2237113,121.0629808,0,0,0,0
  109  scen75,0,0,0,0,0,0,0,6.913779932,92.17881926,580.8096453,980.3173971,833.6659148,814.7978782,1272.69373,1088.533401,803.7788027,733.003862,430.0534164,174.9007671,128.7423973,0,0,0,0
  110  scen76,0,0,0,0,0,0,0.041597283,19.3946289,86.77436826,597.4727895,930.0220842,1024.346507,1258.057973,1442.839596,1045.31547,1025.652273,742.9152819,478.5249306,169.119572,120.7125115,0,0,0,0
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 3
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 3
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -172,7 +172,7 @@ C o m p i l a t i o n
 ****                                      $282
 **** LINE     42 INCLUDE     /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/inputME.gms
 **** LINE     19 INPUT       /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/TestLoop.gms
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 4
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 4
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -230,7 +230,7 @@ C o m p i l a t i o n
  213  *$INCLUDE scenario_sorted_1200_05.csv
  214  *$INCLUDE scenario_sorted_2400_01.csv
  215  *$INCLUDE scenario_sorted_2400_05.csv
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 5
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 5
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -288,7 +288,7 @@ INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/S
  266  Prices(t,'char')    =  - Prices(t,'char');
  267  Prices(t,'dischar') =  - Prices(t,'dischar');
  268  ** define solar scenarios at all time periods
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 6
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 6
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -346,7 +346,7 @@ C o m p i l a t i o n
  319           minsolar(t) = smin(scen,dummysolar(scen,t)) ;
  320  * index of smallest solar value
  321           dummy(scen) = yes$(dummysolar(scen,t) eq minsolar(t)) ;
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 7
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 7
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -404,7 +404,7 @@ INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/S
  372   
  373  EQUATIONS
  374          Objective
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 8
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 8
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -462,7 +462,7 @@ C o m p i l a t i o n
  425                                   sum(t,weight_previous(scen,t)*Y(t)) ;
  426   
  427  *** bounds on any variables
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/11/21 16:28:22 Page 9
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                      05/14/21 23:48:50 Page 9
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -520,7 +520,7 @@ INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/S
  469  loop(rs,
  470  counter = ord(rs)  ;
  471  *Solving (2) for each scenario w with corresponding z(w) = 0
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 10
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 10
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -578,7 +578,7 @@ C o m p i l a t i o n
  510  * Clear bound on z now
  511  z.up(scen) = 1 ;
  512  z.lo(scen) = 0 ;
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 11
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 11
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -636,7 +636,7 @@ C o m p i l a t i o n
  561  parameter check(scen,t);
  562  scalar steprule;
  563  scalar FinalIter;
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 12
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 12
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -694,7 +694,7 @@ INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/S
  608  * Gamma update
  609  gamma =  threshold - sum(scen, last_z(scen));
  610   
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 13
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 13
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -710,94 +710,91 @@ C o m p i l a t i o n
  619   
  620  * Fix the Stepsize
  621   
-INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/stepsize.gms
- 623  *** Different step-size updates
- 624   
- 625  *** Guarantees that never zero in the denominator
- 626  *norm = max(abs(gamma), 1e-6);
- 627  norm2 = max(gamma*gamma, 1e-6);
- 628   
- 629  *** constant step-size rule
- 630  if(steprule=1,stepsize = 0.5;);
- 631   
- 632  *** constant step length
- 633  if(steprule=2,stepsize = 0.5/norm2;);
- 634   
- 635  *** square summable but not summable
- 636  if(steprule=3,stepsize = 0.5/(1+num_iter););
- 637   
- 638  *** nonsummable diminishing
- 639  if(steprule=4,stepsize= 0.5/sqrt(num_iter););
- 640   
- 641  *** nonsummable diminishing step length
- 642  if(steprule=5,stepsize= (1/num_iter)/norm2;);
- 643   
- 644  *** original
- 645  if(steprule=6,stepsize=theta*(upperbound - bound)/norm2;);
+INCLUDE    /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/stepsize3.gms
+ 623  *** Guarantees that never zero in the denominator
+ 624  *norm = max(abs(gamma), 1e-6);
+ 625  norm2 = max(gamma*gamma, 1e-6);
+ 626   
+ 627  *** constant step-size rule
+ 628  if(steprule=1,stepsize =0.015;);
+ 629   
+ 630  *** constant step length
+ 631  if(steprule=2,stepsize = 1.5/norm2;);
+ 632   
+ 633  *** square summable but not summable
+ 634  if(steprule=3,stepsize =0.03/(3+num_iter););
+ 635   
+ 636  *** nonsummable diminishing
+ 637  if(steprule=4,stepsize= 0.005/sqrt(num_iter););
+ 638   
+ 639  *** nonsummable diminishing step length
+ 640  if(steprule=5,stepsize= (6/num_iter)/norm2;);
+ 641   
+ 642  *** original
+ 643  if(steprule=6,stepsize=theta*(upperbound - bound)/norm2;);
+ 644   
+ 645  * Lambda Update
  646   
- 647   
- 648  * Lambda Update
- 649   
- 650  lambdaprevious = lambda ;
- 651   
- 652           if (gamma ge 0 and lambdaprevious eq 0,
- 653                   lambda = lambdaprevious ; );
- 654           if (gamma gt 0 and lambdaprevious gt 0,
- 655                   lambda = lambdaprevious - min(stepsize, lambdaprevious/gamma)*gamma ; );
- 656           if (gamma le 0,
- 657                   lambda = lambdaprevious - stepsize*gamma; );
- 658   
- 659  * Check convergence
- 660  convergence=0;
- 661  deltalambda = abs(lambdaprevious-lambda) ;
- 662  if( deltalambda < 0.0001, contin = 0; display 'lambdas same'; convergence = 1 );
- 663   
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 14
+ 647  lambdaprevious = lambda ;
+ 648   
+ 649           if (gamma ge 0 and lambdaprevious eq 0,
+ 650                   lambda = lambdaprevious ; );
+ 651           if (gamma gt 0 and lambdaprevious gt 0,
+ 652                   lambda = lambdaprevious - min(stepsize, lambdaprevious/gamma)*gamma ; );
+ 653           if (gamma le 0,
+ 654                   lambda = lambdaprevious - stepsize*gamma; );
+ 655   
+ 656  * Check convergence
+ 657  convergence=0;
+ 658  deltalambda = abs(lambdaprevious-lambda) ;
+ 659  if( deltalambda < 0.0001, contin = 0; display 'lambdas same'; convergence = 1 );
+ 660   
+ 661  * Results output
+ 662  results(iter,'deltalambda') = deltalambda;
+ 663  results(iter,'noimprov') = noimprovement;
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 14
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
 
- 664  * Results output
- 665  results(iter,'deltalambda') = deltalambda;
- 666  results(iter,'noimprov') = noimprovement;
- 667  results(iter,'theta') = theta;
- 668  results(iter,'step') = stepsize;
- 669  results(iter,'gamma') = gamma ;
- 670  results(iter,'lambda') = lambda ;
- 671  results(iter,'gap') = abs((upperbound-lowerbound)/upperbound)     ; //gap is same as computed by GAMS
- 672      if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)),convergence=2; contin = 0;);
- 673      lr_time = lr_time + results(iter,'time')   ;
- 674      if (lr_time > time_limit, contin = 0 ; ) ;
- 675   
- 676      r=results(iter,'gap');
- 677      FinalIter=num_iter;
- 678  );
- 679   
- 680  run_time_total = LP_time + lr_time + bound_time  ;
- 681   
- 682  * check if any p and q active simultaneously (nothing to do with Lagrangian)
- 683  *parameter check(scen,t);
- 684  check(scen,t) = 0 ;
- 685  check(scen,t) = 1$( p.l(scen,t) gt 0 and q.l(scen,t) gt 0) ;
- 686  if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, check. ");
- 687   
- 688   
+ 664  results(iter,'theta') = theta;
+ 665  results(iter,'step') = stepsize;
+ 666  results(iter,'gamma') = gamma ;
+ 667  results(iter,'lambda') = lambda ;
+ 668  results(iter,'gap') = abs((upperbound-lowerbound)/upperbound)     ; //gap is same as computed by GAMS
+ 669      if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)),convergence=2; contin = 0;);
+ 670      lr_time = lr_time + results(iter,'time')   ;
+ 671      if (lr_time > time_limit, contin = 0 ; ) ;
+ 672   
+ 673      r=results(iter,'gap');
+ 674      FinalIter=num_iter;
+ 675  );
+ 676   
+ 677  run_time_total = LP_time + lr_time + bound_time  ;
+ 678   
+ 679  * check if any p and q active simultaneously (nothing to do with Lagrangian)
+ 680  *parameter check(scen,t);
+ 681  check(scen,t) = 0 ;
+ 682  check(scen,t) = 1$( p.l(scen,t) gt 0 and q.l(scen,t) gt 0) ;
+ 683  if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, check. ");
+ 684   
+ 685   
+ 686   
+ 687  put TestingFile;
+ 688  put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((lowerbound-ObjNaive)/ObjNaive), put TimeNaive, put lr_time put lambda put /;
  689   
- 690  put TestingFile;
- 691  put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((lowerbound-ObjNaive)/ObjNaive), put TimeNaive, put lr_time put lambda put /;
+ 690  display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
+ 691  display z.l, y.l ;
  692   
- 693  display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
- 694  display z.l, y.l ;
+ 693   
+ 694  );
  695   
- 696   
- 697  );
- 698   
 
 **** LIST OF STRAY NAMES - CHECK DECLARATIONS FOR SPURIOUS COMMAS
 **** STRAY NAME init_bound OF TYPE PARAM
 **** STRAY NAME t1 OF TYPE PARAM
 **** STRAY NAME t2 OF TYPE PARAM
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 15
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 15
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Error Messages
 
@@ -813,7 +810,7 @@ Error Messages
 463  The column section in the previous table is missing
 
 **** 12 ERROR(S)   0 WARNING(S)
-GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/11/21 16:28:22 Page 16
+GAMS 24.8.5  r61358 Released May 10, 2017 LEX-LEG x86 64bit/Linux                                                                                                                                                                     05/14/21 23:48:50 Page 16
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Include File Summary
 
@@ -830,10 +827,10 @@ Include File Summary
      8      456 INCLUDE        1      24  ./home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/heuristic_upperbound.gms
      9      587 INCLUDE        1      96  ./home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/plain_lr.gms
     10      605 INCLUDE        1     102  ./home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/LR_updatesMe.gms
-    11      622 INCLUDE       10      17  ../home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/stepsize.gms
+    11      622 INCLUDE       10      17  ../home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/tol03/Scenario_7/stepsize3.gms
 
 
-COMPILATION TIME     =        0.020 SECONDS      3 MB  24.8.5 r61358 LEX-LEG
+COMPILATION TIME     =        0.806 SECONDS      3 MB  24.8.5 r61358 LEX-LEG
 
 
 USER: Small MUD - 5 User License                     S160825:0507AO-LNX
