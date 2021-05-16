@@ -6,11 +6,11 @@ $onMultiR
 SETS T times/t1*t24/;
 
 * Number of scenarios 
-SETS SCEN scenarios /scen1*scen300/;
+SETS SCEN scenarios /scen1*scen600/;
 
 TABLE Solar(scen,t)
 $ondelim
-$INCLUDE solar_scenarios_300.csv
+$INCLUDE solar_scenarios_600_20.csv
 $offdelim
 ;
 
@@ -36,7 +36,7 @@ $offdelim
 
 *Tolerance 
 scalar tol;
-tol=0.03;
+tol=0.01;
 
 * maximum number of iterations in LR
 set iter number of subgradient iterations /iter1*iter10/;
