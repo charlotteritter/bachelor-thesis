@@ -63,7 +63,7 @@ display Obj.l, run_time_total ;
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
-option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001 ;
+option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
 prev_y(t) = y.l(t) ;
 
