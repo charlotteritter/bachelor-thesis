@@ -6,19 +6,19 @@ SETS T times/t1*t24/;
 
 * Number of scenarios 
 *SETS SCEN scenarios /scen1*%MAXSCEN%/;
-SETS SCEN scenarios /scen1*scen1200/;
+SETS SCEN scenarios /scen1*scen150/;
 
 TABLE Solar(scen,t)
 $ondelim
 *$INCLUDE %SOLAR%.csv
-$INCLUDE solar_scenarios_1200.csv
+$INCLUDE solar_scenarios_150.csv
 $offdelim
 ;
 
 *Tolerance 
 scalar tol;
 *tol=%TOL%;
-tol=0.01;
+tol=0.05;
 
 * maximum number of iterations in LR
 set iter number of subgradient iterations /iter1*iter10/;
@@ -75,7 +75,7 @@ $ondelim
 *$INCLUDE scenario_sorted_100_20_05.csv
 *$INCLUDE scenario_sorted_150_01.csv
 *$INCLUDE scenario_sorted_150_03.csv
-*$INCLUDE scenario_sorted_150_05.csv
+$INCLUDE scenario_sorted_150_05.csv
 *$INCLUDE scenario_sorted_300_01.csv
 *$INCLUDE scenario_sorted_300_03.csv
 *$INCLUDE scenario_sorted_300_05.csv
@@ -88,7 +88,7 @@ $ondelim
 *$INCLUDE scenario_sorted_900_01.csv
 *$INCLUDE scenario_sorted_900_03.csv
 *$INCLUDE scenario_sorted_900_05.csv
-$INCLUDE scenario_sorted_1200_01.csv
+*$INCLUDE scenario_sorted_1200_01.csv
 *$INCLUDE scenario_sorted_1200_03.csv
 *$INCLUDE scenario_sorted_1200_05.csv
 *$INCLUDE scenario_sorted_2400_01.csv
