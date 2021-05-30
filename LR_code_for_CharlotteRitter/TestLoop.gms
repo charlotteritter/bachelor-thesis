@@ -24,7 +24,7 @@ $include lp_lowerbound.gms // no need to change for Lagrangian decomposition
 $include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 scalar r;
-set indices /1*6/;
+set indices /2/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -92,6 +92,7 @@ loop(indices,
     loop(iter$contin,
     num_iter = ord(iter) ;
 *         pass a warm start
+             option reslim = 2251-lr_time;
              y.l(t) = prev_y(t) ;
              z.l(scen) = scenario_sorted(scen,'value') ;
              start_time = jnow;
