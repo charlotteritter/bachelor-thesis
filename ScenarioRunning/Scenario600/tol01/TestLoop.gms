@@ -11,7 +11,7 @@ Excel file used for LB heuristic needs to be manually sorted
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 2800, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 2400, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -80,6 +80,8 @@ parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
 
+scalar temp;
+
 loop(indices,
     lambda=init_lambda;
     lowerbound=LP_bound;
@@ -87,11 +89,14 @@ loop(indices,
     lr_time=0;
     run_time_total=0;
     contin=1;
-    steprule=ord(indices);
+    steprule=ord(indices)
     
     loop(iter$contin,
     num_iter = ord(iter) ;
 *         pass a warm start
+             temp=2400+1-lr_time;
+             Lagrangian.reslim=temp;
+*option RESLIM = temp;
              y.l(t) = prev_y(t) ;
              z.l(scen) = scenario_sorted(scen,'value') ;
              start_time = jnow;
@@ -111,7 +116,7 @@ $include plain_lr.gms
 $include LR_updatesMe.gms
     if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)),convergence=2; contin = 0;);
     lr_time = lr_time + results(iter,'time')   ;
-    if (lr_time > time_limit, contin = 0 ; ) ;
+    if (lr_time > 2400, contin = 0 ; ) ;
     
     r=results(iter,'gap');
     FinalIter=num_iter;
@@ -130,7 +135,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put (abs(ObjLR-max(heuristic,zlower))/max(ObjLR,max(heuristic,zlower))), put TimeNaive, put lr_time put lambda put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
