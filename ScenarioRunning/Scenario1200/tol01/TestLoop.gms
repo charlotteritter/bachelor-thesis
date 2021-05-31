@@ -81,12 +81,14 @@ scalar steprule;
 scalar FinalIter;
 
 scalar temp;
+scalar lr_time_for_reslim;
 
 loop(indices,
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
     lr_time=0;
+    lr_time_for_reslim=301;
     run_time_total=0;
     contin=1;
     steprule=ord(indices)
@@ -94,7 +96,7 @@ loop(indices,
     loop(iter$contin,
     num_iter = ord(iter) ;
 *         pass a warm start
-             temp=2400+1-lr_time;
+             temp=2400+1-lr_time_for_reslim;
              Lagrangian.reslim=temp;
 *option RESLIM = temp;
              y.l(t) = prev_y(t) ;
@@ -120,6 +122,7 @@ $include LR_updatesMe.gms
     
     r=results(iter,'gap');
     FinalIter=num_iter;
+    lr_time_for_reslim=lr_time;
 );
     
 run_time_total = LP_time + lr_time + bound_time  ;
