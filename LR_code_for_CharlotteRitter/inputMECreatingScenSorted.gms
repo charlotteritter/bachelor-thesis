@@ -10,7 +10,7 @@ SETS SCEN scenarios /scen1*scen600/;
 
 TABLE Solar(scen,t)
 $ondelim
-$INCLUDE solar_scenarios_600_20.csv
+$INCLUDE solar_scenarios_600_1.csv
 $offdelim
 ;
 

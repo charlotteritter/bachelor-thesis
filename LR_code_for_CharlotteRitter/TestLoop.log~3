@@ -1,4 +1,4 @@
---- Job TestLoop.gms Start 05/21/21 15:24:34 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Job TestLoop.gms Start 05/21/21 15:26:08 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\32\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -32,18 +32,18 @@ Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
 --- . lp_lowerbound.gms(12) 3 Mb
 --- TestLoop.gms(24) 3 Mb
 --- . heuristic_upperbound.gms(59) 3 Mb
---- TestLoop.gms(103) 3 Mb
+--- TestLoop.gms(105) 3 Mb
 --- . plain_lr.gms(12) 3 Mb
---- TestLoop.gms(109) 3 Mb
+--- TestLoop.gms(111) 3 Mb
 --- . LR_updatesMe.gms(17) 3 Mb
 --- .. stepsize.gms(24) 3 Mb
 --- . LR_updatesMe.gms(42) 3 Mb
---- TestLoop.gms(131) 3 Mb 1 Error
-*** Error 445 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
-    More than one operator in a row. You need to use parenthesis
-      if you want to use such statements. For example
-          x := x + - not y;  ->  x := x + (- (not y));
-          sum(i$not x, ..)   ->  sum(i$(not x),..)
---- TestLoop.gms(138) 3 Mb 1 Error
+--- TestLoop.gms(130) 3 Mb 1 Error
+*** Error 140 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Unknown symbol
+--- TestLoop.gms(133) 3 Mb 2 Errors
+*** Error 140 in C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\LR_code_for_CharlotteRitter\TestLoop.gms
+    Unknown symbol
+--- TestLoop.gms(140) 3 Mb 2 Errors
 *** Status: Compilation error(s)
---- Job TestLoop.gms Stop 05/21/21 15:24:34 elapsed 0:00:00.018
+--- Job TestLoop.gms Stop 05/21/21 15:26:08 elapsed 0:00:00.018

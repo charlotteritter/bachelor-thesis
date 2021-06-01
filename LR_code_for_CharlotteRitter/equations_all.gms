@@ -42,10 +42,10 @@ Const_chance_2_scenario(scen,t)$(ord(scen) eq counter)..
 Const_chance_2..      - sum(scen, z(scen)) =G= -threshold;
 
 LR.. bound_lr =e=   SUM(T,Prices(T, 'REW')*Y(T) - probability*Sum(scen, Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  ) )
-                         - lambda* (threshold - sum(scen, z(scen)))  ;
+                         + lambda* (threshold - sum(scen, z(scen)))  ;
 
 Objective_scenario(scen)$(ord(scen) eq counter)..
-         OBJ =E= SUM(T,Prices(T, 'REW')*Y(T) - Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  )     ;
+         OBJ =E= SUM(T,Prices(T, 'REW')*Y(T) - Prices(T, 'CHAR')* P(scen,t) - Prices(t, 'DISCHAR') * Q(scen,t)  )     ;
 
 
 LR_scenario(scen)$(ord(scen) eq counter)..
