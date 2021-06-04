@@ -74,13 +74,15 @@ lr_time = 0 ;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
-prev_y(t) = y.l(t) ;
+parameter Y_LP(t);
+Y_LP(t)=y.l(t);
 
 parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
 
 loop(indices,
+    prev_y(t)=Y_LP(t);
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
@@ -130,7 +132,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put (abs(ObjLR-max(heuristic,zlower))/max(ObjLR,max(heuristic,zlower))), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put (ObjLR-max(heuristic,zlower)/ObjLR), put TimeNaive, put lr_time put lambda put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
