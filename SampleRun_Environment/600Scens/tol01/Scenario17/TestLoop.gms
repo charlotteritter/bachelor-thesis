@@ -30,7 +30,7 @@ File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR', put 'Final Lambda', put 'LB Heuristic' put /;
 
 ********************************************************************************
 * Solve main Problem
@@ -132,7 +132,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put zlower, put ObjLR, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time, put lambda, put heuristic put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;

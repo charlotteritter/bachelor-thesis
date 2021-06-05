@@ -11,7 +11,7 @@ Excel file used for LB heuristic needs to be manually sorted
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 2800, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -30,7 +30,7 @@ File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR', put 'Final Lambda', put 'LB Heuristic' put /;
 
 ********************************************************************************
 * Solve main Problem
@@ -74,20 +74,22 @@ lr_time = 0 ;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
-prev_y(t) = y.l(t) ;
+parameter Y_LP(t);
+Y_LP(t)=y.l(t);
 
 parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
 
 loop(indices,
+    prev_y(t)=Y_LP(t);
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
     lr_time=0;
     run_time_total=0;
     contin=1;
-    steprule=ord(indices);
+    steprule=ord(indices)
     
     loop(iter$contin,
     num_iter = ord(iter) ;
@@ -111,7 +113,7 @@ $include plain_lr.gms
 $include LR_updatesMe.gms
     if( ((results(iter,'gap') < exit_tol) and (num_iter > 2)),convergence=2; contin = 0;);
     lr_time = lr_time + results(iter,'time')   ;
-    if (lr_time > time_limit, contin = 0 ; ) ;
+    if (lr_time > 2400, contin = 0 ; ) ;
     
     r=results(iter,'gap');
     FinalIter=num_iter;
@@ -130,7 +132,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put zlower, put ObjLR, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time, put lambda, put heuristic put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
