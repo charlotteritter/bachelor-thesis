@@ -132,7 +132,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put (ObjLR-max(heuristic,zlower)/ObjLR), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time put lambda put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
