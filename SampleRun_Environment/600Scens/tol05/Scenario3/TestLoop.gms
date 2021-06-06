@@ -74,22 +74,20 @@ lr_time = 0 ;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
-parameter Y_LP(t);
-Y_LP(t)=y.l(t);
+prev_y(t) = y.l(t) ;
 
 parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
 
 loop(indices,
-    prev_y(t)=Y_LP(t);
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
     lr_time=0;
     run_time_total=0;
     contin=1;
-    steprule=ord(indices)
+    steprule=ord(indices);
     
     loop(iter$contin,
     num_iter = ord(iter) ;

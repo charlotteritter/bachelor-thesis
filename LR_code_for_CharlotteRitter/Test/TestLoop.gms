@@ -24,7 +24,7 @@ $include lp_lowerbound.gms // no need to change for Lagrangian decomposition
 $include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 scalar r;
-set indices /1/;
+set indices /1*6/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -87,7 +87,7 @@ loop(indices,
     lr_time=0;
     run_time_total=0;
     contin=1;
-    steprule=1;
+    steprule=ord(indices);
     
     loop(iter$contin,
     num_iter = ord(iter) ;
