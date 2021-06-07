@@ -301,9 +301,9 @@ Presolve time = 0.06 sec. (24.73 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
-Iteration:     1   Dual objective     =          -773.022262
-Iteration:   657   Dual objective     =          -763.981554
-Iteration:  1292   Dual objective     =          -754.530096
-Iteration:  1868   Dual objective     =          -728.108859
-Iteration:  2402   Dual objective     =          -706.730999
-Iteration:  2674   Dual objective  
+Iteration:     1   Dual objective     =          -773.929988
+Iteration:   636   Dual objective     =          -765.693453
+Iteration:  1251   Dual objective     =          -756.916041
+Iteration:  1860   Dual objective     =          -752.018783
+Iteration:  2538   Dual objective     =          -737.293865
+Iteration:  2914   Dual objective  

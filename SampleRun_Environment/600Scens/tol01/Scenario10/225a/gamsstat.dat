@@ -16,7 +16,7 @@ Cplex 12.7.1.0
 --------------------------------------------------------------
 CONTROL FILE STATISTICS
 --------------------------------------------------------------
-Rows : 28202, columns : 43825, nonzeroes : 127824
+Rows : 28202, columns : 43825, nonzeroes : 127825
 Free Rows          : 0
 Iteration limit    : 2000000000
 Resource  limit    : 2.800000e+03
@@ -296,14 +296,14 @@ CPXPARAM_Tune_TimeLimit                          560
 Parallel mode: deterministic, using up to 8 threads for concurrent optimization.
 Tried aggregator 1 time.
 LP Presolve eliminated 1 rows and 1801 columns.
-Reduced LP has 28201 rows, 42024 columns, and 111599 nonzeros.
-Presolve time = 0.05 sec. (24.73 ticks)
+Reduced LP has 28201 rows, 42024 columns, and 111600 nonzeros.
+Presolve time = 0.06 sec. (24.73 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
-Iteration:     1   Dual objective     =          -777.139179
-Iteration:   746   Dual objective     =          -756.059564
-Iteration:  1434   Dual objective     =          -753.463302
-Iteration:  2152   Dual objective     =          -728.909747
-Iteration:  2671   Dual objective     =          -712.191518
-Iteration:  2926   Dual objective  
+Iteration:     1   Dual objective     =          -773.929988
+Iteration:   636   Dual objective     =          -765.693453
+Iteration:  1251   Dual objective     =          -756.916041
+Iteration:  1860   Dual objective     =          -752.018783
+Iteration:  2538   Dual objective     =          -737.293865
+Iteration:  2914   Dual objective  
