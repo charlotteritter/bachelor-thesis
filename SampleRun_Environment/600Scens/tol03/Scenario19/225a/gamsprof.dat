@@ -1,11 +1,11 @@
-1433      0.036
-1417 3      0.470       0.004 Loop       
-1418 1      0.038       0.004 Loop       
-1548 6      0.529       0.021 Solve Fini schedule (127825)
-1502 5      0.060       0.021 Equation   Const_chance_1 (14400)
-1548 10      0.212       0.021 GAMS Fini   
-1494 4      0.246       0.009 Equation   Objective (1)
-1418 7      0.042       0.004 Loop       
-1418 8      0.041       0.004 Loop       
-1418 9      0.040       0.004 Loop       
-1496 2      0.094       0.017 Equation   Const1 (13800)
+569      0.003
+1407 5      0.004       0.004 Assignment maxsolar (14)
+1548 7      0.045       0.021 GAMS Fini   
+1496 2      0.031       0.017 Equation   Const1 (13800)
+1502 6      0.026       0.021 Equation   Const_chance_1 (14400)
+1548 3      0.130       0.021 Solve Fini schedule (127825)
+1417 4      0.044       0.004 Loop       
+1494 1      0.059       0.009 Equation   Objective (1)
+1429 8      0.004       0.005 Assignment BigM (14400)
+1418 10      0.003       0.004 Loop       
+1418 9      0.003       0.004 Loop       

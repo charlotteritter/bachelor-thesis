@@ -297,13 +297,13 @@ Parallel mode: deterministic, using up to 8 threads for concurrent optimization.
 Tried aggregator 1 time.
 LP Presolve eliminated 1 rows and 1801 columns.
 Reduced LP has 28201 rows, 42024 columns, and 111600 nonzeros.
-Presolve time = 0.55 sec. (24.78 ticks)
+Presolve time = 0.06 sec. (24.73 ticks)
 Initializing dual steep norms . . .
 
 Iteration log . . .
-Iteration:     1   Dual objective     =          -817.237862
-Iteration:   734   Dual objective     =          -796.045966
-Iteration:  1369   Dual objective     =          -794.322281
-Iteration:  1946   Dual objective     =          -774.142734
-Iteration:  2444   Dual objective     =          -772.429733
-Iteration:  2934   Dual objective  
+Iteration:     1   Dual objective     =          -773.929988
+Iteration:   636   Dual objective     =          -765.693453
+Iteration:  1251   Dual objective     =          -756.916041
+Iteration:  1860   Dual objective     =          -752.018783
+Iteration:  2538   Dual objective     =          -737.293865
+Iteration:  2914   Dual objective  
