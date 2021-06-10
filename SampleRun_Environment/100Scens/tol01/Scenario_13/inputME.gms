@@ -11,7 +11,7 @@ SETS SCEN scenarios /scen1*scen100/;
 TABLE Solar(scen,t)
 $ondelim
 *$INCLUDE %SOLAR%.csv
-$INCLUDE solar_scenarios_100_13.csv
+$INCLUDE solar_scenarios_100_3.csv
 $offdelim
 ;
 
@@ -35,7 +35,7 @@ $ondelim
 *$INCLUDE %SORTEDFILE%.csv
 *$INCLUDE scenario_sorted_100_1_01.csv
 *$INCLUDE scenario_sorted_100_2_01.csv
-*$INCLUDE scenario_sorted_100_3_01.csv
+$INCLUDE scenario_sorted_100_3_01.csv
 *$INCLUDE scenario_sorted_100_4_01.csv
 *$INCLUDE scenario_sorted_100_5_01.csv
 *$INCLUDE scenario_sorted_100_6_01.csv
@@ -45,7 +45,7 @@ $ondelim
 *$INCLUDE scenario_sorted_100_10_01.csv
 *$INCLUDE scenario_sorted_100_11_01.csv
 *$INCLUDE scenario_sorted_100_12_01.csv
-$INCLUDE scenario_sorted_100_13_01.csv
+*$INCLUDE scenario_sorted_100_13_01.csv
 *$INCLUDE scenario_sorted_100_14_01.csv
 *$INCLUDE scenario_sorted_100_15_01.csv
 *$INCLUDE scenario_sorted_100_16_01.csv
