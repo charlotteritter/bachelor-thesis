@@ -11,7 +11,7 @@ Excel file used for LB heuristic needs to be manually sorted
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 2400, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -30,7 +30,7 @@ File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
 TestingFile.nd=5;
 put TestingFile; 
-put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR' put 'Final Lambda' put/;
+put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR', put 'Final Lambda', put 'LB Heuristic' put /;
 
 ********************************************************************************
 * Solve main Problem
@@ -80,25 +80,18 @@ parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
 
-scalar temp;
-scalar lr_time_for_reslim;
-
 loop(indices,
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
     lr_time=0;
-    lr_time_for_reslim=301;
     run_time_total=0;
     contin=1;
-    steprule=ord(indices)
+    steprule=ord(indices);
     
     loop(iter$contin,
     num_iter = ord(iter) ;
 *         pass a warm start
-             temp=2400+1-lr_time_for_reslim;
-             Lagrangian.reslim=temp;
-*option RESLIM = temp;
              y.l(t) = prev_y(t) ;
              z.l(scen) = scenario_sorted(scen,'value') ;
              start_time = jnow;
@@ -122,7 +115,6 @@ $include LR_updatesMe.gms
     
     r=results(iter,'gap');
     FinalIter=num_iter;
-    lr_time_for_reslim=lr_time;
 );
     
 run_time_total = LP_time + lr_time + bound_time  ;
@@ -138,7 +130,7 @@ ObjLR=-lowerbound;
 heuristic=-upperbound;
 
 put TestingFile;
-put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put ObjNaive, put lowerbound, put (abs(ObjLR-max(heuristic,zlower))/max(ObjLR,max(heuristic,zlower))), put TimeNaive, put lr_time put lambda put /;
+put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put zlower, put ObjLR, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time, put lambda, put heuristic put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
