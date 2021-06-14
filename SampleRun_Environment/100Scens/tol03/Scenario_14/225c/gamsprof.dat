@@ -1,0 +1,11 @@
+209      0.001
+407 6      0.001       0.004 Assignment maxsolar (14)
+422 5      0.001       0.004 Assignment dummy (1)
+418 7      0.001       0.004 Loop       
+417 8      0.001       0.004 Loop       
+548 9      0.155       0.007 GAMS Fini   
+548 10      0.504       0.007 Solve Fini schedule (21325)
+494 1      0.010       0.004 Equation   Objective (1)
+496 2      0.006       0.006 Equation   Const1 (2300)
+502 3      0.003       0.007 Equation   Const_chance_1 (2400)
+509 4      0.001       0.007 Equation   Const_chance_2 (1)
