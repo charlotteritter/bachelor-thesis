@@ -22,8 +22,7 @@ $include subgradient_parameters.gms
 $include equations_all.gms
 
 scalar r;
-************************************************Change again***************************************************
-set indices /1/;
+set indices /1*6/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -34,7 +33,7 @@ put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Conve
 ********************************************************************************
 * Solve main Problem
 ********************************************************************************
-$ONTEXT
+
 start_time = jnow;
 solve schedule using MIP minimizing Obj ;
 end_time = jnow ;
@@ -63,19 +62,7 @@ scalar TimeNaive;
 TimeNaive=run_time_total;    
 
 display Obj.l, run_time_total ;
-$OFFTEXT
-scalar ObjNaive;
-ObjNaive=-257.51545;
-scalar zlower;
-zlower=257.51545;
-scalar GapNaive;
-GapNaive = 0.06007;
-scalar TimeNaive;
-TimeNaive=4231.00000; 
-scalar ObjLR;
-scalar heuristic;
-scalar zupper;
-zupper=265;
+
 ********************************************************************************
 * Solve the Lagrangian Dual problem now
 ********************************************************************************
@@ -102,8 +89,7 @@ loop(indices,
     lr_time=0;
     run_time_total=0;
     contin=1;
-************************************************Change again***************************************************
-    steprule=2;
+    steprule=ord(indices);
     prev_y(t) = first_y(t) ;
     loop(iter$contin,
     num_iter = ord(iter) ;

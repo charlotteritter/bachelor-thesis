@@ -20,7 +20,6 @@ $include inputME.gms // no need to change for Lagrangian decomposition
 $include subgradient_parameters.gms
 
 $include equations_all.gms
-$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 scalar r;
 set indices /1*6/;
@@ -69,13 +68,14 @@ display Obj.l, run_time_total ;
 ********************************************************************************
 
 $include lp_lowerbound.gms // no need to change for Lagrangian decomposition
+$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
-scalar first_y(t);
+parameter first_y(t);
 first_y(t)=y.l(t);
 
 parameter check(scen,t);
