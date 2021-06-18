@@ -24,7 +24,7 @@ EQUATIONS
         LR_lb(scen)
         ;
 
-Objective.. OBJ=E= SUM(T,Prices(T, 'REW')*Y(T) - probability*Sum(scen, Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  ) )    ;
+Objective.. OBJ=E= - SUM(T,Prices(T, 'REW')*Y(T) - probability*Sum(scen, Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  ) )    ;
 
 Const1(scen,t)$(ord(t) lt card(t))..
          X(scen,t+1) =E= X(scen,t) + eta* P(scen,t) - (1/eta)* Q(scen,t) ;
@@ -41,7 +41,7 @@ Const_chance_2_scenario(scen,t)$(ord(scen) eq counter)..
 
 Const_chance_2..      - sum(scen, z(scen)) =G= -threshold;
 
-LR.. bound_lr =e=   SUM(T,Prices(T, 'REW')*Y(T) - probability*Sum(scen, Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  ) )
+LR.. bound_lr =e=   - SUM(T,Prices(T, 'REW')*Y(T) - probability*Sum(scen, Prices(T, 'CHAR')* P(scen,t) + Prices(t, 'DISCHAR') * Q(scen,t)  ) )
                          - lambda* (threshold - sum(scen, z(scen)))  ;
 
 Objective_scenario(scen)$(ord(scen) eq counter)..
