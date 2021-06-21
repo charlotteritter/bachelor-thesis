@@ -11,7 +11,7 @@ Excel file used for LB heuristic needs to be manually sorted
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.00, optca=0.00, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -73,7 +73,7 @@ $include heuristic_upperbound.gms // no need to change for Lagrangian decomposit
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
-option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
+option limrow = 0, limcol = 0, optca=0.000, optcr=0.000, RESLIM   = 2100;
 
 parameter first_y(t);
 first_y(t)=y.l(t);
