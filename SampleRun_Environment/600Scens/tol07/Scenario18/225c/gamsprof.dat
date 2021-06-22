@@ -1,0 +1,11 @@
+3177      0.036
+1418 9      0.072       0.004 Loop       
+1559 2      0.461       0.021 Solve Fini schedule (127825)
+1559 3      0.173       0.021 GAMS Fini   
+1418 7      0.039       0.004 Loop       
+1494 1      0.061       0.009 Equation   Objective (1)
+1420 5      0.052       0.004 Assignment minsolar (0)
+1418 6      0.090       0.004 Loop       
+1418 8      0.044       0.004 Loop       
+1417 4      0.686       0.004 Loop       
+1422 10      0.036       0.004 Assignment dummy (600)

@@ -1,0 +1,11 @@
+2313      0.011
+1418 5      0.020       0.004 Loop       
+1418 8      0.011       0.004 Loop       
+1418 7      0.011       0.004 Loop       
+1502 10      0.034       0.021 Equation   Const_chance_1 (14400)
+1559 9      0.247       0.021 Solve Fini schedule (127825)
+1418 4      0.015       0.004 Loop       
+1559 1      0.105       0.021 GAMS Fini   
+1417 6      0.199       0.004 Loop       
+1496 2      0.043       0.017 Equation   Const1 (13800)
+1494 3      0.089       0.009 Equation   Objective (1)
