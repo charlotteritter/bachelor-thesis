@@ -24,7 +24,7 @@ $include lp_lowerbound.gms // no need to change for Lagrangian decomposition
 $include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 scalar r;
-set indices /1*3/;
+set indices /1*6/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -81,6 +81,8 @@ scalar steprule;
 scalar FinalIter;
 
 loop(indices,
+    option clear=results;
+    noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;
