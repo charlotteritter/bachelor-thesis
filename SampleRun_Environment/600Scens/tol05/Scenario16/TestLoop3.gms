@@ -83,6 +83,8 @@ scalar steprule;
 scalar FinalIter;
 
 loop(indices,
+    option clear=results;
+    noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;
     theta=originalTheta;

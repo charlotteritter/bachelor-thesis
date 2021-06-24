@@ -1,0 +1,191 @@
+--- Job TestLoop2.gms Start 06/24/21 12:20:15 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\32\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\TestLoop2.gms
+    PageSize 0
+    ScrDir C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\225e\
+    SysDir C:\GAMS\32\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
+          Friedrich-Alexander-Universitaet Erlangen-Nurnberg         DC7699
+          C:\GAMS\32\gamslice.txt
+--- Starting compilation
+--- TestLoop2.gms(29) 2 Mb
+--- . inputME.gms(14) 3 Mb
+--- .. solar_scenarios_600_16.csv(601) 3 Mb
+--- . inputME.gms(36) 3 Mb
+--- .. scenario_sorted_600_16_03.csv(601) 3 Mb
+--- . inputME.gms(116) 3 Mb
+--- .. battery_revenue.csv(25) 3 Mb
+--- . inputME.gms(185) 3 Mb
+--- TestLoop2.gms(30) 3 Mb
+--- . subgradient_parameters.gms(33) 3 Mb
+--- TestLoop2.gms(32) 3 Mb
+--- . equations_all.gms(76) 3 Mb
+--- TestLoop2.gms(80) 3 Mb
+--- . lp_lowerbound.gms(12) 3 Mb
+--- TestLoop2.gms(81) 3 Mb
+--- . heuristic_upperbound.gms(59) 3 Mb
+--- TestLoop2.gms(120) 3 Mb
+--- . plain_lr.gms(12) 3 Mb
+--- TestLoop2.gms(126) 3 Mb
+--- . LR_updatesMe.gms(17) 3 Mb
+--- .. stepsize3.gms(21) 3 Mb
+--- . LR_updatesMe.gms(42) 3 Mb
+--- TestLoop2.gms(155) 3 Mb
+--- Starting execution: elapsed 0:00:00.063
+--- TestLoop2.gms(1568) 8 Mb
+--- Generating MIP model schedule
+--- TestLoop2.gms(1504) 8 Mb
+--- Starting Equ Objective: elapsed 0:00:00.183
+--- TestLoop2.gms(1506) 9 Mb
+--- Starting Equ Const1: elapsed 0:00:00.473
+--- TestLoop2.gms(1512) 18 Mb
+--- Starting Equ Const_chance_1: elapsed 0:00:00.525
+--- TestLoop2.gms(1519) 23 Mb
+--- Starting Equ Const_chance_2: elapsed 0:00:00.556
+--- TestLoop2.gms(1569) 23 Mb
+---   28,202 rows  43,825 columns  127,825 non-zeroes
+---   600 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.680
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 1.78 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\225e\"
+Found incumbent of value 0.000000 after 0.00 sec. (1.77 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1801 columns.
+Reduced MIP has 28201 rows, 42024 columns, and 111600 nonzeros.
+Reduced MIP has 600 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.09 sec. (48.58 ticks)
+Probing time = 0.09 sec. (22.25 ticks)
+Cover probing fixed 1 vars, tightened 23 bounds.
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 600 rows and 1 columns.
+MIP Presolve modified 86 coefficients.
+Reduced MIP has 27601 rows, 42023 columns, and 110400 nonzeros.
+Reduced MIP has 600 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.20 sec. (64.83 ticks)
+Probing time = 0.03 sec. (2.17 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Parallel mode: deterministic, using up to 2 threads for parallel tasks at root LP.
+Parallel mode: deterministic, using up to 6 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 4 threads...
+ * Starting primal Simplex on 1 thread...
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          -488.957601
+Perturbation started.
+Iteration:   101   Dual objective     =          -488.957601
+Iteration:   800   Dual objective     =          -488.860499
+Iteration:  1463   Dual objective     =          -488.056152
+Iteration:  2158   Dual objective     =          -486.389718
+Iteration:  2793   Dual objective     =          -483.806020
+Iteration:  3423   Dual objective     =          -480.242457
+Iteration:  4080   Dual objective     =          -474.633684
+Removing perturbation.
+
+Root node processing (before b&c):
+  Real time             =    1.33 sec. (328.11 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.33 sec. (328.11 ticks)
+MIP status(113): aborted
+Cplex Time: 1.33sec (det. 328.24 ticks)
+Fixing integer variables, and solving final LP...
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\225e\"
+Parallel mode: deterministic, using up to 8 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 6 threads...
+ * Starting primal Simplex on 1 thread...
+Presolve time = 0.03 sec. (6.22 ticks)
+Fixed MIP status(13): user aborted
+Cplex Time: 0.05sec (det. 103.01 ticks)
+Rerunning with presolve turned off and solving with LPMETHOD=1
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\225e\"
+Primal superbasis not built.
+Using devex.
+Fixed MIP status(13): user aborted
+Cplex Time: 0.05sec (det. 17.47 ticks)
+Final solve did not return an optimal solution.
+Returning a primal only solution to GAMS (marginals all set to NA).
+
+Problem aborted.
+
+MIP Solution:            0.000000    (0 iterations, 0 nodes)
+Best possible:        -488.957601
+Absolute gap:          488.957601
+Relative gap:            1.000000
+
+--- Reading solution for model schedule
+***
+*** Solver did not provide marginals for model schedule
+***
+--- Executing after solve: elapsed 0:00:02.402
+--- TestLoop2.gms(1570) 23 Mb
+*** Error at line 1569: Execution halted: Triggered by pending CtrlC event
+--- TestLoop2.gms(1570) 23 Mb 1 Error
+--- Putfile TestingFile2 C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol03\Scenario16\TestingFile2.csv
+--- Profile Summary (1451 records processed)
+     1.688   0.023GB      1569 Solve Alg  schedule
+     0.297   0.009GB      1504 Equation   Objective (1)
+     0.109   0.005GB      1427 Loop       
+     0.109   0.023GB      1569 Solve Fini schedule (127825)
+     0.047   0.018GB      1506 Equation   Const1 (13800)
+     0.046   0.023GB      1569 Solve Read schedule
+     0.031   0.023GB      1512 Equation   Const_chance_1 (14400)
+     0.016   0.023GB      1519 Equation   Const_chance_2 (1)
+     0.016   0.005GB      1432 Assignment dummy (600)
+     0.016   0.005GB      1428 Loop       
+--- TestLoop2.gms(1570) 23 Mb 1 Error
+*** Status: Execution error(s)
+--- Job TestLoop2.gms Stop 06/24/21 12:20:17 elapsed 0:00:02.418

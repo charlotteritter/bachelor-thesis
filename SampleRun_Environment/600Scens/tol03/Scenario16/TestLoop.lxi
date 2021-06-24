@@ -1,30 +1,66 @@
 B 3 C o m p i l a t i o n
-B 1813 Include File Summary
-B 1835 E x e c u t i o n
-B 3282 Model Analysis      SOLVE schedule Using MIP From line 1559
-B 3288 Equation Listing    SOLVE schedule Using MIP From line 1559
-D 3291 Objective
-D 3331 Const1
-D 3349 Const_chance_1
-D 3367 Const_chance_2
-B 3376 Column Listing      SOLVE schedule Using MIP From line 1559
-E 3379 P
-E 3401 Q
-E 3420 Y
-E 5236 X
-E 5256 OBJ
-E 5263 Z
-B 5352 Model Statistics    SOLVE schedule Using MIP From line 1559
-B 5370 Solution Report     SOLVE schedule Using MIP From line 1559
-B 5414 E x e c u t i o n
-I 5424 OBJ
-I 5425 run_time_total
-B 5433 Model Analysis      SOLVE schedule Using RMIP From line 1595
-B 5439 Equation Listing    SOLVE schedule Using RMIP From line 1595
-D 5442 Objective
-D 5483 Const1
-B 5492 Column Listing      SOLVE schedule Using RMIP From line 1595
-E 5495 P
-E 5511 Y
-E 5527 OBJ
-B 5535 Model Statistics    SOLVE schedule Using RMIP From line 1595
+B 1816 Include File Summary
+B 1838 E x e c u t i o n
+B 3285 Model Analysis      SOLVE schedule Using MIP From line 1559
+B 3291 Equation Listing    SOLVE schedule Using MIP From line 1559
+D 3294 Objective
+D 3334 Const1
+D 3352 Const_chance_1
+D 3370 Const_chance_2
+B 3379 Column Listing      SOLVE schedule Using MIP From line 1559
+E 3382 P
+E 3404 Q
+E 3423 Y
+E 5239 X
+E 5259 OBJ
+E 5266 Z
+B 5355 Model Statistics    SOLVE schedule Using MIP From line 1559
+B 5373 Solution Report     SOLVE schedule Using MIP From line 1559
+B 5420 E x e c u t i o n
+I 5430 OBJ
+I 5431 run_time_total
+B 5439 Model Analysis      SOLVE schedule Using RMIP From line 1595
+B 5445 Equation Listing    SOLVE schedule Using RMIP From line 1595
+D 5448 Objective
+D 5488 Const1
+D 5506 Const_chance_1
+D 5524 Const_chance_2
+B 5533 Column Listing      SOLVE schedule Using RMIP From line 1595
+E 5536 P
+E 5558 Q
+E 5577 Y
+E 7393 X
+E 7411 OBJ
+E 7418 Z
+B 7507 Model Statistics    SOLVE schedule Using RMIP From line 1595
+B 7525 Solution Report     SOLVE schedule Using RMIP From line 1595
+B 7561 E x e c u t i o n
+I 7569 init_lambda
+I 7570 LP_time
+I 7571 lowerbound
+B 7580 Model Analysis      SOLVE schedule_scenario Using MIP From line 1620
+B 7586 Equation Listing    SOLVE schedule_scenario Using MIP From line 1620
+D 7589 Objective_scenario
+D 7597 Const1_scenario
+D 7615 Const_chance_1_scenario
+B 7634 Column Listing      SOLVE schedule_scenario Using MIP From line 1620
+E 7637 P
+E 7659 Q
+E 7678 Y
+E 7697 X
+E 7717 OBJ
+B 7725 Model Statistics    SOLVE schedule_scenario Using MIP From line 1620
+B 7748 Solution Report     SOLVE schedule_scenario Using MIP From line 1620
+B 7783 E x e c u t i o n
+B 7791 Model Analysis      SOLVE schedule_scenario Using MIP From line 1620
+B 7797 Equation Listing    SOLVE schedule_scenario Using MIP From line 1620
+D 7800 Objective_scenario
+D 7808 Const1_scenario
+D 7827 Const_chance_1_scenario
+B 7836 Column Listing      SOLVE schedule_scenario Using MIP From line 1620
+E 7839 P
+E 7858 Q
+E 7874 Y
+E 7890 X
+E 7910 OBJ
+B 7918 Model Statistics    SOLVE schedule_scenario Using MIP From line 1620
