@@ -1,0 +1,11 @@
+1449      0.007
+1418 4      0.007       0.004 Loop       
+1422 5      0.012       0.004 Assignment dummy (600)
+1532 7      0.014       0.008 Assignment P (14400)
+1560 8      0.850       0.021 Solve Fini schedule (127825)
+1560 10      0.205       0.021 GAMS Fini   
+1502 6      0.027       0.021 Equation   Const_chance_1 (14400)
+1417 9      0.125       0.004 Loop       
+1494 3      0.070       0.009 Equation   Objective (1)
+1418 2      0.019       0.004 Loop       
+1496 1      0.031       0.017 Equation   Const1 (13800)
