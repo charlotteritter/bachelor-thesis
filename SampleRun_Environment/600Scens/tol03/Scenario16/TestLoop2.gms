@@ -8,10 +8,20 @@ Based on the paper at http://www.optimization-online.org/DB_HTML/2019/05/7222.ht
 
 Excel file used for LB heuristic needs to be manually sorted
 
+$ONTEXT
+Bismark Singh
+March 17, 2021
+
+Code for plain Lagrangian decomposition (removed Progressive Hedging)
+Based on the paper at http://www.optimization-online.org/DB_HTML/2019/05/7222.html
+ 
+
+Excel file used for LB heuristic needs to be manually sorted
+
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.00, optca=0.00, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -22,12 +32,12 @@ $include subgradient_parameters.gms
 $include equations_all.gms
 
 scalar r;
-set indices /1*2/;
+set indices /1*6/;
 
-File TestingFile / TestingFile.csv /;
-TestingFile.pc=5;
-TestingFile.nd=5;
-put TestingFile; 
+File TestingFile2 / TestingFile2.csv /;
+TestingFile2.pc=5;
+TestingFile2.nd=5;
+put TestingFile2; 
 put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR', put 'Final Lambda', put 'LB Heuristic' put /;
 
 ********************************************************************************
@@ -73,7 +83,7 @@ $include heuristic_upperbound.gms // no need to change for Lagrangian decomposit
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
-option limrow = 0, limcol = 0, optca=0.000, optcr=0.000, RESLIM   = 2100;
+option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
 
 parameter first_y(t);
 first_y(t)=y.l(t);
@@ -81,10 +91,11 @@ first_y(t)=y.l(t);
 parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
-scalar h;
 
 loop(indices,
     option clear=results;
+    option clear=last_z;
+    option clear=bound;
     noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;
@@ -92,10 +103,7 @@ loop(indices,
     lr_time=0;
     run_time_total=0;
     contin=1;
-    h=ord(indices);
-    display h;
-    if(h=1, steprule=2;
-    else steprule=3;);
+    steprule=ord(indices);
     prev_y(t) = first_y(t) ;
     loop(iter$contin,
     num_iter = ord(iter) ;
@@ -137,7 +145,7 @@ if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, 
 ObjLR=-lowerbound;
 heuristic=-upperbound;
 
-put TestingFile;
+put TestingFile2;
 put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put zlower, put ObjLR, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time, put lambda, put heuristic put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;

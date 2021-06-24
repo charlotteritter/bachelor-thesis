@@ -84,6 +84,8 @@ scalar FinalIter;
 
 loop(indices,
     option clear=results;
+    option clear=last_z;
+    option clear=bound;
     noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;

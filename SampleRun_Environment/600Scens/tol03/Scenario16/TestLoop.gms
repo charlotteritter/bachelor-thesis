@@ -11,7 +11,7 @@ Excel file used for LB heuristic needs to be manually sorted
 $OFFTEXT
 
 $eolcom //
-OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
+OPTIONS PROFILE =3, RESLIM   = 4200, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.00, optca=0.00, threads =8, integer4=0;
 
 ********************************************************************************
 *                                Include input files
@@ -20,8 +20,6 @@ $include inputME.gms // no need to change for Lagrangian decomposition
 $include subgradient_parameters.gms
 
 $include equations_all.gms
-$include lp_lowerbound.gms // no need to change for Lagrangian decomposition
-$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 scalar r;
 set indices /1*6/;
@@ -69,12 +67,16 @@ display Obj.l, run_time_total ;
 * Solve the Lagrangian Dual problem now
 ********************************************************************************
 
+$include lp_lowerbound.gms // no need to change for Lagrangian decomposition
+$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
+
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
-option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001, RESLIM   = 2100;
+option limrow = 0, limcol = 0, optca=0.000, optcr=0.000, RESLIM   = 2100;
 
-prev_y(t) = y.l(t) ;
+parameter first_y(t);
+first_y(t)=y.l(t);
 
 parameter check(scen,t);
 scalar steprule;
@@ -82,6 +84,8 @@ scalar FinalIter;
 
 loop(indices,
     option clear=results;
+    option clear=last_z;
+    option clear=bound;
     noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;
@@ -90,7 +94,7 @@ loop(indices,
     run_time_total=0;
     contin=1;
     steprule=ord(indices);
-    
+    prev_y(t) = first_y(t) ;
     loop(iter$contin,
     num_iter = ord(iter) ;
 *         pass a warm start

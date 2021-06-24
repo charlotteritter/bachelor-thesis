@@ -20,8 +20,7 @@ $include inputME.gms // no need to change for Lagrangian decomposition
 $include subgradient_parameters.gms
 
 $include equations_all.gms
-$include lp_lowerbound.gms // no need to change for Lagrangian decomposition
-$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
+
 
 scalar r;
 set indices /1*6/;
@@ -68,6 +67,9 @@ display Obj.l, run_time_total ;
 ********************************************************************************
 * Solve the Lagrangian Dual problem now
 ********************************************************************************
+
+$include lp_lowerbound.gms // no need to change for Lagrangian decomposition
+$include heuristic_upperbound.gms // no need to change for Lagrangian decomposition
 
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;

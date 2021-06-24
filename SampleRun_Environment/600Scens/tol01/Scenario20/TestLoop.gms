@@ -22,7 +22,7 @@ $include subgradient_parameters.gms
 $include equations_all.gms
 
 scalar r;
-set indices /1*6/;
+set indices /1/;
 
 File TestingFile / TestingFile.csv /;
 TestingFile.pc=5;
@@ -84,6 +84,8 @@ scalar FinalIter;
 
 loop(indices,
     option clear=results;
+    option clear=last_z;
+    option clear=bound;
     noimprovement = 0;
     lambda=init_lambda;
     lowerbound=LP_bound;
