@@ -15,7 +15,7 @@ module load gams/24.8
 # change to work directory
 
 
-gams TestLoop2.gms
+gams main_for_lr.gms
 
 # run 
 #./a.out

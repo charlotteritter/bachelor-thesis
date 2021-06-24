@@ -1,0 +1,112 @@
+--- Job main_for_lr.gms Start 06/24/21 23:40:10 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\32\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol01\Scenario12\main_for_lr.gms
+    PageSize 0
+    ScrDir C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\SampleRun_Environment\600Scens\tol01\Scenario12\225e\
+    SysDir C:\GAMS\32\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
+          Friedrich-Alexander-Universitaet Erlangen-Nurnberg         DC7699
+          C:\GAMS\32\gamslice.txt
+--- Starting compilation
+--- main_for_lr.gms(19) 2 Mb
+--- . inputME.gms(14) 3 Mb
+--- .. solar_scenarios_600_12.csv(601) 3 Mb
+--- . inputME.gms(36) 3 Mb
+--- .. scenario_sorted_600_12_01.csv(601) 3 Mb
+--- . inputME.gms(116) 3 Mb
+--- .. battery_revenue.csv(25) 3 Mb
+--- . inputME.gms(185) 3 Mb
+--- main_for_lr.gms(20) 3 Mb
+--- . subgradient_parameters.gms(33) 3 Mb
+--- main_for_lr.gms(22) 3 Mb
+--- . equations_all.gms(76) 3 Mb
+--- main_for_lr.gms(23) 3 Mb
+--- . lp_lowerbound.gms(12) 3 Mb
+--- main_for_lr.gms(24) 3 Mb
+--- . heuristic_upperbound.gms(59) 3 Mb
+--- main_for_lr.gms(50) 3 Mb
+--- . plain_lr.gms(12) 3 Mb
+--- main_for_lr.gms(56) 3 Mb
+--- . LR_updatesMe.gms(17) 3 Mb
+--- .. stepsize3.gms(21) 3 Mb
+--- . LR_updatesMe.gms(42) 3 Mb
+--- main_for_lr.gms(71) 3 Mb
+--- Starting execution: elapsed 0:00:00.121
+--- main_for_lr.gms(1547) 8 Mb
+--- Generating RMIP model schedule
+--- main_for_lr.gms(1494) 8 Mb
+--- Starting Equ Objective: elapsed 0:00:00.168
+--- main_for_lr.gms(1496) 9 Mb
+--- Starting Equ Const1: elapsed 0:00:00.369
+--- main_for_lr.gms(1502) 18 Mb
+--- Starting Equ Const_chance_1: elapsed 0:00:00.396
+--- main_for_lr.gms(1509) 23 Mb
+--- Starting Equ Const_chance_2: elapsed 0:00:00.427
+--- main_for_lr.gms(1548) 23 Mb
+---   28,202 rows  43,825 columns  127,824 non-zeroes
+---   600 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.494
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 1.78 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Parallel mode: deterministic, using up to 8 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 6 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+Presolve time = 0.19 sec. (44.36 ticks)
+LP status(13): user aborted
+Cplex Time: 0.20sec (det. 142.23 ticks)
+Rerunning with presolve turned off and solving with LPMETHOD=1
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_TimeLimit                               2100
+CPXPARAM_Tune_TimeLimit                          420
+Using devex.
+LP status(13): user aborted
+Cplex Time: 0.02sec (det. 13.44 ticks)
+
+Solution aborted due to user request.
+--- Reading solution for model schedule
+--- Executing after solve: elapsed 0:00:00.991
+--- main_for_lr.gms(1549) 23 Mb
+*** Error at line 1548: Execution halted: Triggered by pending CtrlC event
+--- main_for_lr.gms(1549) 23 Mb 1 Error
+--- Profile Summary (571 records processed)
+     0.469   0.022GB      1548 Solve Alg  schedule
+     0.203   0.009GB      1494 Equation   Objective (1)
+     0.063   0.022GB      1548 Solve Fini schedule (127824)
+     0.031   0.018GB      1496 Equation   Const1 (13800)
+     0.031   0.022GB      1548 Solve Read schedule
+     0.031   0.005GB      1417 Loop       
+     0.031   0.022GB      1502 Equation   Const_chance_1 (14400)
+     0.016   0.005GB      1424 Assignment dummysolar (8049)
+     0.016   0.005GB      1418 Loop       
+     0.016   0.005GB      1429 Assignment BigM (14399)
+--- main_for_lr.gms(1549) 23 Mb 1 Error
+*** Status: Execution error(s)
+--- Job main_for_lr.gms Stop 06/24/21 23:40:11 elapsed 0:00:00.991

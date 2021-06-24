@@ -16,7 +16,7 @@ OPTIONS PROFILE =3, RESLIM   = 2100, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP
 ********************************************************************************
 *                                Include input files
 ********************************************************************************
-$include input.gms // no need to change for Lagrangian decomposition
+$ include inputME.gms // no need to change for Lagrangian decomposition
 $include subgradient_parameters.gms
 
 $include equations_all.gms
@@ -27,10 +27,11 @@ $include heuristic_upperbound.gms // no need to change for Lagrangian decomposit
 * Solve the Lagrangian Dual problem now
 ********************************************************************************
 
-scalar steprule /6/;
-
 parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
+
+scalar steprule;
+steprule=2;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001 ;
 
@@ -46,18 +47,16 @@ num_iter = ord(iter) ;
 *********************************************************************
 ***Solve a Lagrangian iteration 
 *********************************************************************
-
-$include plain_LR.gms
+$include plain_lr.gms
 
          end_time = jnow ;
          results(iter,'time') = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
          results(iter,'objective') = bound ;
 
-*$include LR_updates.gms
 $include LR_updatesMe.gms
          if( ((results(iter,'gap') < 0.001) and (num_iter > 2)), contin = 0;);
          lr_time = lr_time + results(iter,'time')   ;
-         if (lr_time > 2250, contin = 0 ; ) ;
+         if (lr_time > 2250, contin = 0 ;) ;
 );
 
 run_time_total = LP_time + lr_time + bound_time  ;
@@ -70,12 +69,3 @@ if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, 
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
 display z.l, y.l ;
-
-
-$gdxout results
-$unload n tol upperbound steprule lr_time results
-execute 'gdxxrw.exe results.gdx var=n'
-
-
-*execute_unload "results.gdx" n,tol, upperbound, steprule, lr_time, results
-*execute 'gdxxrw.exe results.gdx o=results.xls var=x.l'
