@@ -23,12 +23,12 @@ $include equations_all.gms
 
 
 scalar r;
-set indices /1*6/;
+set indices /1*2/;
 
-File TestingFile3 / TestingFile3.csv /;
-TestingFile3.pc=5;
-TestingFile3.nd=5;
-put TestingFile3; 
+File TestingFile3and4 / TestingFile3and4.csv /;
+TestingFile3and4.pc=5;
+TestingFile3and4.nd=5;
+put TestingFile3and4; 
 put 'Omega', put 'Tolerance', put 'Step Size Rule', put 'Iterations', put 'Converged?', put 'Gap LR', put 'Gap Naive', put 'Obj. Naive', put 'Obj. LR', put 'Gap' put 'Time Naive', put 'Time LR', put 'Final Lambda', put 'LB Heuristic' put /;
 
 ********************************************************************************
@@ -81,6 +81,7 @@ prev_y(t) = y.l(t) ;
 parameter check(scen,t);
 scalar steprule;
 scalar FinalIter;
+scalar h;
 
 loop(indices,
     option clear=results;
@@ -91,6 +92,10 @@ loop(indices,
     lr_time=0;
     run_time_total=0;
     contin=1;
+    h=ord(indices);
+    display h;
+    if(h=1, steprule=3;
+    else steprule=4;);
     steprule=ord(indices);
     
     loop(iter$contin,
@@ -133,7 +138,7 @@ if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, 
 ObjLR=-lowerbound;
 heuristic=-upperbound;
 
-put TestingFile3;
+put TestingFile3and4;
 put n, put tol, put steprule, put FinalIter, put convergence, put r, put GapNaive, put zlower, put ObjLR, put ((ObjLR-max(heuristic,zlower))/ObjLR), put TimeNaive, put lr_time, put lambda, put heuristic put /;
 
 display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
