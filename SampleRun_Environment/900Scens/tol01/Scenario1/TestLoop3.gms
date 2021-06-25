@@ -96,7 +96,6 @@ loop(indices,
     display h;
     if(h=1, steprule=3;
     else steprule=4;);
-    steprule=ord(indices);
     
     loop(iter$contin,
     num_iter = ord(iter) ;

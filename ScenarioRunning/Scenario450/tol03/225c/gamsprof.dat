@@ -1,0 +1,11 @@
+1089      0.004
+1194 2      0.043       0.008 Equation   Objective (1)
+1260 7      0.070       0.017 Solve Fini schedule (95874)
+1260 1      0.031       0.017 GAMS Fini   
+1196 3      0.024       0.013 Equation   Const1 (10350)
+1202 4      0.017       0.017 Equation   Const_chance_1 (10800)
+1118 5      0.004       0.004 Loop       
+1117 10      0.064       0.004 Loop       
+1118 9      0.004       0.004 Loop       
+1118 8      0.004       0.004 Loop       
+1118 6      0.005       0.004 Loop       

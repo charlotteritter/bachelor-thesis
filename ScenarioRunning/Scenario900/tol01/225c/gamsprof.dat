@@ -1,0 +1,11 @@
+801      0.005
+2018 10      0.006       0.004 Loop       
+1977 6      0.006       0.004 Assignment Solar (12156)
+2096 5      0.027       0.023 Equation   Const1 (20700)
+2018 7      0.005       0.004 Loop       
+2094 8      0.076       0.012 Equation   Objective (1)
+2017 3      0.086       0.004 Loop       
+2160 2      0.034       0.030 GAMS Fini   
+2102 1      0.028       0.030 Equation   Const_chance_1 (21600)
+2018 9      0.006       0.004 Loop       
+2160 4      0.090       0.030 Solve Fini schedule (191725)

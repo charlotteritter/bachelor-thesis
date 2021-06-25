@@ -1,0 +1,539 @@
+=1
+=0IBM ILOG CPLEX   24.8.5 r61358 Released May 10, 2017 LEG x86 64bit/Linux      
+=1
+
+IBM ILOG CPLEX   24.8.5 r61358 Released May 10, 2017 LEG x86 64bit/Linux      
+=2
+=1
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+=2
+=1
+Cplex 12.7.1.0
+
+=2
+ 
+ 
+--------------------------------------------------------------
+CONTROL FILE STATISTICS
+--------------------------------------------------------------
+Rows : 14102, columns : 21925, nonzeroes : 63925
+Free Rows          : 0
+Iteration limit    : 2000000000
+Resource  limit    : 4.200000e+03
+Objective variable : 21624
+Objective sense    : minimize
+Advanced basis     : no
+Binary variables   : 300
+Integer variables  : 0
+SOS1 variables     : 0
+SOS2 variables     : 0
+SemiCont variables : 0
+SemiInt variables  : 0
+OPTCA : 1.000000e-03 , OPTCR : 1.000000e-03
+Priorities         : no
+Cheat              : n.a.
+Cutoff             : n.a.
+Node limit         : 0
+ 
+ 
+
+
+Option Values:
+----------------------------------------------------
+usebasis              0
+cutoff                0
+tryint                0
+domlim                0
+advind                0
+aggcutlim             3
+aggfill               10
+aggind                -1
+auxrootthreads        0
+baralg                0
+barcolnz              0
+barcrossalg           0
+bardisplay            1
+barepcomp             1e-08
+bargrowth             1e+12
+baritlim              2100000000
+barmaxcor             -1
+barobjrng             1e+20
+barorder              0
+barqcpepcomp          1e-07
+barstartalg           1
+bbinterval            7
+bendersfeascuttol     1e-06
+bendersoptcuttol      1e-06
+.benderspartition     0
+bendersstrategy       0
+bndstrenind           -1
+bqpcuts               0
+brdir                 0
+bttol                 0.9999
+calcqcpduals          1
+cliques               0
+clocktype             0
+clonelog              0
+coeredind             -1
+computeserver        
+covers                0
+cpumask               auto
+craind                1
+crossoveralg          default
+cutlo                 -1e+75
+cutpass               0
+cuts                  0
+cutsfactor            -1
+cutup                 1e+75
+datacheck             0
+depind                -1
+dettilim              1e+75
+disjcuts              0
+divetype              0
+divfltup              1e+299
+divfltlo              -1e+299
+.divflt               0
+dpriind               0
+dtprefix              bnd
+dtterm                1
+dumpcuts              0
+dumptree              0
+dumplp                0
+eachcutlim            2100000000
+epagap                0.001
+epgap                 0.001
+epint                 1e-05
+epmrk                 0.01
+epopt                 1e-06
+epper                 1e-06
+eprelax               1e-06
+eprhs                 1e-06
+feasopt               0
+feasoptmode           0
+.feaspref             1
+fixoptfile            
+flowcovers            0
+flowpaths             0
+flushfiles            0
+fpheur                0
+fraccand              200
+fraccuts              0
+fracpass              0
+freegamsmodel         0
+gubcovers             0
+heurfreq              0
+iafile                
+iatriggerfile         
+iatriggertime         60
+iis                   0
+implbd                0
+interactive           0
+intsollim             2100000000
+itlim                 2000000000
+lbheur                0
+liftprojcuts          0
+lpalg                 default
+lpmethod              0
+ltol                  0
+mcfcuts               0
+memoryemphasis        0
+localimplied          0
+mipdisplay            4
+mipemphasis           0
+mipkappastats         -1
+mipinterval           0
+mipordind             1
+mipordtype            0
+mipsearch             0
+mipstart              0
+miptrace              
+miptracenode          100
+miptracetime          1
+miqcpstrat            0
+mircuts               0
+mpslongnum            1
+mtol                  0
+names                 1
+netdisplay            2
+netepopt              1e-06
+neteprhs              1e-06
+netfind               2
+netitlim              2100000000
+netppriind            0
+nodefileind           1
+nodelim               2100000000
+nodesel               1
+numericalemphasis     0
+objdif                0
+objllim               -1e+75
+objrng               
+objulim               1e+75
+parallelmode          1
+perind                0
+perlim                0
+polishtime            0
+polishafterepagap     0
+polishafterepgap      0
+polishafternode       2100000000
+polishafterintsol     2100000000
+polishaftertime       1e+75
+polishafterdettime    1e+75
+populatelim           20
+ppriind               0
+predual               0
+preind                1
+prelinear             1
+prepass               -1
+preslvnd              0
+pricelim              0
+printoptions          0
+probe                 0
+probetime             1e+75
+probedettime          1e+75
+probread              
+qpmakepsdind          1
+qpmethod              0
+qtolin                -1
+quality               0
+rampupdettimelimit    1e+75
+rampupduration        0
+rampuptimelimit       1e+75
+randomseed            0
+readflt               
+readparams            
+reduce                3
+reinv                 0
+relaxfixedinfeas      0
+relaxpreind           -1
+relobjdif             0
+repairtries           0
+repeatpresolve        -1
+rerun                 yes
+rhsrng               
+rinsheur              0
+rngrestart            
+rtlcuts               0
+scaind                0
+secret               
+siftalg               0
+siftdisplay           1
+siftitlim             2100000000
+simdisplay            1
+singlim               10
+solnpool              
+solnpoolmerge         
+solnpoolnumsym        10
+solnpoolagap          1e+75
+solnpoolcapacity      2100000000
+solnpoolgap           1e+75
+solnpoolintensity     0
+solnpoolpop           1
+solnpoolpopdel        
+solnpoolpoprepeat     
+solnpoolprefix        soln
+solnpoolreplace       0
+solutiontype          0
+optimalitytarget      0
+solvefinal            1
+startalg              0
+strongcandlim         10
+strongitlim           0
+subalg                0
+submipnodelim         500
+symmetry              -1
+threads               8
+tilim                 4200
+trelim                1e+75
+tuning                
+tuningdisplay         1
+tuningmeasure         1
+tuningrepeat          1
+tuningtilim           840
+tuningdettilim        1e+07
+usercutcall           
+usercutfirst          10
+usercutfreq           10
+usercutinterval       100
+usercutmult           2
+usercutnewint         1
+usergdxin             bchin.gdx
+usergdxsol            bchsol.gdx
+usergdxname           bchout.gdx
+usergdxnameinc        bchout_i.gdx
+usergdxprefix         
+userheurcall          
+userheurfirst         10
+userheurfreq          10
+userheurinterval      100
+userheurmult          2
+userheurnewint        1
+userheurobjfirst      0
+userincbcall          
+userincbicall         
+userjobid             
+userkeep              0
+usercgmaxcols         2147483647
+usercgadvind          1
+usercgsolopt          0
+usercgdumplp          bchcgdump.lp
+userpricingcall       
+usersolvenodelp       
+varsel                0
+waitforenter          0
+workdir               /home/hpc/mpwm/mpwm031h/bachelor-thesis/ScenarioRunning/Scenario300/tol07/225c/
+workmem               128
+writebas              
+writeflt              
+writelp               
+writemps              
+writemst              
+writeord              
+writeparam            
+writepre              
+writesav              
+zerohalfcuts          0
+----------------------------------------------------
+
+=1
+Space for names approximately 0.89 Mb
+Use option 'names no' to turn use of names off
+=2
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_WorkDir                                 "/home/hpc/mpwm/mpwm031h/bachelor-thesis/ScenarioRunning/Scenario300/tol07/225c/"
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_MIP_Display                             4
+Found incumbent of value 0.000000 after 0.00 sec. (0.85 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 901 columns.
+Reduced MIP has 14101 rows, 21024 columns, and 55800 nonzeros.
+Reduced MIP has 300 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (20.66 ticks)
+Probing time = 0.12 sec. (12.12 ticks)
+Cover probing fixed 1 vars, tightened 23 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 300 rows and 1 columns.
+Reduced MIP has 13801 rows, 21023 columns, and 55200 nonzeros.
+Reduced MIP has 300 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.11 sec. (30.92 ticks)
+Probing time = 0.38 sec. (1.28 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Parallel mode: deterministic, using up to 6 threads for concurrent optimization.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          -536.570771
+Perturbation started.
+Iteration:   101   Dual objective     =          -536.570771
+Iteration:   511   Dual objective     =          -536.520222
+Iteration:   923   Dual objective     =          -535.513512
+Iteration:  1359   Dual objective     =          -532.868550
+Iteration:  1810   Dual objective     =          -528.377913
+Iteration:  2242   Dual objective     =          -520.375778
+Iteration:  2658   Dual objective     =          -503.347421
+Iteration:  3093   Dual objective     =          -491.892721
+Iteration:  3406   Dual objective     =          -481.269785
+Iteration:  3625   Dual objective     =          -472.688826
+Iteration:  3961   Dual objective     =          -458.431950
+Iteration:  4329   Dual objective     =          -444.486452
+Iteration:  4624   Dual objective     =          -428.551735
+Iteration:  4799   Dual objective     =          -418.600325
+Iteration:  5000   Dual objective     =          -409.510074
+Iteration:  5168   Dual objective     =          -404.137128
+Iteration:  5320   Dual objective     =          -401.454803
+Iteration:  5475   Dual objective     =          -396.531813
+Iteration:  5648   Dual objective     =          -391.346658
+Iteration:  5857   Dual objective     =          -388.392467
+Iteration:  5992   Dual objective     =          -384.143953
+Removing perturbation.
+Using devex.
+
+Barrier solved model.
+
+Root relaxation solution time = 7.47 sec. (967.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     -536.5708              --- 
+Found incumbent of value 0.000000 after 8.26 sec. (1070.71 ticks)
+*     0+    0                         -278.6795     -536.5708            92.54%
+Found incumbent of value -278.679503 after 8.35 sec. (1070.95 ticks)
+      0     0     -310.2435   297     -278.6795     -310.2435       46   11.33%
+      0     0     -309.8956   297     -278.6795    Cuts: 2434      331   11.20%
+      0     0     -309.8402   297     -278.6795    Cuts: 2246      441   11.18%
+      0     0     -309.7516   297     -278.6795    Cuts: 2421      633   11.15%
+      0     0     -309.6923   300     -278.6795    Cuts: 2432      847   11.13%
+      0     0     -309.6499   300     -278.6795    Cuts: 2062      984   11.11%
+      0     0     -309.6100   300     -278.6795    Cuts: 2093     1127   11.10%
+      0     0     -309.5693   300     -278.6795    Cuts: 2097     1300   11.08%
+      0     0     -309.5297   300     -278.6795    Cuts: 1878     1473   11.07%
+      0     0     -309.4857   300     -278.6795    Cuts: 2043     1625   11.05%
+      0     0     -309.4513   300     -278.6795    Cuts: 1984     1860   11.04%
+      0     0     -309.4126   300     -278.6795    Cuts: 1848     2046   11.03%
+      0     0     -309.3807   300     -278.6795    Cuts: 2199     2243   11.02%
+*     0+    0                         -279.2885     -309.3807            10.77%
+Found incumbent of value -279.288536 after 166.83 sec. (22295.86 ticks)
+      0     0     -309.3412   300     -279.2885    Cuts: 1768     2419   10.57%
+*     0+    0                         -279.4891     -308.8222            10.50%
+Found incumbent of value -279.489094 after 237.84 sec. (32969.01 ticks)
+      0     2     -309.3412   300     -279.4891     -308.8222     2419   10.50%
+Elapsed time = 249.53 sec. (33038.33 ticks, tree = 0.01 MB, solutions = 3)
+      1     3     -308.7943   299     -279.4891     -308.8222     2696   10.50%
+      2     3     -299.0654   299     -279.4891     -308.8222    12017   10.50%
+      3     4     -308.0004   298     -279.4891     -308.8222     3659   10.50%
+                                                     Cuts: 16                  
+      4     5     -299.0474   298     -279.4891     -308.7922    13145   10.48%
+      7     9     -298.5109   295     -279.4891     -308.7922    14811   10.48%
+      8    10     -298.3290   294     -279.4891     -308.7922    15369   10.48%
+     12    12     -297.9721   292     -279.4891     -308.7922    16046   10.48%
+                                                     Cuts: 12                  
+     16    14     -297.5312   290     -279.4891     -308.7922    16760   10.48%
+     19    16     -297.7840   293     -279.4891     -308.7922    19840   10.48%
+     28    16     -291.4897   291     -279.4891     -308.7922    23811   10.48%
+Elapsed time = 294.73 sec. (43006.48 ticks, tree = 0.18 MB, solutions = 3)
+     45    31     -287.1178   262     -279.4891     -308.7922    34732   10.48%
+     56    33     -286.8918   257     -279.4891     -307.9992    35045   10.20%
+     64    41     -286.5159   211     -279.4891     -307.9992    69836   10.20%
+                                                     Cuts: 20                  
+     83    54     -289.0365   292     -279.4891     -307.9992    79867   10.20%
+     92    83     -288.7627   290     -279.4891     -307.9992   109140   10.20%
+*    95    73      integral     0     -279.6247     -307.9992   104000   10.15%
+Found incumbent of value -279.624667 after 334.63 sec. (48784.42 ticks)
+*   109    77      integral     0     -280.8435     -307.9992   111329    9.67%
+Found incumbent of value -280.843525 after 344.76 sec. (49682.91 ticks)
+    109    77     -280.8435     0     -280.8435     -307.9992   111329    9.67%
+    113    85     -290.7199   277     -280.8435     -307.9992   124478    9.67%
+    115    93     -290.5759   289     -280.8435     -307.9992   134949    9.67%
+    123    94     -287.5883   295     -280.8435     -307.3615   156802    9.44%
+    137    89     -287.6896   282     -280.8435     -307.3615   129861    9.44%
+Elapsed time = 373.65 sec. (53813.23 ticks, tree = 6.78 MB, solutions = 5)
+    149   106     -291.6310   287     -280.8435     -307.3615   181590    9.44%
+*   167+  103                         -282.7602     -307.3615             8.70%
+                                                      Cuts: 2                  
+Found incumbent of value -282.760239 after 389.11 sec. (55876.35 ticks)
+    167   121     -293.5272   106     -282.7602     -307.3615   208828    8.70%
+*   172+  103                         -284.0956     -307.3615             8.19%
+Found incumbent of value -284.095643 after 395.68 sec. (56970.82 ticks)
+    172   127     -286.4676    44     -284.0956     -307.3615   216168    8.19%
+    178   126        cutoff           -284.0956     -307.3615   227335    8.19%
+    187   140     -286.5240   283     -284.0956     -307.3615   229402    8.19%
+    195   124     -295.3167   297     -284.0956     -307.3615   227080    8.19%
+    212   142     -285.3632   291     -284.0956     -307.3615   234843    8.19%
+                                                     Cuts: 98                  
+    232   162     -285.4868   274     -284.0956     -307.3615   275420    8.19%
+    249   166     -285.0505   270     -284.0956     -307.3615   277935    8.19%
+    256   166        cutoff           -284.0956     -307.3615   292091    8.19%
+Elapsed time = 451.79 sec. (64080.65 ticks, tree = 12.17 MB, solutions = 10)
+    267   180     -286.8619   279     -284.0956     -307.3615   298550    8.19%
+    274   185     -290.5862   285     -284.0956     -307.3615   305270    8.19%
+    295   202     -291.2272   282     -284.0956     -307.3615   319364    8.19%
+    302   177     -284.6314   291     -284.0956     -307.3615   312922    8.19%
+                                                    Cuts: 110                  
+    327   206     -293.9599   288     -284.0956     -307.3615   322767    8.19%
+    340   222     -290.1337   282     -284.0956     -307.3615   359591    8.19%
+    345   226     -289.2931   255     -284.0956     -307.3615   361737    8.19%
+    365   231        cutoff           -284.0956     -307.3615   389113    8.19%
+    396   207     -292.0803   289     -284.0956     -307.3615   355676    8.19%
+    405   240     -291.4649   285     -284.0956     -307.3615   407296    8.19%
+Elapsed time = 531.86 sec. (74317.81 ticks, tree = 19.67 MB, solutions = 10)
+    418   261     -288.7456   289     -284.0956     -307.3615   429624    8.19%
+    430   211     -293.0304   283     -284.0956     -307.3615   325533    8.19%
+    434   273     -292.4241   280     -284.0956     -307.3615   438611    8.19%
+                                                     Cuts: 60                  
+    438   273     -291.7803   281     -284.0956     -307.3615   451104    8.19%
+    444   284     -289.3447    65     -284.0956     -307.3615   457314    8.19%
+    453   276     -290.3129    52     -284.0956     -307.3615   444860    8.19%
+    461   284     -286.0110   273     -284.0956     -307.3615   462308    8.19%
+    479   283        cutoff           -284.0956     -307.3615   464903    8.19%
+    505   294     -289.2482   281     -284.0956     -307.3615   470539    8.19%
+    525   324     -284.5219   289     -284.0956     -307.3615   546241    8.19%
+Elapsed time = 628.14 sec. (85212.92 ticks, tree = 29.63 MB, solutions = 10)
+    553   305        cutoff           -284.0956     -307.3615   495749    8.19%
+    573   326     -287.0222   274     -284.0956     -307.3615   530220    8.19%
+    584   327        cutoff           -284.0956     -307.3615   532503    8.19%
+    604   329     -291.0821   283     -284.0956     -307.3615   577771    8.19%
+    611   334     -290.1947   278     -284.0956     -307.3615   580532    8.19%
+    624   338     -291.7166   285     -284.0956     -307.3615   628467    8.19%
+    631   350     -289.0388    60     -284.0956     -307.3615   639802    8.19%
+    637   326     -287.3013   274     -284.0956     -307.3615   576310    8.19%
+    643   355     -293.1946   285     -284.0956     -307.3615   672820    8.19%
+    666   358     -286.7146   261     -284.0956     -307.3615   650673    8.19%
+                                                     Cuts: 54                  
+Elapsed time = 714.26 sec. (96123.83 ticks, tree = 33.85 MB, solutions = 10)
+    681   365     -285.7884   171     -284.0956     -307.3615   653061    8.19%
+    695   366        cutoff           -284.0956     -307.3615   655836    8.19%
+    705   367     -284.5405   282     -284.0956     -307.3615   693384    8.19%
+    720   363        cutoff           -284.0956     -307.3615   705382    8.19%
+    732   367     -284.9433   263     -284.0956     -307.3615   706453    8.19%
+    742   389     -284.4796    57     -284.0956     -307.3615   762447    8.19%
+    781   367     -290.0809   287     -284.0956     -307.3615   664296    8.19%
+    800   404     -284.4732    54     -284.0956     -307.3615   765323    8.19%
+    816   406     -286.1128   260     -284.0956     -307.3615   789107    8.19%
+    820   404        cutoff           -284.0956     -307.3615   792292    8.19%
+Elapsed time = 802.67 sec. (107533.66 ticks, tree = 42.43 MB, solutions = 10)
+    821   362     -290.9272   278     -284.0956     -307.3615   679242    8.19%
+    828   427     -287.1800   279     -284.0956     -307.3615   821034    8.19%
+    840   429     -286.4290   217     -284.0956     -307.3615   823744    8.19%
+    847   406        cutoff           -284.0956     -307.3615   790799    8.19%
+    872   433        cutoff           -284.0956     -307.3615   847125    8.19%
+                                                      Cuts: 4                  
+    879   442     -293.8102   286     -284.0956     -307.3615   868820    8.19%
+    884   426        cutoff           -284.0956     -307.3615   827407    8.19%
+    903   449     -284.2516    70     -284.0956     -295.0051   887919    3.84%
+*   923+  418                         -284.1479     -295.0051             3.82%
+Found incumbent of value -284.147908 after 881.87 sec. (117709.60 ticks)
+    926   462     -287.2169   288     -284.1479     -295.0051   962835    3.82%
+    935   446     -286.8742   264     -284.1479     -295.0051   912224    3.82%
+Elapsed time = 907.08 sec. (121036.31 ticks, tree = 50.18 MB, solutions = 10)
+    941   452     -286.0760   207     -284.1479     -295.0051   913418    3.82%
+    945   468     -290.8653   286     -284.1479     -295.0051   932025    3.82%
+    950   483     -290.1855   282     -284.1479     -295.0051   978659    3.82%
+    953   486     -289.4288    59     -284.1479     -295.0051   980821    3.82%
+*   954+  436                         -284.1550     -295.0051             3.82%
+Found incumbent of value -284.155026 after 952.47 sec. (126073.04 ticks)
+    955   486        cutoff           -284.1550     -295.0051   984208    3.82%
+    959   486     -289.4019   283     -284.1550     -295.0051   982818    3.82%
+    964   487     -288.3304   249     -284.1550     -295.0051   989113    3.82%
+    968   490     -285.5741    36     -284.1550     -295.0051   989238    3.82%
+    972   486     -286.8440   275     -284.1550     -295.0051   995134    3.82%
+*   973   489      integral     0     -284.2655     -295.0051   993362    3.78%
+Found incumbent of value -284.265502 after 995.02 sec. (131573.91 ticks)
+    983   492     -284.5981    63     -284.2655     -295.0051   994955    3.78%
+Elapsed time = 1002.92 sec. (132513.35 ticks, tree = 54.03 MB, solutions = 13)
+   1003   491     -286.8429   274     -284.2655     -295.0051  1012520    3.78%
+   1010   490        cutoff           -284.2655     -295.0051  1015853    3.78%
+   1022   443     -293.6516   285     -284.2655     -295.0051   869413    3.78%
+   1051   498     -285.1802    67     -284.2655     -294.8389  1020360    3.72%
+   1059   498        cutoff           -284.2655     -294.8389  1021937    3.72%
+   1064   511     -289.3062   280     -284.2655     -294.8389  1033575    3.72%
+   1075   518     -284.8071   284     -284.2655     -294.8389  1038597    3.72%
+   1089   529     -289.4972   282     -284.2655     -294.8389  1044185    3.72%
+   1102   556     -286.3449   230     -284.2655     -294.6912  1074599    3.67%
+   1220   575        cutoff           -284.2655     -294.6912  1061369    3.67%
+                                                     Cuts: 20                  
+Elapsed time = 1129.54 sec. (145972.99 ticks, tree = 71.04 MB, solutions = 32)
+   1273   573        cutoff           -284.2655     -294.6912  1120623    3.67%
+   1370   695     -285.8783   250     -284.2655     -293.8098  1239197    3.36%
+   1452   726     -292.5317   279     -284.2655     -293.5991  1247237    3.28%
+   1527   715     -285.2074    61     -284.2655     -293.5196  1294875    3.26%
+*  1577+  680                         -284.2688     -293.5196             3.25%
+                                                      Cuts: 8                  
+Found incumbent of value -284.268777 after 1295.34 sec. (163914.71 ticks)
+   1630   761        cutoff           -284.2688     -293.5196  1374514    3.25%
+*  1667   765      integral     0     -284.8500     -293.5196  1378720    3.04%
+Found incumbent of value -284.850015 after 1329.98 sec. (167498.64 ticks)
+   1701   868        cutoff           -284.8500     -293.5196  1470879    3.04%
+   1728   726        cutoff           -284.8500     -293.5196  1489392    3.04%
+                                                     Cuts: 88                  
+   1764   735     -290.1499   279     -284.8500     -293.4038  1528028    3.00%
+   1818   770     -288.5321   277     -284.8500     -293.4038  1627126    3.00%
+   1907   768     -286.0826   274     -284.8500     -293.1939  1623097    2.93%
+Elapsed time = 1477.46 sec. (18

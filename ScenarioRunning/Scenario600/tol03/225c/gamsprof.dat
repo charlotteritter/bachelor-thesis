@@ -1,0 +1,11 @@
+1471      0.032
+1502 9      0.194       0.022 Equation   Const_chance_1 (14400)
+1509 3      0.037       0.022 Equation   Const_chance_2 (1)
+1494 1      0.315       0.011 Equation   Objective (1)
+1496 4      0.151       0.018 Equation   Const1 (13800)
+1560 7      0.055       0.010 Solve Read schedule
+1560 10      0.083       0.021 Solve Fini schedule (127825)
+1417 6      0.108       0.004 Loop       
+1494 8      0.058       0.009 Equation   Objective (1)
+1596 5      0.333       0.022 Solve Fini schedule (127825)
+1596 2      0.087       0.022 GAMS Fini   
