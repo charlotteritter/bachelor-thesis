@@ -23,9 +23,9 @@ $include equations_all.gms
 
 
 scalar r;
-set indices /1*6/;
+set indices /1/;
 
-File TestingFile3 / TestingFile3.csv /;
+File TestingFile3 / TestingFileOnly1.csv /;
 TestingFile3.pc=5;
 TestingFile3.nd=5;
 put TestingFile3; 

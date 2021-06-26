@@ -1,0 +1,1 @@
+gmsgenus.run /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/900Scens/tol01/Scenario1/225d/ /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/900Scens/tol01/Scenario1/ $1 /home/hpc/mpwm/mpwm031h/bachelor-thesis/SampleRun_Environment/900Scens/tol01/Scenario1/225d/gamscntr.dat /home/woody/mpwm/shared/software/gams24.8_linux_x64_64_sfx/ CPLEX
