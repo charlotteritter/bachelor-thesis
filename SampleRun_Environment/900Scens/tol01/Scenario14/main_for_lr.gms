@@ -31,7 +31,7 @@ parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
 scalar steprule;
-steprule=2;
+steprule=6;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001 ;
 
