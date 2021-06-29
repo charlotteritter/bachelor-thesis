@@ -30,7 +30,7 @@ lambdaprevious = lambda ;
 * Check convergence
 convergence=0;
 deltalambda = abs(lambdaprevious-lambda) ;
-if( deltalambda < 0.0001, contin = 0; display 'lambdas same'; convergence = 1 );
+if( ((deltalambda < 0.0001) and (num_iter > 2)), contin = 0; display 'lambdas same'; convergence = 1 );
 
 * Results output
 results(iter,'deltalambda') = deltalambda;
