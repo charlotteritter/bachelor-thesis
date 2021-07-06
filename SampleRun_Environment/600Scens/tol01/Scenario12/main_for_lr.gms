@@ -31,7 +31,7 @@ parameter ldual_iter(iter) obj function at each iteration ;
 lr_time = 0 ;
 
 scalar steprule;
-steprule=2;
+steprule=3;
 
 option limrow = 0, limcol = 0, optca=0.0001, optcr=0.0001 ;
 
@@ -53,8 +53,8 @@ $include plain_lr.gms
          results(iter,'time') = ghour(end_time - start_time)*3600 + gminute(end_time - start_time)*60 + gsecond(end_time - start_time);
          results(iter,'objective') = bound ;
 
-$include LR_updatesMe.gms
-         if( ((results(iter,'gap') < 0.001) and (num_iter > 2)), contin = 0;);
+$include LR_updates.gms
+         if( ((results(iter,'gap') < 0.001) and (num_iter > 2)),convergence=2; contin = 0;);
          lr_time = lr_time + results(iter,'time')   ;
          if (lr_time > 2250, contin = 0 ;) ;
 );
@@ -67,5 +67,5 @@ check(scen,t) = 0 ;
 check(scen,t) = 1$( p.l(scen,t) gt 0 and q.l(scen,t) gt 0) ;
 if ( sum((scen,t), check(scen,t)) gt 0, abort "error: p and q are one together, check. ")
 
-display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter ;
+display results, lowerbound, upperbound, LP_bound, run_time_total, lr_time, num_iter, convergence ;
 display z.l, y.l ;

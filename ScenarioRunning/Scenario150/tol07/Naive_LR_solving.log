@@ -1,0 +1,222 @@
+--- Job Naive_LR_solving.gms Start 07/02/21 10:06:53 32.2.0 rc62c018 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\32\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\ScenarioRunning\Scenario150\tol07\Naive_LR_solving.gms
+    PageSize 0
+    ScrDir C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\ScenarioRunning\Scenario150\tol07\225d\
+    SysDir C:\GAMS\32\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 32.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S200323/0001AN-GEN
+          Friedrich-Alexander-Universitaet Erlangen-Nurnberg         DC7699
+          C:\GAMS\32\gamslice.txt
+--- Starting compilation
+--- Naive_LR_solving.gms(19) 2 Mb
+--- . inputME.gms(14) 3 Mb
+--- .. solar_scenarios_150.csv(151) 3 Mb
+--- . inputME.gms(78) 3 Mb
+--- .. scenario_sorted_150_07.csv(151) 3 Mb
+--- . inputME.gms(116) 3 Mb
+--- .. battery_revenue.csv(25) 3 Mb
+--- . inputME.gms(185) 3 Mb
+--- Naive_LR_solving.gms(20) 3 Mb
+--- . subgradient_parameters.gms(33) 3 Mb
+--- Naive_LR_solving.gms(22) 3 Mb
+--- . equations_all.gms(76) 3 Mb
+--- Naive_LR_solving.gms(71) 3 Mb
+--- . lp_lowerbound.gms(12) 3 Mb
+--- Naive_LR_solving.gms(72) 3 Mb
+--- . heuristic_upperbound.gms(59) 3 Mb
+--- Naive_LR_solving.gms(109) 3 Mb
+--- . plain_lr.gms(12) 3 Mb
+--- Naive_LR_solving.gms(115) 3 Mb
+--- . LR_updates.gms(17) 3 Mb
+--- .. stepsizes.gms(21) 3 Mb
+--- . LR_updates.gms(42) 3 Mb
+--- Naive_LR_solving.gms(144) 3 Mb
+--- Starting execution: elapsed 0:00:00.284
+--- Naive_LR_solving.gms(659) 5 Mb
+--- Generating MIP model schedule
+--- Naive_LR_solving.gms(594) 5 Mb
+--- Starting Equ Objective: elapsed 0:00:00.316
+--- Naive_LR_solving.gms(596) 5 Mb
+--- Starting Equ Const1: elapsed 0:00:00.382
+--- Naive_LR_solving.gms(602) 7 Mb
+--- Starting Equ Const_chance_1: elapsed 0:00:00.397
+--- Naive_LR_solving.gms(609) 8 Mb
+--- Starting Equ Const_chance_2: elapsed 0:00:00.399
+--- Naive_LR_solving.gms(660) 9 Mb
+---   7,052 rows  10,975 columns  31,975 non-zeroes
+---   150 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.523
+
+IBM ILOG CPLEX   32.2.0 rc62c018 Released Aug 26, 2020 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.10.0.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.44 Mb
+Use option 'names no' to turn use of names off
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\ScenarioRunning\Scenario150\tol07\225d\"
+Found incumbent of value 0.000000 after 0.02 sec. (0.44 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 451 columns.
+Reduced MIP has 7051 rows, 10524 columns, and 27900 nonzeros.
+Reduced MIP has 150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.75 ticks)
+Probing time = 0.01 sec. (3.30 ticks)
+Cover probing fixed 1 vars, tightened 23 bounds.
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 150 rows and 1 columns.
+Reduced MIP has 6901 rows, 10523 columns, and 27600 nonzeros.
+Reduced MIP has 150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (16.44 ticks)
+Probing time = 0.02 sec. (0.55 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Parallel mode: deterministic, using up to 2 threads for parallel tasks at root LP.
+Parallel mode: deterministic, using up to 6 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 4 threads...
+ * Starting primal Simplex on 1 thread...
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          -532.070173
+Perturbation started.
+Iteration:   101   Dual objective     =          -532.070173
+Iteration:   435   Dual objective     =          -532.015682
+Iteration:   700   Dual objective     =          -528.804870
+Iteration:   983   Dual objective     =          -520.496807
+Iteration:  1256   Dual objective     =          -507.169796
+Iteration:  1565   Dual objective     =          -489.323656
+Iteration:  1771   Dual objective     =          -470.113465
+Iteration:  1897   Dual objective     =          -458.645917
+Iteration:  2187   Dual objective     =          -426.625573
+Iteration:  2417   Dual objective     =          -408.051328
+Iteration:  2536   Dual objective     =          -397.140732
+Iteration:  2654   Dual objective     =          -388.512533
+Iteration:  2800   Dual objective     =          -382.399259
+Iteration:  2937   Dual objective     =          -376.259245
+Iteration:  3061   Dual objective     =          -370.961374
+Iteration:  3194   Dual objective     =          -366.405741
+Iteration:  3303   Dual objective     =          -362.572614
+Removing perturbation.
+
+Barrier solved model.
+
+Root relaxation solution time = 0.95 sec. (348.92 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     -532.0702              --- 
+Found incumbent of value 0.000000 after 1.13 sec. (396.11 ticks)
+*     0+    0                         -277.4326     -532.0702            91.78%
+Found incumbent of value -277.432561 after 1.13 sec. (396.23 ticks)
+      0     0     -306.3848   143     -277.4326     -306.3848       26   10.44%
+Advanced basis not built.
+Advanced basis not built.
+
+Root node processing (before b&c):
+  Real time             =    1.20 sec. (413.98 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.20 sec. (413.98 ticks)
+MIP status(113): aborted
+Cplex Time: 1.20sec (det. 414.01 ticks)
+Fixing integer variables, and solving final LP...
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 8
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_TimeLimit                               4200
+CPXPARAM_Tune_TimeLimit                          840
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.001
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+CPXPARAM_WorkDir                                 "C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\ScenarioRunning\Scenario150\tol07\225d\"
+Parallel mode: deterministic, using up to 8 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 6 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 152 rows and 602 columns.
+Reduced LP has 6900 rows, 10373 columns, and 24000 nonzeros.
+Presolve time = 0.03 sec. (11.87 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          -496.102491
+Iteration:   476   Dual objective     =          -354.438562
+Iteration:   821   Dual objective     =          -316.642728
+Iteration:  1179   Dual objective     =          -311.677107
+Iteration:  1428   Dual objective     =          -296.131588
+Fixed MIP status(13): user aborted
+Cplex Time: 0.16sec (det. 51.66 ticks)
+Final solve did not return an optimal solution.
+Returning a primal only solution to GAMS (marginals all set to NA).
+
+Problem aborted.
+
+MIP Solution:         -277.432561    (26 iterations, 0 nodes)
+Best possible:        -306.384773
+Absolute gap:           28.952211
+Relative gap:            0.094496
+
+--- Reading solution for model schedule
+***
+*** Solver did not provide marginals for model schedule
+***
+--- Executing after solve: elapsed 0:00:02.266
+--- Naive_LR_solving.gms(695) 9 Mb
+--- Generating RMIP model schedule
+--- Naive_LR_solving.gms(594) 9 Mb
+--- Starting Equ Objective: elapsed 0:00:02.266
+--- Naive_LR_solving.gms(596) 9 Mb
+--- Starting Equ Const1: elapsed 0:00:02.334
+--- Naive_LR_solving.gms(602) 9 Mb
+--- Starting Equ Const_chance_1: elapsed 0:00:02.350
+--- Naive_LR_solving.gms(609) 9 Mb
+--- Starting Equ Const_chance_2: elapsed 0:00:02.350
+--- Naive_LR_solving.gms(696) 9 Mb
+---   7,052 rows  10,975 columns  31,975 non-zeroes
+---   150 discrete-columns
+*** Error at line 696: Control C Event: execution halted
+--- Naive_LR_solving.gms(696) 9 Mb 1 Error
+*** SOLVE aborted
+--- Putfile TestingFile3 C:\Users\charl\OneDrive\Dokumente\6.Semester\Bachelor-Arbeit\bachelor-thesis\bachelor-thesis\ScenarioRunning\Scenario150\tol07\TestingFile3.csv
+--- Profile Summary (892 records processed)
+     1.734   0.009GB       660 Solve Alg  schedule
+     0.125   0.009GB       660 Solve Fini schedule (31975)
+     0.063   0.009GB       594 Equation   Objective (1)
+     0.062   0.005GB       594 Equation   Objective (1)
+     0.047   0.009GB       696 Solve Fini schedule (31975)
+     0.016   0.009GB       660 Solve Read schedule
+     0.016   0.005GB       653 Put        
+     0.016   0.007GB       596 Equation   Const1 (3450)
+     0.015   0.004GB       520 Assignment minsolar (1)
+     0.015   0.004GB       518 Loop       
+--- Naive_LR_solving.gms(696) 9 Mb 1 Error
+*** Status: Execution error(s)
+--- Job Naive_LR_solving.gms Stop 07/02/21 10:06:55 elapsed 0:00:02.412

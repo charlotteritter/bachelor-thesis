@@ -10,7 +10,7 @@ $eolcom //
 OPTIONS PROFILE =3, RESLIM   = 2100, LIMROW   = 5, LP = CPLEX, MIP = cplex, RMIP=cplex, NLP = CONOPT, MINLP = DICOPT, MIQCP = CPLEX, SOLPRINT = OFF, decimals = 8, optcr=0.001, optca=0.001, threads =8, integer4=0;
 
 ********************************************************************************
-$ include input.gms
+$ include inputME.gms
 
 ** selbst eingefuegt, da sonst error 
 $include subgradient_parameters.gms
